@@ -1,0 +1,68 @@
+$xs: "320px";
+$sm: "768px";
+$md: "992px";
+$lg: "1280px";
+
+$kcolor: #e40009;
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('/assets/fontello/css/fontello.css');
+
+@mixin trans($prop: all, $sec: .15s, $timing: linear, $delay: 0s) {
+	-webkit-transition-property: $prop;
+    transition-property: $prop;
+	-webkit-transition-duration: $sec;
+    transition-duration: $sec;
+	-webkit-transition-timing-function: $timing;
+    transition-timing-function: $timing;
+	-webkit-transition-delay: $delay;
+    transition-delay: $delay;
+}
+
+@mixin noto() {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@mixin titi() {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@mixin maven() {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.noto {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.titi {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.maven {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+h1, h2, h3,h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+dl {
+    margin-bottom: 0;
+}
+
+address {
+    margin-bottom: 0;
+}
