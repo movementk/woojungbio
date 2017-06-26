@@ -27,10 +27,10 @@ body {
 		overflow: hidden;
 	}
 	@media (min-width: $sm) {
-		padding-top: 80px;
+		padding-top: 73px;
 	}
 	@media (min-width: $lg) {
-		padding-top: 120px;
+		padding-top: 85px;
 		&.nav-opened {
 			overflow: auto;
 		}
@@ -107,5 +107,184 @@ a {
 	.logo {
 		float: left;
 		margin-top: 11px;
+	}
+	#btn-open-side-nav {
+		margin-top: 5px;
+		margin-right: -10px;
+		padding: 0;
+		border: 0;
+		color: #2b2b2b;
+		width: 35px;
+		height: 35px;
+		font-size: 20px;
+		text-align: center;
+		text-decoration: none;
+		&:before {
+			font-family: 'fontello';
+			content: '\F008';
+			line-height: 35px;
+		}
+	}
+	@media (min-width: $sm) {
+		height: 73px;
+		.logo {
+			margin-top: 20px;
+		}
+		#btn-open-side-nav {
+			margin-top: 10px;
+			width: 50px;
+			height: 50px;
+			font-size: 30px;
+			&:before {
+				line-height: 50px;
+			}
+		}
+	}
+	@media (min-width: $lg) {
+		height: 85px;
+		.logo {
+			margin-top: 25px;
+		}
+		#nav {
+			text-align: right;
+			> ul {
+				display: inline-block;
+				> li {
+					display: inline;
+					> a {
+						float: left;
+						display: block;
+						padding-left: 50px;
+						padding-right: 50px;
+						font-size: 16px;
+						line-height: 82px;
+						text-decoration: none;
+						color: #333;
+						&:hover, &:focus {
+							color: $kcolor;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#footer {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	//border-top: 1px solid #ccc;
+	.address, .contact {
+		dl {
+			overflow: hidden;
+			display: inline-block;
+			dt, dd {
+				display: inline;
+				font-weight: normal;
+				line-height: 20px;
+				color: #666;
+				a {
+					color: #666;
+				}
+			}
+			dt {
+				&:after {
+					margin-left: 2px;
+					margin-right: 2px;
+					content: ":";
+				}
+			}
+			&:after {
+				margin-left: 5px;
+				margin-right: 5px;
+				content: "|";
+			}
+			&:last-child {
+				&:after {
+					margin-left: 0;
+					margin-right: 0;
+					content: "";
+				}
+			}
+		}
+		address {
+			display: inline;
+			line-height: 20px;
+		}
+	}
+	.copyright {
+		line-height: 20px;
+		color: #666;
+		p {
+			a {
+				color: #666;
+			}
+		}
+	}
+	.family {
+		margin: 25px auto 0;
+		width: 186px;
+		.dropup {
+			.btn {
+				width: 100%;
+				height: 35px;
+				border-radius: 0;
+				@include maven();
+				color: #999;
+				text-align: left;
+				span {
+					float: right;
+					margin-top: 8px;
+				}
+				&:hover, &:focus {
+					background-color: #fff;
+				}
+				&:active {
+					box-shadow: none;
+				}
+			}
+			.dropdown-menu {
+				bottom: 35px;
+				margin-top: 0;
+				margin-bottom: 0;
+				width: 100%;
+				box-shadow: none;
+				border-radius: 0;
+				li {
+					a {
+						color: #666;
+						font-size: 12px;
+						@include maven();
+						line-height: 25px;
+					}
+				}
+			}
+			&.open {
+				.btn {
+					background-color: #fff;
+				}
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		padding-top: 30px;
+		.family {
+			margin-top: 5px;
+			margin-left: -24px;
+		}
+	}
+	@media (min-width: $md) {
+		.family {
+			width: 100%;
+			margin-left: inherit;
+		}
+	}
+	@media (min-width: $lg) {
+		padding-top: 25px;
+		padding-bottom: 25px;
+		.family {
+			margin-left: 0;
+			width: 170px;
+		}
 	}
 }
