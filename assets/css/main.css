@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web");
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("/assets/fontello/css/fontello.css");
-.noto {
+.noto, #fields .container-fluid .field-item .field-content .field-body p {
   font-family: 'Noto Sans KR', sans-serif; }
 
-.titi {
+.titi, #fields .container-fluid .field-item .field-content .field-body ul li a {
   font-family: 'Titillium Web', sans-serif; }
 
 .maven {
@@ -98,6 +98,137 @@ address {
     padding-right: 15px; }
     #fields .container-fluid .field-item {
       margin-left: -15px;
-      margin-right: -15px; } }
+      margin-right: -15px;
+      height: 475px; }
+      #fields .container-fluid .field-item .field-content .field-body {
+        margin: 210px auto; } }
+@media (min-width: 1280px) {
+  #fields .container-fluid .field-item {
+    overflow: hidden;
+    height: 790px; }
+    #fields .container-fluid .field-item .field-back {
+      display: block;
+      position: relative;
+      width: 100%;
+      height: 100%; }
+      #fields .container-fluid .field-item .field-back video {
+        width: 100%;
+        height: 100%;
+        -ms-transform: scale(4.5);
+        -webkit-transform: scale(4.5);
+        transform: scale(4.5); }
+    #fields .container-fluid .field-item .field-content .field-body {
+      margin: 367px auto;
+      height: 55px; }
+      #fields .container-fluid .field-item .field-content .field-body hr {
+        margin-top: 5px;
+        margin-bottom: 20px;
+        width: 97px;
+        border-top-width: 3px;
+        display: none; }
+      #fields .container-fluid .field-item .field-content .field-body p {
+        font-size: 15px;
+        line-height: 25px;
+        color: #fff;
+        text-align: center;
+        display: none; }
+      #fields .container-fluid .field-item .field-content .field-body ul {
+        margin-top: 25px;
+        display: none; }
+        #fields .container-fluid .field-item .field-content .field-body ul li a {
+          margin: 0 auto;
+          display: block;
+          width: 170px;
+          height: 40px;
+          border: 1px solid #fff;
+          line-height: 38px;
+          color: #fff;
+          text-align: center;
+          text-decoration: none; }
+          #fields .container-fluid .field-item .field-content .field-body ul li a:hover, #fields .container-fluid .field-item .field-content .field-body ul li a:focus {
+            background-color: #fff;
+            color: #e40009;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+        #fields .container-fluid .field-item .field-content .field-body ul li + li a {
+          margin-top: 10px; }
+    #fields .container-fluid .field-item:hover.field-item .field-content, #fields .container-fluid .field-item:focus.field-item .field-content {
+      background-image: none; }
+    #fields .container-fluid .field-item:hover .field-content .field-body, #fields .container-fluid .field-item:focus .field-content .field-body {
+      margin: 105px auto;
+      padding-top: 90px;
+      padding-bottom: 90px;
+      height: 580px;
+      background-color: rgba(225, 0, 19, 0.85);
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
+      #fields .container-fluid .field-item:hover .field-content .field-body h4 a, #fields .container-fluid .field-item:focus .field-content .field-body h4 a {
+        font-size: 26px;
+        background-color: transparent; }
+      #fields .container-fluid .field-item:hover .field-content .field-body hr, #fields .container-fluid .field-item:focus .field-content .field-body hr {
+        display: block; }
+      #fields .container-fluid .field-item:hover .field-content .field-body p, #fields .container-fluid .field-item:focus .field-content .field-body p {
+        display: block; }
+      #fields .container-fluid .field-item:hover .field-content .field-body ul, #fields .container-fluid .field-item:focus .field-content .field-body ul {
+        display: block; } }
+@media (min-width: 1920px) {
+  #fields .field-item .field-back video {
+    width: 100%;
+    height: 100%;
+    -ms-transform: scale(3);
+    -webkit-transform: scale(3);
+    transform: scale(3); } }
+
+#slogan {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  #slogan p {
+    position: relative;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    border-left: 2px solid #ef4600;
+    border-right: 2px solid #ef4600;
+    color: #111; }
+    #slogan p b {
+      color: #ef4600;
+      font-weight: 400; }
+    #slogan p .bar {
+      position: absolute;
+      height: 2px;
+      width: 12px;
+      background-color: #ef4600; }
+      #slogan p .bar.top {
+        top: 0; }
+      #slogan p .bar.bottom {
+        bottom: 0; }
+      #slogan p .bar.left {
+        left: 0; }
+      #slogan p .bar.right {
+        right: 0; }
+  @media (min-width: 768px) {
+    #slogan {
+      padding-top: 70px;
+      padding-bottom: 70px; }
+      #slogan p {
+        font-size: 26px;
+        line-height: 40px; } }
+  @media (min-width: 1280px) {
+    #slogan p {
+      font-size: 28px;
+      line-height: 45px; } }
 
 /*# sourceMappingURL=main.css.map */

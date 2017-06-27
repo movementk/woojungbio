@@ -30,7 +30,7 @@ body {
 		padding-top: 73px;
 	}
 	@media (min-width: $lg) {
-		padding-top: 85px;
+		padding-top: 137px;
 		&.nav-opened {
 			overflow: auto;
 		}
@@ -94,6 +94,38 @@ a {
     }
 }
 
+#top-nav {
+	z-index: 9000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 52px;
+	background-color: #f3f3f3;
+	.affiliates {
+		ul {
+			li {
+				display: inline;
+				a {
+					float: left;
+					padding-left: 15px;
+					padding-right: 15px;
+					height: 52px;
+					line-height: 52px;
+					text-decoration: none;
+					color: #5e5e5e;
+					@include trans();
+					font-weight: 500;
+					&:hover, &:focus {
+						color: #333;
+						background-color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
 #header {
 	z-index: 1;
 	position: fixed;
@@ -141,6 +173,7 @@ a {
 		}
 	}
 	@media (min-width: $lg) {
+		top: 52px;
 		height: 85px;
 		.logo {
 			margin-top: 25px;
