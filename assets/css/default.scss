@@ -21,6 +21,7 @@ body {
 	height: 100%;
 	@include noto;
 	font-size: 12px;
+	font-weight: 300;
 	overflow-scrolling: touch;
 	-webkit-overflow-scrolling: touch;
 	&.nav-opened {
@@ -127,7 +128,7 @@ a {
 }
 
 #header {
-	z-index: 1;
+	z-index: 1001;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -140,7 +141,7 @@ a {
 		float: left;
 		margin-top: 11px;
 	}
-	#btn-open-side-nav {
+	#btn-open-nav {
 		margin-top: 5px;
 		margin-right: -10px;
 		padding: 0;
@@ -162,7 +163,7 @@ a {
 		.logo {
 			margin-top: 20px;
 		}
-		#btn-open-side-nav {
+		#btn-open-nav {
 			margin-top: 10px;
 			width: 50px;
 			height: 50px;
@@ -193,12 +194,300 @@ a {
 						line-height: 82px;
 						text-decoration: none;
 						color: #333;
+						font-weight: 400;
 						&:hover, &:focus {
 							color: $kcolor;
 						}
 					}
 				}
 			}
+		}
+	}
+}
+
+#nav-side {
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(#000, .75);
+	.nav-content {
+		position: absolute;
+		top: 0;
+		right: -100%;
+		padding-top: 45px;
+		max-width: 270px;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		@include trans($sec: .3s, $timing: cubic-bezier(0.46, 0.03, 0.52, 0.96));
+		.nav-header {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 45px;
+			border-bottom: 1px solid #ccc;
+			.quick {
+				margin-top: 8px;
+				margin-left: 20px;
+				ul {
+					display: inline-block;
+					li {
+						display: inline;
+						a {
+							float: left;
+							width: 100px;
+							height: 30px;
+							border: 1px solid $kcolor;
+							line-height: 28px;
+							font-size: 12px;
+							color: $kcolor;
+							text-align: center;
+							text-decoration: none;
+							&:active {
+								background-color: #fff;
+								color: $kcolor;
+							}
+						}
+						& + li {
+							a {
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+			}
+			#btn-close-nav {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 11px;
+				border: 0;
+			}
+		}
+		.nav-body {
+			overflow: auto;
+			height: 100%;
+			.nav > ul {
+				> li {
+					border-bottom: 1px solid #ccc;
+					> a {
+						display: block;
+						padding-left: 20px;
+						padding-right: 10px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 13px;
+						font-weight: 400;
+						text-decoration: none;
+						color: #333;
+						&:after {
+							float: right;
+							font-family: 'fontello';
+							content: '\E804';
+							color: #666;
+						}
+					}
+					> ul {
+						display: none;
+						> li {
+							> a {
+								display: block;
+								padding-left: 30px;
+								padding-right: 10px;
+								font-size: 13px;
+								line-height: 50px;
+								border-top: 1px solid #ccc;
+								text-decoration: none;
+								color: #666;
+							}
+							> ul {
+								display: none;
+								> li {
+									> a {
+										display: block;
+										padding-left: 40px;
+										padding-right: 10px;
+										font-size: 13px;
+										line-height: 50px;
+										text-decoration: none;
+										border-top: 1px solid #ccc;
+										color: #666;
+									}
+									> ul {
+										display: none;
+										padding-top: 20px;
+										padding-bottom: 20px;
+										border-top: 1px solid #ccc;
+										background-color: #f5f5f5;
+										> li {
+											> a {
+												display: block;
+												padding-top: 5px;
+												padding-bottom: 5px;
+												padding-left: 40px;
+												padding-right: 10px;
+												font-size: 12px;
+												line-height: 25px;
+												color: #666;
+												text-decoration: none;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					&.selected {
+						border-bottom: 1px solid $kcolor;
+						> a {
+							color: #fff;
+							background-color: $kcolor;
+							&:after {
+								content: '\E804';
+								color: $kcolor;
+							}
+						}
+						> ul {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+		.nav-footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			padding: 20px;
+			width: 100%;
+			height: 200px;
+			.as {
+				margin-top: 5px;
+				h5 {
+					margin-bottom: 10px;
+					font-size: 14px;
+				}
+				.num {
+					font-size: 38px;
+					@include titi();
+					color: $kcolor;
+					line-height: 50px;
+					text-indent: -3px;
+				}
+				.mail {
+					overflow: hidden;
+					margin-bottom: 15px;
+					dt, dd {
+						float: left;
+						@include titi();
+						font-size: 13px;
+						font-weight: 600;
+					}
+					dt {
+						&:before {
+							margin-right: 3px;
+							font-family: "fontello";
+							content: "\E801";
+						}
+						&:after {
+							margin-left: 5px;
+							margin-right: 5px;
+							content: ":";
+						}
+					}
+				}
+				.info {
+					font-size: 12px;
+					line-height: 18px;
+					color: #aaa;
+					font-weight: 300;
+				}
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		.nav-content {
+			padding-top: 80px;
+			padding-bottom: 290px;
+			.nav-header {
+				height: 80px;
+				.quick {
+					margin-top: 23px;
+					margin-left: 20px;
+					ul {
+						li {
+							a {
+								width: 125px;
+								height: 35px;
+								line-height: 33px;
+								font-size: 14px;
+							}
+							& + li {
+								a {
+									margin-left: 20px;
+								}
+							}
+						}
+					}
+				}
+				#btn-close-nav {
+					position: absolute;
+					top: 17px;
+					right: 15px;
+					padding: 11px;
+					border: 0;
+				}
+			}
+			.nav-body {
+				.nav {
+					> ul {
+						> li {
+							> a {
+								padding-left: 20px;
+								padding-right: 20px;
+								font-size: 16px;
+							}
+							> ul {
+								> li {
+									> a {
+										padding-left: 30px;
+										padding-right: 30px;
+										font-size: 14px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+			.nav-footer {
+				height: 290px;
+				.as {
+					margin-top: 50px;
+					h5 {
+						margin-bottom: 10px;
+						font-size: 15px;
+					}
+					.num {
+						font-size: 42px;
+						line-height: 60px;
+						text-indent: -3px;
+					}
+				}
+			}
+		}
+	}
+}
+
+body.nav-opened {
+	#nav-side {
+		right: 0;
+		.nav-content {
+			right: 0;
 		}
 	}
 }
