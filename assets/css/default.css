@@ -889,6 +889,10 @@ body.nav-opened #nav-side {
     -webkit-transition-delay: 0s;
     transition-delay: 0s; }
 
+@media (min-width: 1280px) {
+  body.nav-expanded #header {
+    border-bottom: 0; } }
+
 #footer {
   padding-top: 20px;
   padding-bottom: 30px; }

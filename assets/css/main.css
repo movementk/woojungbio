@@ -41,8 +41,11 @@ body {
   @media (min-width: 1280px) {
     #header {
       margin-top: 52px; }
+      #header > .container > .row > div {
+        position: inherit; }
       #header #nav > ul > li .nav-content {
-        margin-top: 130px; } }
+        position: absolute;
+        top: 100%; } }
 
 body.scrolled #header {
   position: fixed;
@@ -55,6 +58,8 @@ body.scrolled #header {
     position: fixed;
     top: 52px;
     margin-top: 0; }
+    body.scrolled #header > .container > .row > div {
+      position: relative; }
     body.scrolled #header #nav > ul > li .nav-content {
       position: fixed;
       top: 134px; } }
@@ -63,30 +68,135 @@ body.scrolled #header {
   margin-top: 48px; }
   @media (min-width: 768px) {
     #content {
-      margin-top: 132px; } }
+      margin-top: 73px; } }
   @media (min-width: 1280px) {
     #content {
       margin-top: 132px; } }
 
 #intro {
+  overflow: hidden;
   position: relative;
   width: 100%;
   height: 100%; }
+  #intro .intro-video {
+    display: none; }
+  #intro .intro-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/images/main/bg_intro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    -ms-transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    transform: scale(1.4);
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 10s;
+    transition-duration: 10s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s; }
   #intro .intro-content {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: table;
-    background-image: url(/assets/images/main/bg_intro.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%; }
+    display: table; }
     #intro .intro-content > div {
+      position: relative;
       display: table-cell;
       text-align: center;
       vertical-align: middle; }
+      #intro .intro-content > div h1 {
+        margin-bottom: 150px; }
+      #intro .intro-content > div p {
+        margin-bottom: 200px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 100;
+        opacity: 0;
+        -ms-transform: scale(0);
+        -webkit-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-duration: 1s;
+        -webkit-transition-timing-function: cubic-bezier(0, 0, 0.2, 1.5);
+        transition-timing-function: cubic-bezier(0, 0, 0.2, 1.5);
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        #intro .intro-content > div p b {
+          font-weight: 500; }
+      #intro .intro-content > div .ico-mouse {
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+        display: inline-block;
+        margin-left: -50px;
+        padding-top: 60px;
+        width: 100px;
+        height: 100px;
+        background-image: url(/assets/images/main/ico_mouse.png);
+        background-repeat: no-repeat;
+        background-position: 50% 0;
+        color: #fff;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        font-style: normal;
+        font-weight: 300; }
+  @media (orientation: landscape) {
+    #intro .intro-content > div h1 {
+      margin-bottom: 20px; }
+    #intro .intro-content > div p {
+      margin-bottom: 120px; } }
+  @media (min-width: 768px) {
+    #intro .intro-content > div h1 {
+      margin-bottom: 200px; }
+    #intro .intro-content > div p {
+      margin-bottom: 250px;
+      font-size: 30px;
+      line-height: 1.4em; } }
+  @media (min-width: 1280px) {
+    #intro {
+      min-height: 500px; }
+      #intro .intro-video {
+        width: 100%;
+        height: 100%;
+        -ms-transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+        background-color: #000; }
+      #intro .intro-content > div h1 {
+        margin-bottom: 200px; }
+      #intro .intro-content > div p {
+        margin-bottom: 300px;
+        font-size: 52px;
+        line-height: 70px; }
+      #intro.on .intro-back {
+        display: none; }
+      #intro.on .intro-content > div p {
+        opacity: 1;
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1); } }
+  #intro.on .intro-back {
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); }
+  #intro.on .intro-content > div p {
+    opacity: 1;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1); }
 
 #fields .container-fluid {
   padding-left: 5px;
@@ -130,13 +240,13 @@ body.scrolled #header {
         #fields .container-fluid .field-item .field-content .field-body ul {
           display: none; }
     #fields .container-fluid .field-item.field-item-1 .field-content {
-      background-image: url(/assets/images/bg_field_1.jpg); }
+      background-image: url(/assets/images/main/bg_field_1.jpg); }
     #fields .container-fluid .field-item.field-item-2 .field-content {
-      background-image: url(/assets/images/bg_field_2.jpg); }
+      background-image: url(/assets/images/main/bg_field_2.jpg); }
     #fields .container-fluid .field-item.field-item-3 .field-content {
-      background-image: url(/assets/images/bg_field_3.jpg); }
+      background-image: url(/assets/images/main/bg_field_3.jpg); }
     #fields .container-fluid .field-item.field-item-4 .field-content {
-      background-image: url(/assets/images/bg_field_4.jpg); }
+      background-image: url(/assets/images/main/bg_field_4.jpg); }
 @media (min-width: 768px) {
   #fields .container-fluid {
     padding-left: 10px;
@@ -196,15 +306,16 @@ body.scrolled #header {
         margin-top: 25px;
         display: none; }
         #fields .container-fluid .field-item .field-content .field-body ul li a {
-          margin: 0 auto;
           display: block;
-          width: 170px;
-          height: 40px;
+          margin: 0 auto;
+          padding: 9px 3px;
+          width: 200px;
           border: 1px solid #fff;
-          line-height: 38px;
           color: #fff;
           text-align: center;
-          text-decoration: none; }
+          text-decoration: none;
+          font-size: 15px;
+          line-height: 20px; }
           #fields .container-fluid .field-item .field-content .field-body ul li a:hover, #fields .container-fluid .field-item .field-content .field-body ul li a:focus {
             background-color: #fff;
             color: #e40009;

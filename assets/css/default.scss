@@ -737,6 +737,14 @@ body.nav-opened {
 	}
 }
 
+body.nav-expanded {
+	@media (min-width: $lg) {
+		#header {
+			border-bottom: 0;
+		}
+	}
+}
+
 #footer {
 	padding-top: 20px;
 	padding-bottom: 30px;
