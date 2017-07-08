@@ -1,6 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
+<link href="/assets/css/sub.css" rel="stylesheet">
 
-<body class="nav-expanded">
+<body>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top-nav.php'); ?>
 
@@ -8,14 +9,18 @@
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 
-<main id="content" style="height: 500px;">
+<main id="content">
+	
+	<div class="page-header">
+		<h1>질환동물 유지관리</h1>
+	</div>
+			
 </main>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 
-<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
 <script src="/assets/js/common.js"></script>
 
 </body>

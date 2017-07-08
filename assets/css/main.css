@@ -167,7 +167,8 @@ body.scrolled #header {
       line-height: 1.4em; } }
   @media (min-width: 1280px) {
     #intro {
-      min-height: 500px; }
+      min-height: 500px;
+      cursor: pointer; }
       #intro .intro-video {
         width: 100%;
         height: 100%;
@@ -275,7 +276,18 @@ body.scrolled #header {
 @media (min-width: 1280px) {
   #fields .container-fluid .field-item {
     overflow: hidden;
-    height: 790px; }
+    height: 790px;
+    /*
+    &.field-item-1 {
+    	.field-back {
+    		video {
+    			-ms-transform: scale(1.5);
+    			-webkit-transform: scale(1.5);
+    			transform: scale(1.5);
+    		}
+    	}
+    }
+    */ }
     #fields .container-fluid .field-item .field-back {
       display: block;
       position: relative;

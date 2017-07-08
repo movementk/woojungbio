@@ -135,6 +135,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 
 <script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
+<script src="/assets/jquery.mousewheel.min.js"></script>
 <script src="/assets/js/common.js"></script>
 <script src="/assets/js/main.js"></script>
 

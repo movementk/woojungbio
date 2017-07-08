@@ -168,13 +168,13 @@
 							</div>
 						</li>
 						<li>
-							<a href="#">PRODUCT</a>
+							<a href="#">PRODUCTS</a>
 							<div class="nav-content">
 								<div class="container">
 									<div class="row">
 										<div class="col-lg-3">
 											<div class="nav-head">
-												<h4>PRODUCT</h4>
+												<h4>PRODUCTS</h4>
 												<hr>
 												<p>
 													(주)우정비에스씨는 최첨단 동물실을<br>
