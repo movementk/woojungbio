@@ -1,0 +1,39 @@
+@import 'common';
+
+.rnd-1 {
+	#nmaterial {
+		background-image: url(/assets/images/rnd/bg_rnd_1_sec_1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50% 50%;
+		.section-title {
+			color: #fff;
+		}
+	}
+	#rcenter {
+		.section-body {
+			margin: 0 auto;
+			max-width: 320px;
+			figure {
+				position: relative;
+				margin-bottom: 10px;
+				figcaption {
+					position: absolute;
+					bottom: 25px;
+					left: 0;
+					width: 100%;
+					color: #fff;
+					text-align: center;
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			.section-body {
+				max-width: none;
+			}
+		}
+	}
+	#production {
+		
+	}
+}
