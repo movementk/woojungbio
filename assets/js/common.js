@@ -44,4 +44,10 @@
 		}
 	});
 	
+	// 드롭다운 & 탭 함께 사용 시
+	$(document).on("click", ".tabs a[data-toggle='tab']", function() {
+		$(this).parent().siblings('.active').removeClass('active');
+		$(this).parents('.dropdown-menu:eq(0)').siblings('.btn').eq(0).find('.text').text($(this).text());
+	});
+	
 })(jQuery);
