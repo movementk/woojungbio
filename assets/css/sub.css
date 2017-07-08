@@ -28,17 +28,105 @@ dl {
 address {
   margin-bottom: 0; }
 
-#content > .page-header {
+.page-header {
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 35px;
-  padding-bottom: 35px;
-  height: 100px;
-  background-color: #000; }
-  #content > .page-header h1 {
+  padding-top: 80px;
+  padding-bottom: 70px;
+  text-align: center; }
+  .page-header h1 {
     font-size: 30px;
+    line-height: 1em;
+    color: #e10013;
+    text-align: center;
+    font-weight: 100; }
+  .page-header p {
+    margin-top: 30px;
+    font-size: 16px;
     line-height: 30px;
-    color: #fff;
-    text-align: center; }
+    color: #333; }
+  @media (min-width: 768px) {
+    .page-header {
+      padding-top: 100px;
+      padding-bottom: 90px; }
+      .page-header h1 {
+        font-size: 40px; }
+      .page-header p {
+        font-size: 20px;
+        line-height: 38px; } }
+  @media (min-width: 1280px) {
+    .page-header {
+      padding-top: 115px;
+      padding-bottom: 110px; }
+      .page-header h1 {
+        font-size: 45px; }
+      .page-header p {
+        font-size: 22px;
+        line-height: 40px; } }
+
+.page-summary {
+  text-align: center; }
+  .page-summary h2 {
+    font-size: 20px;
+    line-height: 1em;
+    font-weight: 100; }
+  .page-summary hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 30px;
+    border-top: 3px solid #e10013; }
+  .page-summary p {
+    font-size: 13px;
+    line-height: 26px; }
+  @media (min-width: 768px) {
+    .page-summary h2 {
+      font-size: 26px; }
+    .page-summary hr {
+      margin-top: 35px;
+      margin-bottom: 25px; }
+    .page-summary p {
+      font-size: 15px;
+      line-height: 28px; } }
+  @media (min-width: 1280px) {
+    .page-summary h2 {
+      font-size: 30px; }
+    .page-summary hr {
+      margin-top: 40px;
+      margin-bottom: 30px; }
+    .page-summary p {
+      font-size: 16px;
+      line-height: 30px; } }
+
+.section-title {
+  margin-bottom: 20px;
+  padding-left: 25px;
+  font-size: 20px;
+  line-height: 1em;
+  background-image: url(/assets/images/ico_hexagon.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto 20px;
+  font-weight: 400; }
+  @media (min-width: 768px) {
+    .section-title {
+      margin-bottom: 25px;
+      padding-left: 35px;
+      font-size: 22px;
+      background-size: auto auto; } }
+  @media (min-width: 768px) {
+    .section-title {
+      margin-bottom: 30px; } }
+
+.section-content {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  @media (min-width: 768px) {
+    .section-content {
+      padding-top: 100px;
+      padding-bottom: 100px; } }
+  @media (min-width: 1280px) {
+    .section-content {
+      padding-top: 120px;
+      padding-bottom: 120px; } }
 
 /*# sourceMappingURL=sub.css.map */
