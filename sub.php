@@ -129,6 +129,45 @@
 			</div>
 		</div>
 	</section>
+		
+	<section class="section-content">
+		<div class="container">
+			<div class="section-header">
+				<h4 class="section-title">제품화 연구</h4>
+				<p>미래 시장의 성장 가능성이 높은 기술개발을 하기 위해서는  전체적인 기술 동향 파악과 프로젝트 방향 설정이 중요합니다.</p>
+			</div>
+			<div class="section-body">
+				<ul class="list">
+					<li>
+						<h6>Pulmonary fibrosis</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+					<li>
+						<h6>Degenerative arthritis</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+					<li>
+						<h6>Rheumatoid arthritis(RA)</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+				</ul>
+				<ul class="list" style="margin-top: 100px;">
+					<li>
+						<h6>Pulmonary fibrosis</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+					<li>
+						<h6>Degenerative arthritis</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+					<li>
+						<h6>Rheumatoid arthritis(RA)</h6>
+						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
 			
 </main>
 

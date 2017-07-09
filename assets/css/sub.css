@@ -315,4 +315,30 @@ address {
             .tabs .dropdown .dropdown-menu > li + li {
               border-top: 0; } }
 
+.list > li {
+  position: relative;
+  padding-left: 25px;
+  line-height: 26px; }
+  .list > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'fontello';
+    content: '\e806';
+    color: #f08501; }
+  .list > li h6 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 26px; }
+  .list > li + li {
+    margin-top: 30px; }
+@media (min-width: 768px) {
+  .list > li {
+    line-height: 30px; }
+    .list > li h6 {
+      font-size: 17px;
+      line-height: 30px; }
+    .list > li + li {
+      margin-top: 40px; } }
+
 /*# sourceMappingURL=sub.css.map */

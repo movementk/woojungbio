@@ -381,3 +381,39 @@
 		}
 	}
 }
+
+.list {
+	> li {
+		position: relative;
+		padding-left: 25px;
+		line-height: 26px;
+		&:before {
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-family: 'fontello';
+			content: '\e806';
+			color: #f08501;
+		}
+		h6 {
+			margin-bottom: 5px;
+			font-size: 15px;
+			line-height: 26px;
+		}
+		& + li {
+			margin-top: 30px;
+		}
+	}
+	@media (min-width: $sm) {
+		> li {
+			line-height: 30px;
+			h6 {
+				font-size: 17px;
+				line-height: 30px;
+			}
+			& + li {
+				margin-top: 40px;
+			}
+		}
+	}
+}
