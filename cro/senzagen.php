@@ -11,6 +11,13 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 
 <main id="content">
+
+    <div class="jumbo-wall">
+        <div class="container">
+            <h1>CRO</h1>
+        </div>
+    </div>
+    
 	<div class="page-summary">
 		<div class="container">
 			<h2><img src="/assets/images/cro/senzagen_logo.jpg" alt="snbl logo"></h2>

@@ -28,6 +28,12 @@ dl {
 address {
   margin-bottom: 0; }
 
+.products .jumbo-wall {
+  background-image: url(/assets/images/products/products_header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 .products .page-summary b {
   display: inline-block;
   font-size: 14px;

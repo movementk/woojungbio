@@ -13,6 +13,12 @@
 
 <main id="content">
     
+    <div class="jumbo-wall">
+        <div class="container">
+            <h1>GLP</h1>
+        </div>
+    </div>
+    
     <div class="page-header">
 		<div class="container">
 			<h1>Safety Study</h1>

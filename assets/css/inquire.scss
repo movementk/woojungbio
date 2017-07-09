@@ -1,5 +1,15 @@
 @import 'common';
 
+// 페이지 공통 헤더 bg
+.inquire {
+    .jumbo-wall {
+        background-image: url(/assets/images/inquire/inquire_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
 .inquire.inquire-write {
     .write {
         .table-wrap {

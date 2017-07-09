@@ -1,6 +1,14 @@
 @import 'common';
 
-
+// 페이지 공통 헤더 bg
+.animal {
+    .jumbo-wall {
+        background-image: url(/assets/images/animal/animal_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
 
 // 실험동물 생산
 .animal.experimental-animals {

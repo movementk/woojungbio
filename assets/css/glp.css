@@ -28,6 +28,12 @@ dl {
 address {
   margin-bottom: 0; }
 
+.glp .jumbo-wall {
+  background-image: url(/assets/images/glp/glp_header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 .glp.safety-study .tab-content .tab-pane {
   /* common style */ }
 .glp.safety-study #tab-1 .authentication-glp {

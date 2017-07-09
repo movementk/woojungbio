@@ -28,6 +28,12 @@ dl {
 address {
   margin-bottom: 0; }
 
+.animal .jumbo-wall {
+  background-image: url(/assets/images/animal/animal_header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 .animal.experimental-animals .animal-provide {
   background-image: url(/assets/images/animal/animal_provide_bg.jpg);
   background-repeat: no-repeat;
