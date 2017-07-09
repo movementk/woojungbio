@@ -84,5 +84,37 @@ address {
 
 .products.ellegaard-gottingen .gottingen {
   background-color: #f7f8f9; }
+  .products.ellegaard-gottingen .gottingen figure {
+    text-align: center; }
+    .products.ellegaard-gottingen .gottingen figure .img-responsive {
+      display: inline-block; }
+    .products.ellegaard-gottingen .gottingen figure figcaption {
+      font-size: 14px;
+      line-height: 26px;
+      margin-top: 20px;
+      color: #333;
+      font-family: 'Titillium Web', sans-serif; }
+      @media (min-width: 768px) {
+        .products.ellegaard-gottingen .gottingen figure figcaption {
+          font-size: 16px;
+          line-height: 30px;
+          margin-top: 25px; } }
+      @media (min-width: 1280px) {
+        .products.ellegaard-gottingen .gottingen figure figcaption {
+          margin-top: 30px; } }
+.products.ellegaard-gottingen .growth-data .section-body .table-responsive .table thead tr th {
+  border-color: #dfdfdf;
+  background-color: #eaeaea; }
+.products.ellegaard-gottingen .growth-data .section-body .table-responsive .table tbody tr td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fff;
+  border-color: #dfdfdf; }
+  .products.ellegaard-gottingen .growth-data .section-body .table-responsive .table tbody tr td:first-child {
+    background-color: #fff; }
+.products.ellegaard-gottingen .growth-data .section-body .table-responsive .table tbody tr:nth-of-type(odd) td {
+  background-color: rgba(234, 234, 234, 0.3); }
+.products.ellegaard-gottingen .growth-data .section-body .table-responsive .table tbody tr td:first-child {
+  background-color: #fff; }
 
 /*# sourceMappingURL=products.css.map */

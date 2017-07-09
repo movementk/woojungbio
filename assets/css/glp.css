@@ -51,5 +51,102 @@ address {
   background-position: 50% 50%; }
   .glp.safety-study #tab-2 .aquatic-ecology .section-header .section-title {
     color: #fff; }
+.glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.phone .form-group .form-control {
+  width: 24.33%; }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.phone .form-group .form-control {
+      width: 100px; } }
+.glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.email .form-group .form-control {
+  display: inline-block; }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.email .form-group .form-control {
+      width: 370px; } }
+.glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio label {
+  margin-right: 20px;
+  line-height: 30px; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio label.mr-zero {
+    margin: 0; }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio label {
+      margin-right: 50px;
+      line-height: 45px; } }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio label input[type=radio] {
+    position: relative;
+    top: 2px;
+    margin: 0 5px 0 0; }
+    @media (min-width: 768px) {
+      .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio label input[type=radio] {
+        top: 1px; } }
+.glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group {
+  display: block;
+  margin-right: 20px; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group.etc {
+    position: relative;
+    padding-left: 5px; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group:last-child {
+    margin-right: 0; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group input[type=radio] {
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin: 0 5px 0 0; }
+    @media (min-width: 768px) {
+      .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group input[type=radio] {
+        top: 1px; } }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group label {
+    display: inline-block;
+    margin-right: 0; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group .form-control {
+    width: 95%;
+    display: inline-block; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group i {
+    font-style: normal; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group .input-added:before {
+    position: relative;
+    left: 2px;
+    display: inline-block;
+    content: "("; }
+  .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group .input-added:after {
+    display: inline-block;
+    content: ")"; }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group {
+      margin-right: 50px; }
+      .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group .form-control {
+        width: 314px; }
+        .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group .form-control.shot-input {
+          width: 176px; } }
+  @media (min-width: 1280px) {
+    .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.select-radio .form-group {
+      display: inline-block;
+      margin-right: 50px; } }
+.glp.safety-study #tab-3 .write .section-body .btn-area {
+  text-align: center;
+  margin-top: 35px; }
+  .glp.safety-study #tab-3 .write .section-body .btn-area p .btn {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0; }
+    .glp.safety-study #tab-3 .write .section-body .btn-area p .btn.btn-red {
+      background-color: #e10013; }
+    @media (min-width: 768px) {
+      .glp.safety-study #tab-3 .write .section-body .btn-area p .btn {
+        width: 170px;
+        height: 45px;
+        line-height: 43px;
+        font-size: 16px; } }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-3 .write .section-body .btn-area {
+      margin-top: 50px;
+      text-align: right; } }
+  @media (min-width: 1280px) {
+    .glp.safety-study #tab-3 .write .section-body .btn-area {
+      margin-top: 60px; } }
 
 /*# sourceMappingURL=glp.css.map */

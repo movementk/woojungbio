@@ -38,21 +38,21 @@
 											<div class="nav-body">
 												<ul>
 													<li>
-														<a href="#">Research</a>
+														<a href="/rnd/new_material.php">Research</a>
 														<ul>
-															<li><a href="#">바이오신소재</a></li>
+															<li><a href="/rnd/new_material.php">바이오신소재</a></li>
 															<li>
-																<a href="#">플랫폼 기술</a>
+																<a href="/rnd/platform_technology.php">플랫폼 기술</a>
 																<ul>
-																	<li><a href="#">Innovation Gene Therapy</a></li>
-																	<li><a href="#">Homologous Epitopes Region Immunization Technology</a></li>
-																	<li><a href="#">Cancer Therapies in Models</a></li>
+																	<li><a href="/rnd/platform_technology.php">Innovation Gene Therapy</a></li>
+																	<li><a href="/rnd/platform_technology.php">Homologous Epitopes Region Immunization Technology</a></li>
+																	<li><a href="/rnd/platform_technology.php">Cancer Therapies in Models</a></li>
 																</ul>
 															</li>
 														</ul>
 													</li>
 													<li>
-														<a href="#">Development</a>
+														<a href="/rnd/development.php">Development</a>
 													</li>
 												</ul>
 											</div>
@@ -81,11 +81,11 @@
 											<div class="nav-body">
 												<ul>
 													<li>
-														<a href="#">Safety Study</a>
+														<a href="/glp/safety_study.php">Safety Study</a>
 														<ul>
-															<li><a href="#">GLP Safety Study</a></li>
-															<li><a href="#">시험항목</a></li>
-															<li><a href="#">시험문의</a></li>
+															<li><a href="/glp/safety_study.php">GLP Safety Study</a></li>
+															<li><a href="/glp/safety_study.php">시험항목</a></li>
+															<li><a href="/glp/safety_study.php">시험문의</a></li>
 														</ul>
 													</li>
 												</ul>
@@ -115,20 +115,20 @@
 											<div class="nav-body">
 												<ul>
 													<li>
-														<a href="#">정밀의학</a>
+														<a href="/cro/vivo_efficacy.php">정밀의학</a>
 														<ul>
-															<li><a href="#">기능성 효능평가 서비스(Preclinical in vivo efficacy service)</a></li>
+															<li><a href="/cro/vivo_efficacy.php">기능성 효능평가 서비스(Preclinical in vivo efficacy service)</a></li>
 														</ul>
 													</li>
 													<li>
-														<a href="#">Global CRO</a>
+														<a href="/cro/snbl.php">Global CRO</a>
 														<ul>
-															<li><a href="#">SNBL</a></li>
-															<li><a href="#">Senzagen</a></li>
+															<li><a href="/cro/snbl.php">SNBL</a></li>
+															<li><a href="/cro/senzagen.php">Senzagen</a></li>
 														</ul>
 													</li>
 													<li>
-														<a href="#">Zebrafish Screening</a>
+														<a href="/cro/zebrafish.php">Zebrafish Screening</a>
 													</li>
 												</ul>
 											</div>
@@ -156,10 +156,10 @@
 										<div class="col-lg-9">
 											<div class="nav-body">
 												<ul>
-													<li><a href="#">실험동물 생산</a></li>
-													<li><a href="#">질환모델 제작 - KO제작, 관리</a></li>
-													<li><a href="#">청정화, 사육관리</a></li>
-													<li><a href="#">유전자변형 문의</a></li>
+													<li><a href="/animal/experimental_animals.php">실험동물 생산</a></li>
+													<li><a href="/animal/disease_modeling.php">질환모델 제작 - KO제작, 관리</a></li>
+													<li><a href="/animal/breeding_management.php">청정화, 사육관리</a></li>
+													<li><a href="/animal/request_write.php">유전자변형 문의</a></li>
 												</ul>
 											</div>
 										</div>
@@ -186,13 +186,13 @@
 										<div class="col-lg-9">
 											<div class="nav-body">
 												<ul>
-													<li><a href="#">Gene Delivery</a></li>
-													<li><a href="#">Antibody Production</a></li>
-													<li><a href="#">면역부전 모델 (NPG)</a></li>
-													<li><a href="#">인간화 간 모델 (URG)</a></li>
-													<li><a href="#">지카, 메르스, 뎅기, 인플루엔자 바이러스 연구 (AG129)</a></li>
-													<li><a href="#">인플루엔자 바이러스, 백신 연구</a></li>
-													<li><a href="#">Ellegaard Göttingen</a></li>
+													<li><a href="/products/gene_delivery.php">Gene Delivery</a></li>
+													<li><a href="/products/antibody_production.php">Antibody Production</a></li>
+													<li><a href="/products/npg.php">면역부전 모델 (NPG)</a></li>
+													<li><a href="/products/urg.php">인간화 간 모델 (URG)</a></li>
+													<li><a href="/products/ag129.php">지카, 메르스, 뎅기, 인플루엔자 바이러스 연구 (AG129)</a></li>
+													<li><a href="/products/vaccine.php">인플루엔자 바이러스, 백신 연구</a></li>
+													<li><a href="/products/ellegaard_gottingen.php">Ellegaard Göttingen</a></li>
 												</ul>
 											</div>
 										</div>
@@ -201,7 +201,7 @@
 							</div>
 						</li>
 						<li>
-							<a href="#">문의</a>
+							<a href="/inquire/inquire_write.php">문의</a>
 						</li>
 					</ul>
 				</nav>

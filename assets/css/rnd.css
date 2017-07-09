@@ -64,4 +64,22 @@ address {
 .rnd-1 #production .done .status {
   color: #e10013; }
 
+.rnd.platform-technology .tab-content .tab-pane {
+  /* common style */ }
+.rnd.platform-technology #tab-1 .stable-development {
+  margin-bottom: 0;
+  background-color: #f7f8f9; }
+.rnd.platform-technology #tab-2 .immune-antibody {
+  background-color: #f7f8f9; }
+.rnd.platform-technology #tab-3 .mouse-models {
+  background-color: #f7f8f9; }
+
+.rnd.development .pipline {
+  background-color: #3f4040; }
+  .rnd.development .pipline .section-header .section-title {
+    color: #fff; }
+.rnd.development .strategy {
+  margin-bottom: 0;
+  background-color: #f7f8f9; }
+
 /*# sourceMappingURL=rnd.css.map */
