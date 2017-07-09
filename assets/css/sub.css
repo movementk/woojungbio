@@ -324,7 +324,7 @@ address {
     top: 0;
     left: 0;
     font-family: 'fontello';
-    content: '\e806';
+    content: '\E806';
     color: #f08501; }
   .com-list > li h6 {
     margin-bottom: 5px;
@@ -338,11 +338,74 @@ address {
   .com-list > li {
     line-height: 30px; }
     .com-list > li h6 {
+      margin-bottom: 10px;
       font-size: 17px;
       line-height: 30px; }
     .com-list > li + li {
       margin-top: 10px; }
       .com-list > li + li h6 {
         margin-top: 40px; } }
+
+.ref-list > li .ref-item {
+  position: relative;
+  display: block;
+  padding: 20px 120px 20px 20px;
+  background-color: #f7f8f9;
+  border: 1px solid #dfdfdf;
+  text-decoration: none; }
+  .ref-list > li .ref-item h6 {
+    margin-bottom: 5px;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400; }
+  .ref-list > li .ref-item p {
+    font-size: 13px;
+    line-height: 20px;
+    color: #666; }
+  .ref-list > li .ref-item .file {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    border-left: 1px solid #dfdfdf; }
+    .ref-list > li .ref-item .file i {
+      display: table;
+      width: 100%;
+      height: 100%; }
+      .ref-list > li .ref-item .file i:before {
+        display: table-cell;
+        width: 100%;
+        content: '\F1C1';
+        text-align: center;
+        vertical-align: middle;
+        color: #ef4600;
+        font-size: 20px; }
+  .ref-list > li .ref-item:hover, .ref-list > li .ref-item:focus {
+    background-color: #f08501;
+    border-color: #f08501; }
+    .ref-list > li .ref-item:hover h6, .ref-list > li .ref-item:focus h6 {
+      color: #fff; }
+    .ref-list > li .ref-item:hover p, .ref-list > li .ref-item:focus p {
+      color: #fff; }
+    .ref-list > li .ref-item:hover .file i:before, .ref-list > li .ref-item:focus .file i:before {
+      color: #fff; }
+.ref-list > li + li .ref-item {
+  margin-top: 10px; }
+@media (min-width: 768px) {
+  .ref-list > li .ref-item {
+    padding: 30px 165px 30px 30px; }
+    .ref-list > li .ref-item h6 {
+      font-size: 17px;
+      line-height: 30px; }
+    .ref-list > li .ref-item p {
+      font-size: 15px;
+      line-height: 26px; }
+    .ref-list > li .ref-item .file {
+      width: 130px; }
+      .ref-list > li .ref-item .file i:before {
+        font-size: 22px; }
+  .ref-list > li + li .ref-item {
+    margin-top: 20px; } }
 
 /*# sourceMappingURL=sub.css.map */

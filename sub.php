@@ -140,7 +140,7 @@
 						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
 					</li>
 				</ul>
-				<ul class="list" style="margin-top: 100px;">
+				<ul class="com-list" style="margin-top: 100px;">
 					<li>
 						<b>비디오 점적기(Visual instillobot)</b>
 					</li>
@@ -151,7 +151,7 @@
 						<b>비디오 점적기(Visual instillobot)</b>
 					</li>
 				</ul>
-				<ul class="list" style="margin-top: 100px;">
+				<ul class="com-list" style="margin-top: 100px;">
 					<li>
 						비디오 점적기(Visual instillobot)
 					</li>
@@ -174,15 +174,25 @@
 			<div class="section-body">
 				<ul class="ref-list">
 					<li>
-						<div class="rel-item">
+						<a href="#" class="ref-item">
 							<h6>Zellweger RM, Shresta S. Mouse models to study Dengue virus immunology and pathogenesis.</h6>
 							<p>Frontiers in Immunology 5(151), 1-9, 2014.</p>
-							<a href="#"></a>
-						</div>
+							<span class="file"><i class="icon-file-pdf"></i></span>
+						</a>
 					</li>
 					<li>
+						<a href="#" class="ref-item">
+							<h6>Zellweger RM, Shresta S. Mouse models to study Dengue virus immunology and pathogenesis.</h6>
+							<p>Frontiers in Immunology 5(151), 1-9, 2014.</p>
+							<span class="file"><i class="icon-file-pdf"></i></span>
+						</a>
 					</li>
 					<li>
+						<a href="#" class="ref-item">
+							<h6>Zellweger RM, Shresta S. Mouse models to study Dengue virus immunology and pathogenesis.</h6>
+							<p>Frontiers in Immunology 5(151), 1-9, 2014.</p>
+							<span class="file"><i class="icon-file-pdf"></i></span>
+						</a>
 					</li>
 				</ul>
 			</div>

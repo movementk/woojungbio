@@ -392,7 +392,7 @@
 			top: 0;
 			left: 0;
 			font-family: 'fontello';
-			content: '\e806';
+			content: '\E806';
 			color: #f08501;
 		}
 		h6 {
@@ -411,6 +411,7 @@
 		> li {
 			line-height: 30px;
 			h6 {
+				margin-bottom: 10px;
 				font-size: 17px;
 				line-height: 30px;
 			}
@@ -425,5 +426,97 @@
 }
 
 .ref-list {
-	
+	> li {
+		.ref-item {
+			position: relative;
+			display: block;
+			padding: 20px 120px 20px 20px;
+			background-color: #f7f8f9;
+			border: 1px solid #dfdfdf;
+			text-decoration: none;
+			h6 {
+				margin-bottom: 5px;
+				font-size: 15px;
+				line-height: 26px;
+				font-weight: 400;
+			}
+			p {
+				font-size: 13px;
+				line-height: 20px;
+				color: #666;
+			}
+			.file {
+				position: absolute;
+				top: 0;
+				right: 0;
+				width: 100px;
+				height: 100%;
+				border-left: 1px solid #dfdfdf;
+				i {
+					display: table;
+					width: 100%;
+					height: 100%;
+					&:before {
+						display: table-cell;
+						width: 100%;
+						content: '\F1C1';
+						text-align: center;
+						vertical-align: middle;
+						color: #ef4600;
+						font-size: 20px;
+					}
+				}
+			}
+			&:hover, &:focus {
+				background-color: #f08501;
+				border-color: #f08501;
+				h6 {
+					color: #fff;
+				}
+				p {
+					color: #fff;
+				}
+				.file {
+					i {
+						&:before {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+		& + li {
+			.ref-item {
+				margin-top: 10px;
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		> li {
+			.ref-item {
+				padding: 30px 165px 30px 30px;
+				h6 {
+					font-size: 17px;
+					line-height: 30px;
+				}
+				p {
+					font-size: 15px;
+					line-height: 26px;
+				}
+				.file {
+					width: 130px;
+					i {
+						&:before {
+							font-size: 22px;
+						}
+					}
+				}
+			}
+			& + li {
+				.ref-item {
+					margin-top: 20px;
+				}
+			}
+		}
+	}
 }
