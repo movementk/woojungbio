@@ -400,4 +400,43 @@ address {
     .inquire.inquire-list .section-body .btn-area {
       margin-top: 60px; } }
 
+.paging {
+  text-align: center;
+  margin-top: 30px; }
+  @media (min-width: 768px) {
+    .paging {
+      margin-top: 40px; } }
+  .paging .pagination {
+    margin: 0;
+    border-radius: 0; }
+    .paging .pagination li a {
+      font-size: 18px;
+      text-align: center;
+      color: #aeaeaf;
+      font-family: 'Titillium Web', sans-serif;
+      padding: 0 11px;
+      border: 0;
+      border-radius: 0; }
+      .paging .pagination li a:hover {
+        background: none; }
+    .paging .pagination li.active a {
+      position: relative;
+      font-weight: bold;
+      color: #e10013;
+      background: none; }
+      .paging .pagination li.active a:after {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        margin-left: -6px;
+        content: "";
+        width: 14px;
+        border-bottom: 1px solid #e10013; }
+    .paging .pagination li.stp a {
+      padding: 0; }
+    .paging .pagination li.stm-right a {
+      margin-right: 15px; }
+    .paging .pagination li.stm-left a {
+      margin-left: 15px; }
+
 /*# sourceMappingURL=inquire.css.map */

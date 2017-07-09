@@ -51,8 +51,19 @@
 				<h4 class="section-title">이식 후 마우스 serum에서 human albumin 존재가 확인 가능합니다</h4>
 			</div>
 			<div class="section-body">
-				<div class="table-responsive">
-					
+				<div class="row">
+				    <div class="col-xs-12 col-md-4">
+				        <figure>
+				            <img src="/assets/images/products/transplant_result_xs_img01.png" class="img-responsive hidden-md hidden-lg" alt="">
+				            <img src="/assets/images/products/transplant_result_md_img01.png" class="img-responsive hidden-xs hidden-sm" alt="">
+				        </figure>
+				    </div>
+				    <div class="col-xs-12 col-md-7">
+				        <figure class="human">
+				            <img src="/assets/images/products/transplant_result_xs_img02.png" class="img-responsive hidden-md hidden-lg" alt="">
+				            <img src="/assets/images/products/transplant_result_md_img02.png" class="img-responsive hidden-xs hidden-sm" alt="">
+				        </figure>
+				    </div>
 				</div>
 			</div>
 		</div>
@@ -63,7 +74,9 @@
 				<h4 class="section-title">HuHep-URG 마우스에서 안정적인 HBV (B형 간염 바이러스) 감염실험이 가능합니다</h4>
 			</div>
 			<div class="section-body">
-				
+				<figure>
+				    <img src="/assets/images/products/hbv_table_img.jpg" class="img-responsive" alt="hbv 그래프">
+				</figure>
 			</div>
 		</div>
 	</section>
@@ -73,7 +86,22 @@
                 <h4 class="section-title">참고 문헌</h4>
             </div>
             <div class="section-body">
-                
+                <ul class="ref-list">
+					<li>
+						<a href="#" class="ref-item">
+							<h6>Du Y et al. Human hepatocytes with drug metabolic function  induced from fibroblasts by lineage reprogramming.</h6>
+							<p>PLoS Negl Trop Dis 10(4):e0004682, 2016.</p>
+							<span class="file"><i class="icon-file-pdf"></i></span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="ref-item">
+							<h6>Song X et al. A mouse model of inducible liver injury caused by tet-on regulated urokinase for studies of hepatocyte<br> transplantation.</h6>
+							<p>Am J Pathol 175(5): 1975-1983, 2009.</p>
+							<span class="file"><i class="icon-file-pdf"></i></span>
+						</a>
+					</li>
+				</ul>
             </div>
         </div>
     </section>
