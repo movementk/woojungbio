@@ -34,6 +34,25 @@
 		}
 	}
 	#production {
-		
+		.period {
+			padding-left: 0;
+			padding-right: 0;
+			.bar {
+				width: 100%;
+				height: 20px;
+				background-image: url(/assets/images/rnd/bg_progress_bar.jpg);
+			}
+		}
+		.done {
+			.period {
+				.bar {
+					background-image: none;
+					background-color: $kcolor;
+				}
+			}
+			.status {
+				color: $kcolor;
+			}
+		}
 	}
 }
