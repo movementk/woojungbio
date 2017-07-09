@@ -51,5 +51,17 @@ address {
 @media (min-width: 768px) {
   .rnd-1 #rcenter .section-body {
     max-width: none; } }
+.rnd-1 #production .period {
+  padding-left: 0;
+  padding-right: 0; }
+  .rnd-1 #production .period .bar {
+    width: 100%;
+    height: 20px;
+    background-image: url(/assets/images/rnd/bg_progress_bar.jpg); }
+.rnd-1 #production .done .period .bar {
+  background-image: none;
+  background-color: #e10013; }
+.rnd-1 #production .done .status {
+  color: #e10013; }
 
 /*# sourceMappingURL=rnd.css.map */

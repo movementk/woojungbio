@@ -112,35 +112,35 @@
 						<tbody>
 							<tr>
 								<td>WJ 00101</td>
-								<td colspan="4"></td>
+								<td colspan="4" class="period"><p class="bar"></p></td>
 								<td></td>
 								<td></td>
 								<td>진행중</td>
 								<td>CYP 85 유전자를 이용한 내충성 작물 개발 기술</td>
 							</tr>
-							<tr>
+							<tr class="done">
 								<td>WJ 006</td>
+								<td class="period"><p class="bar done"></p></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
-								<td></td>
-								<td>완료</td>
+								<td class="status">완료</td>
 								<td>폐섬유화 모델 개발 기술</td>
 							</tr>
-							<tr>
+							<tr class="done">
 								<td>WJ 00801</td>
-								<td colspan="3"></td>
+								<td colspan="3" class="period"><p class="bar done"></p></td>
 								<td></td>
 								<td></td>
 								<td></td>
-								<td>완료</td>
+								<td class="status">완료</td>
 								<td>간질 치료제 스크리닝 기술</td>
 							</tr>
 							<tr>
 								<td>WJ 00802</td>
-								<td colspan="4"></td>
+								<td colspan="4" class="period"><p class="bar"></p></td>
 								<td></td>
 								<td></td>
 								<td>진행중</td>

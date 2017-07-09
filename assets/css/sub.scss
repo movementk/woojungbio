@@ -168,12 +168,34 @@
 		> thead {
 			> tr {
 				> th {
-					border-top: 3px solid $kcolor !important;
 					border-bottom-width: 1px;
 					text-align: center;
 					background-color: #f7f7f7;
 					color: #333;
 					font-weight: 400;
+				}
+				&:first-child {
+					> th {
+						border-top: 3px solid $kcolor !important;
+						&:first-child {
+							border-left: 0;
+						}
+						&:last-child {
+							border-right: 0;
+						}
+					}
+				}
+			}
+		}
+		> tbody {
+			> tr {
+				> td {
+					&:first-child {
+						border-left: 0;
+					}
+					&:last-child {
+						border-right: 0;
+					}
 				}
 			}
 		}
@@ -187,47 +209,10 @@
 				font-size: 15px;
 				line-height: 26px;
 			}
-			> thead {
-				> tr:first-child {
-					> th {
-						border-top: 3px solid $kcolor !important;
-						&:first-child {
-							border-left: 0;
-						}
-						&:last-child {
-							border-right: 0;
-						}
-					}
-				}
-			}
-			> tbody {
-				> tr {
-					> td {
-						&:first-child {
-							border-left: 0;
-						}
-						&:last-child {
-							border-right: 0;
-						}
-					}
-				}
-			}
 		}
 		@media (min-width: $lg) {
 			th, td {
 				padding: 12px;
-			}
-			> thead {
-				> tr {
-					> th {
-					}
-				}
-			}
-			> tbody {
-				> tr {
-					> td {
-					}
-				}
 			}
 		}
 	}
