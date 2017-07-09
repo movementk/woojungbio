@@ -7,7 +7,13 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 <main id="content">
-   
+    
+    <div class="jumbo-wall">
+        <div class="container">
+            <h1>실험동물센터</h1>
+        </div>
+    </div>
+    
     <div class="page-header">
         <div class="container">
             <h1>질환모델 동물 제작</h1>

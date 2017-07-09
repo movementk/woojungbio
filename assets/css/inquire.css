@@ -28,6 +28,12 @@ dl {
 address {
   margin-bottom: 0; }
 
+.inquire .jumbo-wall {
+  background-image: url(/assets/images/inquire/inquire_header_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 .inquire.inquire-write .write .table-wrap .table tbody th {
   width: 82px;
   padding-left: 15px; }
