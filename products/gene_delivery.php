@@ -224,9 +224,48 @@
 				<h4 class="section-title">Customized Products</h4>
 			</div>
             <div class="section-body">
-                <figure>
-                    <img src="/assets/images/products/customized_img.jpg" class="img-responsive" alt="">
-                </figure>
+                <div class="customized-list">
+                    <ul class="row">
+                        <li class="col-xs-12 col-md-4">
+                            <p class="figure">
+                                <img src="/assets/images/icons/products/a1.png" class="img-responsive" alt="Lentivirus vectior construction">
+                            </p>
+                            <div class="details">
+                                <h5>Lentivirus vectior construction</h5>
+                                <ul>
+                                    <li>Promoter selection : CMV, EF1a, PGK, Custom promoter</li>
+                                    <li>Reporter system monitoring : GFP, RFP, Iuciferase, others</li>
+                                    <li>Antiviotic selection marker</li>
+                                    <li>ORF, shRNA, miRNA</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-xs-12 col-md-4">
+                            <p class="figure">
+                                <img src="/assets/images/icons/products/a2.png" class="img-responsive" alt="Lentivirus particle">
+                            </p>
+                            <div class="details">
+                                <h5>Lentivirus particle</h5>
+                                <ul>
+                                    <li>필요한 바이러스 양을 제작</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="col-xs-12 col-md-4">
+                            <p class="figure">
+                                <img src="/assets/images/icons/products/a3.png" class="img-responsive" alt="Stable cell line">
+                            </p>
+                            <div class="details">
+                                <h5>Stable cell line</h5>
+                                <ul>
+                                    <li>Cancer cell line</li>
+                                    <li>Stem cell line</li>
+                                    <li>Custom target cell line</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -239,8 +278,12 @@
                 <p>견적서의뢰 또는 주문서는 해당 파일을 다운로드하여 작성 후 000000000000000000로 보내주세요.</p>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn btn-red" role="button"><i class="icon-doc-text">견적의뢰서 다운로드</i></a>
-                        <a href="#" class="btn btn-red" role="button"><i class="icon-doc-text">주문서 다운로드</i></a>
+                        <a href="#" class="btn btn-red" role="button">
+                            <i class="icon-doc-text"></i>견적의뢰서 다운로드
+                        </a>
+                        <a href="#" class="btn btn-gray" role="button">
+                            <i class="icon-doc-text"></i>주문서 다운로드
+                        </a>
                     </p>
                 </div>
             </div>
