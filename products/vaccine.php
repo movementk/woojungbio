@@ -11,6 +11,12 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 
 <main id="content">
+    
+    <div class="jumbo-wall">
+        <div class="container">
+            <h1>PRODUCT</h1>
+        </div>
+    </div>
 	
 	<div class="page-header">
 		<div class="container">

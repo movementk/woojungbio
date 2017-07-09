@@ -1,7 +1,14 @@
 @import 'common';
 
+
 // common
 .cro {
+    .jumbo-wall {
+        background-image: url(/assets/images/cro/cro_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
     .page-summary {
         h2 {
             img {

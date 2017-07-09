@@ -1,5 +1,20 @@
 @import 'common';
 
+// 페이지 공통 헤더 bg
+.inquire {
+    .jumbo-wall {
+        background-image: url(/assets/images/inquire/inquire_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .section-content {
+        margin-top: 0;
+    }
+}
+
+
+// 글쓰기
 .inquire.inquire-write {
     .write {
         .table-wrap {
@@ -50,4 +65,433 @@
         }
     }
 }
+
+
+// 보기
+.inquire.inquire-view {
+    .view {
+        border-top: 3px solid #e10316;
+        border-bottom: 1px solid #ccc; 
+        .title {
+            font-size: 14px;
+            color: #333;
+            text-align: center;
+            padding: 18px 0;
+            border-bottom: 1px solid #ccc;
+            background-color: #f8f8f8;
+            @media(min-width: $sm) {
+                font-size: 18px;
+                padding: 23px 0;
+            }
+        }
+        .content {
+            padding: 25px 0 42px; 
+            @media(min-width: $sm) {
+                padding-bottom: 70px;
+            }
+            @media(min-width: $lg) {
+                padding-bottom: 50px;
+            }
+            .list-info {
+                text-align: right;
+                font-size: 0;
+                margin-bottom: 50px;
+                @media(min-width: $sm) {
+                    margin-bottom: 70px;
+                }
+                @media(min-width: $lg) {
+                    margin-bottom: 125px;
+                }
+                > li {
+                    display: inline-block;
+                    font-size: 12px;
+                    color: #888;
+                    font-weight: 300;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                    }
+                    &:first-child {
+                        &:after {
+                            display: inline-block;
+                            content: "|";
+                            font-size: 10px;
+                            color: #cbcbcb;
+                            padding: 0 10px;
+                            vertical-align: top;
+                            margin-top: 1px;
+                        }
+                    }
+                    dl {
+                        font-size: 0;
+                        dt {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: 300;
+                            color: #888;
+                            &:after {
+                                display: inline-block;
+                                content: ":";
+                                padding: 0 3px;
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 12px;
+                            font-weight: 300;
+                            color: #888;
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            .view-content {
+                > p {
+                    text-align: center;
+                    line-height: 20px;
+                    font-size: 13px;
+                    color: #666;
+                    font-weight: 300;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        line-height: 32px;
+                    }
+                }
+                > img {
+                    display: block;
+                    margin: 0 auto;
+                    margin-top: 60px;
+                }
+                .attach {
+                    margin-top: 40px;
+                    @media(min-width: $md) {
+                        margin-top: 70px;
+                    }
+                    dd {
+                        position: relative;
+                        padding-left: 20px;
+                        &:before {
+                            position: absolute;
+                            top: 2px;
+                            left: 0;
+                            font-size: 12px;
+                            color: #888;
+                            content: "\E80A";
+                            font-family: "fontello";
+                            margin-right: 10px;
+                            vertical-align: middle;
+                            @media(min-width: $sm) {
+                                font-size: 13px;
+                            }
+                        }
+                        a {
+                            display: block;
+                            font-size: 13px;
+                            color: #888;
+                            font-weight: 300;
+                            margin-top: 5px;
+                            &:first-child {
+                                margin-top: 0;
+                            }
+                            &:after { 
+                                content: ",";
+                                padding-right: 5px;
+                            }
+                            &:last-child {
+                                &:after {
+                                    content: "";
+                                    padding: 0;
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 14px;
+                            }
+                            @media(min-width: $lg) {
+                                display: inline-block;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            padding-left: 25px;
+                            &:before {
+                                top: 3px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        text-align: center;
+        margin-top: 35px;
+        p {
+            .btn {
+                display: inline-block;
+                width: 90px;
+                height: 35px;
+                font-size: 13px;
+                color: #fff;
+                line-height: 33px;
+                text-align: center;
+                padding: 0;
+                border-radius: 0;
+                margin-right: 8px;
+                &:last-child {
+                    margin-right: 0;
+                }
+                &.btn-red {
+                    background-color: #e10013;
+                }
+                &.btn-gray {
+                    background-color: #595757;
+                }
+                @media(min-width: $sm) {
+                    width: 170px;
+                    height: 45px;
+                    line-height: 43px;
+                    font-size: 16px;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            margin-top: 50px;
+            text-align: right;
+        }
+        @media(min-width: $lg) {
+            margin-top: 60px;
+        }
+    }
+}
+
+// 리스트
+.inquire.inquire-list {
+    .section-body {
+        .list {
+            border-top: 3px solid #e10316;
+            .dt-list {
+                display: none;
+                font-size: 0;
+                @media(min-width: $lg) {
+                    display: block;
+                }
+                > li {
+                    display: inline-block;
+                    font-size: 15px;
+                    color: #333;
+                    text-align: center;
+                    line-height: 50px;
+                    border-bottom: 1px solid #ccc;
+                    background-color: #f7f7f7;
+                    &:nth-of-type(1) {
+                        width: 8%;
+                    }
+                    &:nth-of-type(2) {
+                        width: 67%;
+                    }
+                    &:nth-of-type(3) {
+                        width: 15%;
+                    }
+                    &:nth-of-type(4) {
+                        width: 10%;
+                    }
+                }
+            }
+            .dd-list {
+                > li {
+                    padding: 20px 10px;
+                    border-bottom: 1px solid #dfdfdf;
+                    @media(min-width: $sm) {
+                        padding: 17px 20px;
+                    }
+                    @media(min-width: $lg) {
+                        padding-left: 0;
+                        padding-right: 0;
+                    }
+                    > ul {
+                        font-size: 0;
+                        > li {
+                            display: inline-block;
+                            font-size: 15px;
+                            color: #666;
+                            font-weight: 300;
+                            @media(min-width: $lg) {
+                                text-align: center;
+                                vertical-align: middle;
+                            }
+                            &.num {
+                                display: none;
+                                @media(min-width: $lg) {
+                                    display: inline-block;
+                                    width: 8%;
+                                }
+                            }
+                            &.subject {
+                                display: block;
+                                margin-bottom: 10px;
+                                a {
+                                    display: block;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    font-weight: 300;
+                                    white-space: nowrap;
+                                    color: #666;
+                                }
+                                @media(min-width: $sm) {
+                                    margin-bottom: 15px;
+                                    a {
+                                        font-size: 16px;
+                                    }
+                                }
+                                @media(min-width: $lg) {
+                                    display: inline-block;
+                                    width: 67%;
+                                    text-align: left;
+                                    padding-left: 30px;
+                                    margin-bottom: 0;
+                                    a {
+                                        font-size: 15px;
+                                        vertical-align: middle;
+                                    }
+                                }
+                            }
+                            &.date {
+                                font-size: 13px;
+                                &:after {
+                                    display: inline-block;
+                                    content: "|";
+                                    font-size: 10px;
+                                    color: #cbcbcb;
+                                    padding: 0 10px;
+                                    vertical-align: top;
+                                    margin-top: 1px;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 13px;
+                                }
+                                @media(min-width: $lg) {
+                                    width: 15%;
+                                    font-size: 15px;
+                                    &:after {
+                                        content: " ";
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                            &.u-name {
+                                font-size: 13px;
+                                &:after {
+                                    display: inline-block;
+                                    content: "|";
+                                    font-size: 10px;
+                                    color: #cbcbcb;
+                                    padding: 0 10px;
+                                    vertical-align: top;
+                                    margin-top: 1px;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 13px;
+                                }
+                                @media(min-width: $lg) {
+                                    width: 15%;
+                                    font-size: 15px;
+                                    &:after {
+                                        content: " ";
+                                        padding: 0;
+                                    }
+                                }
+                            }
+                            &.count {
+                                font-size: 13px;
+                                @media(min-width: $sm) {
+                                    font-size: 13px;
+                                }
+                                @media(min-width: $lg) {
+                                    display: inline-block;
+                                    width: 10%;
+                                    font-size: 15px;
+                                }
+                            }
+                            &.reply {
+                                font-size: 13px;
+                                @media(min-width: $sm) {
+                                    font-size: 13px;
+                                }
+                                @media(min-width: $lg) {
+                                    display: inline-block;
+                                    width: 10%;
+                                    font-size: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            text-align: center;
+            margin-top: 35px;
+            p {
+                .btn {
+                    display: inline-block;
+                    width: 150px;
+                    height: 35px;
+                    font-size: 13px;
+                    color: #fff;
+                    line-height: 33px;
+                    text-align: center;
+                    padding: 0;
+                    border-radius: 0;
+                    &.btn-red {
+                        background-color: #e10013;
+                    }
+                    @media(min-width: $sm) {
+                        width: 170px;
+                        height: 45px;
+                        line-height: 43px;
+                        font-size: 16px;
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 50px;
+                text-align: right;
+            }
+            @media(min-width: $lg) {
+                margin-top: 60px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

@@ -1,5 +1,14 @@
 @import 'common';
 
+.glp {
+    .jumbo-wall {
+        background-image: url(/assets/images/glp/glp_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
 
 // Safety-Study 
 .glp.safety-study {

@@ -12,6 +12,12 @@
 
 <main id="content">
 	
+	<div class="jumbo-wall">
+        <div class="container">
+            <h1>CRO</h1>
+        </div>
+    </div>
+    
 	<div class="page-header">
 		<div class="container">
 			<h1>기능성 효능평가 서비스</h1>

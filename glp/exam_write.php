@@ -8,7 +8,12 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 <main id="content">
-    
+   
+    <div class="jumbo-wall">
+        <div class="container">
+            <h1>GLP</h1>
+        </div>
+    </div>
 	
 	<div class="">
 	    <div class="container">

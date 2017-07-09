@@ -1,6 +1,16 @@
 @import 'common';
 
 
+// 페이지 공통 헤더 bg
+.products {
+    .jumbo-wall {
+        background-image: url(/assets/images/products/products_header_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
 // common
 .products {
     .page-summary {
