@@ -113,6 +113,12 @@
       "css": "angle-left",
       "code": 61700,
       "src": "fontawesome"
+    },
+    {
+      "uid": "62b0580ee8edc3a3edfbf68a47c852d5",
+      "css": "pencil",
+      "code": 59403,
+      "src": "elusive"
     }
   ]
 }
