@@ -4,6 +4,27 @@
 	border-top: 1px solid #dfdfdf;
 }
 
+.jumbo-wall {
+	padding-top: 35px;
+	padding-bottom: 35px;
+	height: 100px;
+	background-color: #000;
+	h1 {
+		font-size: 30px;
+		line-height: 1em;
+		text-align: center;
+		color: #fff;
+	}
+	@media (min-width: $sm) {
+		padding-top: 80px;
+		padding-bottom: 80px;
+		height: 200px;
+		h1 {
+			font-size: 40px;
+		}
+	}
+}
+
 .page-header {
 	margin-top: 0;
 	margin-bottom: 0;

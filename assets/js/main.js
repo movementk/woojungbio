@@ -20,11 +20,11 @@
 		}
 	});
 
-	$(document).on("click", "#intro", function() {
+	$(document).on("click", "#intro", function(e) {
+		e.preventDefault();
 		$('html, body').stop().animate({
 			scrollTop: $('#content').position().top
 		}, 500, 'swing');
-		e.preventDefault();
 	});
 
 	// 스크롤 클래스 설정

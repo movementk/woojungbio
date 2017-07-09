@@ -1,6 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/assets/css/main.css" rel="stylesheet">
-</body>
+</head>
+<body>
+
 <div id="intro">
 	<video class="intro-video" loop muted autoplay>
 		<source src="/assets/images/main/video_jumbo.mp4" type="video/mp4">
