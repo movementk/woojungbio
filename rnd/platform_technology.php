@@ -32,13 +32,13 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="tablist">
-                    <li role="presentation" class="active" id="platform-1">
+                    <li role="presentation" id="platform-1"<?php if (!isset($_GET["t"]) || $_GET['t'] == "1") { ?> class="active"<?php } ?>>
                         <a href="#tab-1" role="tab" data-toggle="tab">Innovation Gene Therapy</a>
                     </li>
-                    <li role="presentation" id="platform-2">
+                    <li role="presentation" id="platform-2"<?php if (isset($_GET["t"]) && $_GET['t'] == "2") { ?> class="active"<?php } ?>>
                         <a href="#tab-2" role="tab" data-toggle="tab">Homologous Epitopes Region Immunization Technology</a>
                     </li>
-                    <li role="presentation" id="platform-3">
+                    <li role="presentation" id="platform-3"<?php if (isset($_GET["t"]) && $_GET['t'] == "3") { ?> class="active"<?php } ?>>
                         <a href="#tab-3" role="tab" data-toggle="tab">Cancer Therapies in Models</a>
                     </li>
                 </ul>
@@ -48,7 +48,7 @@
 
     <div class="tab-content">
         <!-- #tab-1 -->
-        <div role="tabpanel" class="tab-pane active" id="tab-1">
+        <div role="tabpanel" class="tab-pane<?php if (!isset($_GET["t"]) || $_GET['t'] == "1") { ?> active<?php } ?>" id="tab-1">
             <div class="page-summary">
                 <h2>Innovation Gene Therapy</h2>
                 <hr>
@@ -145,7 +145,7 @@
             </section>
         </div>
         <!-- #tab-2 -->
-        <div role="tabpanel" class="tab-pane" id="tab-2">
+        <div role="tabpanel" class="tab-pane<?php if (isset($_GET["t"]) && $_GET['t'] == "2") { ?> active<?php } ?>" id="tab-2">
             <div class="page-summary">
                 <h2>Homologous Epitopes Region Technology</h2>
                 <hr>
@@ -248,7 +248,7 @@
             </section>
         </div>
         <!-- #tab-3 -->
-        <div role="tabpanel" class="tab-pane" id="tab-3">
+        <div role="tabpanel" class="tab-pane<?php if (isset($_GET["t"]) && $_GET['t'] == "3") { ?> active<?php } ?>" id="tab-3">
             <div class="page-summary">
                 <h2>Cell-line Derived Xenograft Models</h2>
                 <hr>
