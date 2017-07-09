@@ -50,11 +50,13 @@ address {
     .animal.experimental-animals .page-summary .summary-list ul li figure figcaption {
       text-align: center;
       margin-top: 10px;
-      font-size: 14px; }
+      font-size: 14px;
+      line-height: 26px; }
       @media (min-width: 768px) {
         .animal.experimental-animals .page-summary .summary-list ul li figure figcaption {
           font-size: 16px;
-          margin-top: 20px; } }
+          margin-top: 20px;
+          line-height: 30px; } }
     @media (min-width: 992px) {
       .animal.experimental-animals .page-summary .summary-list ul li figure {
         margin-bottom: 0; } }
@@ -129,11 +131,13 @@ address {
     .animal.disease-modeling .page-summary .summary-list ul li figure figcaption {
       text-align: center;
       margin-top: 10px;
-      font-size: 14px; }
+      font-size: 14px;
+      line-height: 26px; }
       @media (min-width: 768px) {
         .animal.disease-modeling .page-summary .summary-list ul li figure figcaption {
           font-size: 16px;
-          margin-top: 20px; } }
+          margin-top: 20px;
+          line-height: 28px; } }
     @media (min-width: 992px) {
       .animal.disease-modeling .page-summary .summary-list ul li figure {
         margin-bottom: 0; } }
