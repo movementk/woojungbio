@@ -30,15 +30,194 @@
                     color: #fff;
                 }
             }
+			.section-body {
+				margin: 30px auto 0;
+				max-width: 300px;
+				.cert-list {
+					li {
+						figure {
+							.img-responsive {
+								margin: 0 auto;
+							}
+							figcaption {
+								margin-top: 10px;
+								@include titi();
+								color: rgba(#fff, .5);
+								text-align: center; 
+							}
+						}
+						& + li {
+							margin-top: 20px;
+						}
+					}
+				}
+			}
+			@media (min-width: $md) {
+				.section-body {
+					margin-top: 60px;
+					max-width: none;
+					.cert-list {
+						li {
+							figure {
+								figcaption {
+									margin-top: 20px;
+								}
+							}
+							& + li {
+								margin-top: 0;
+							}
+						}
+					}
+				}
+			}
         }
-        .glp-study-list {
-            
-        }
+		.glp-study {
+			.section-body {
+				margin: 0 auto;
+				max-width: 320px;
+				@media (min-width: $sm) {
+					max-width: none;
+				}
+			}
+			.study-list {
+				> li {
+					dt {
+						height: 40px;
+						line-height: 40px;
+						@include titi();
+						background-color: #f08501;
+						text-align: center;
+						color: #fff;
+						font-weight: 400;
+					}
+					dd {
+						padding: 10px;
+						h5 {
+							margin-top: 20px;
+							margin-bottom: 20px;
+							font-size: 1.1em;
+							font-weight: 400;
+						}
+						ul {
+							li {
+								font-size: 13px;
+								line-height: 25px;
+								color: #666;
+							}
+						}
+					}
+					& + li {
+						margin-top: 30px;
+					}
+				}
+			}
+			@media (min-width: $sm) {
+				.study-list {
+					> li {
+						margin-bottom: 30px;
+						dt {
+							height: 50px;
+							line-height: 50px;
+						}
+						dd {
+							h5 {
+								margin-top: 30px;
+								margin-bottom: 30px;
+							}
+							ul {
+								li {
+									font-size: 14px;
+									line-height: 30px;
+								}
+							}
+						}
+						& + li {
+							margin-top: 0;
+						}
+						&:nth-of-type(odd) {
+							clear: both;
+						}
+					}
+				}
+			}
+			@media (min-width: $lg) {
+				.study-list {
+					> li {
+						margin-bottom: 90px;
+						&:nth-of-type(odd) {
+							clear: none;
+						}
+						&:nth-of-type(4n+1) {
+							clear: both;
+						}
+						dd {
+							padding: 0;
+							span {
+								letter-spacing: -1px;
+							}
+						}
+					}
+				}
+			}
+		}
     }
     // 시험항목
     #tab-2 {
+		.tabs {
+			ul {
+				li {
+					margin-bottom: 30px;
+					a {
+						display: block;
+						text-decoration: none;
+						color: #666;
+						figure {
+							.img-responsive {
+								margin: 0 auto;
+							}
+							figcaption {
+								margin-top: 5px;
+								text-align: center;
+								letter-spacing: -1px;
+							}
+						}
+					}
+				}
+			}
+			@media (min-width: $lg) {
+				ul {
+					li {
+						margin-bottom: 0;
+						a {
+							figure {
+								figcaption {
+									margin-top: 10px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
         .basic-toxicity {
-            
+			.com-list {
+				margin-top: 20px;
+			}
+			.figure {
+				margin-top: 40px;
+				.img-responsive {
+					margin: 0 auto;
+				}	
+			}
+			@media (min-width: $lg) {
+				.com-list {
+					margin-top: 70px;
+				}
+				.figure {
+					margin-top: 0;
+					margin-left: -30px;
+				}
+			}
         }
         .heredity-toxicity {
             background-image: url(/assets/images/glp/heredity_toxicity_bg.jpg);
@@ -49,10 +228,18 @@
                 .section-title {
                     color: #fff;
                 }
+				p {
+					color: #fff;
+				}
             }
+			.com-list {
+				color: #fff;
+			}
         }
-        .gametogenic {
-            
+        .gametogenic, .antigenicity {
+            .com-list {
+				font-weight: 400;
+			}
         }
         .aquatic-ecology {
             background-image: url(/assets/images/glp/aquatic_ecology_bg.jpg);
@@ -63,10 +250,27 @@
                 .section-title {
                     color: #fff;
                 }
+				p {
+					color: #fff;
+				}
             }
+			.com-list {
+				li {
+					color: #fff;
+				}
+			}
         }
         .substitute {
-            
+			.figure {
+				.img-responsive {
+					margin: 0 auto;
+				}
+			}
+			@media (min-width: $lg) {
+				.figure {
+					margin-left: -30px;
+				}
+			}
         }
     }
     // 시험문의

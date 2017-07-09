@@ -109,7 +109,7 @@
 					<div class="field-item field-item-4" tabindex="0">
 						<div class="field-back">
 							<video loop muted>
-								<source src="/assets/images/main/video_4.mp4" type="video/mp4">
+								<source src="/assets/images/main/video_4.mov" type="video/mp4">
 								<img src="/assets/images/main/bg_field_4.jpg">
 							</video>
 						</div>

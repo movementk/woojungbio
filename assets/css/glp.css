@@ -43,6 +43,109 @@ address {
   background-position: 50% 50%; }
   .glp.safety-study #tab-1 .authentication-glp .section-header .section-title {
     color: #fff; }
+  .glp.safety-study #tab-1 .authentication-glp .section-body {
+    margin: 30px auto 0;
+    max-width: 300px; }
+    .glp.safety-study #tab-1 .authentication-glp .section-body .cert-list li figure .img-responsive {
+      margin: 0 auto; }
+    .glp.safety-study #tab-1 .authentication-glp .section-body .cert-list li figure figcaption {
+      margin-top: 10px;
+      font-family: 'Titillium Web', sans-serif;
+      color: rgba(255, 255, 255, 0.5);
+      text-align: center; }
+    .glp.safety-study #tab-1 .authentication-glp .section-body .cert-list li + li {
+      margin-top: 20px; }
+  @media (min-width: 992px) {
+    .glp.safety-study #tab-1 .authentication-glp .section-body {
+      margin-top: 60px;
+      max-width: none; }
+      .glp.safety-study #tab-1 .authentication-glp .section-body .cert-list li figure figcaption {
+        margin-top: 20px; }
+      .glp.safety-study #tab-1 .authentication-glp .section-body .cert-list li + li {
+        margin-top: 0; } }
+.glp.safety-study #tab-1 .glp-study .section-body {
+  margin: 0 auto;
+  max-width: 320px; }
+  @media (min-width: 768px) {
+    .glp.safety-study #tab-1 .glp-study .section-body {
+      max-width: none; } }
+.glp.safety-study #tab-1 .glp-study .study-list > li dt {
+  height: 40px;
+  line-height: 40px;
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #f08501;
+  text-align: center;
+  color: #fff;
+  font-weight: 400; }
+.glp.safety-study #tab-1 .glp-study .study-list > li dd {
+  padding: 10px; }
+  .glp.safety-study #tab-1 .glp-study .study-list > li dd h5 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    font-weight: 400; }
+  .glp.safety-study #tab-1 .glp-study .study-list > li dd ul li {
+    font-size: 13px;
+    line-height: 25px;
+    color: #666; }
+.glp.safety-study #tab-1 .glp-study .study-list > li + li {
+  margin-top: 30px; }
+@media (min-width: 768px) {
+  .glp.safety-study #tab-1 .glp-study .study-list > li {
+    margin-bottom: 30px; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li dt {
+      height: 50px;
+      line-height: 50px; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li dd h5 {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li dd ul li {
+      font-size: 14px;
+      line-height: 30px; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li + li {
+      margin-top: 0; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li:nth-of-type(odd) {
+      clear: both; } }
+@media (min-width: 1280px) {
+  .glp.safety-study #tab-1 .glp-study .study-list > li {
+    margin-bottom: 90px; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li:nth-of-type(odd) {
+      clear: none; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li:nth-of-type(4n+1) {
+      clear: both; }
+    .glp.safety-study #tab-1 .glp-study .study-list > li dd {
+      padding: 0; }
+      .glp.safety-study #tab-1 .glp-study .study-list > li dd span {
+        letter-spacing: -1px; } }
+.glp.safety-study #tab-2 .tabs ul li {
+  margin-bottom: 30px; }
+  .glp.safety-study #tab-2 .tabs ul li a {
+    display: block;
+    text-decoration: none;
+    color: #666; }
+    .glp.safety-study #tab-2 .tabs ul li a figure .img-responsive {
+      margin: 0 auto; }
+    .glp.safety-study #tab-2 .tabs ul li a figure figcaption {
+      margin-top: 5px;
+      text-align: center;
+      letter-spacing: -1px; }
+@media (min-width: 1280px) {
+  .glp.safety-study #tab-2 .tabs ul li {
+    margin-bottom: 0; }
+    .glp.safety-study #tab-2 .tabs ul li a figure figcaption {
+      margin-top: 10px; } }
+.glp.safety-study #tab-2 .basic-toxicity .com-list {
+  margin-top: 20px; }
+.glp.safety-study #tab-2 .basic-toxicity .figure {
+  margin-top: 40px; }
+  .glp.safety-study #tab-2 .basic-toxicity .figure .img-responsive {
+    margin: 0 auto; }
+@media (min-width: 1280px) {
+  .glp.safety-study #tab-2 .basic-toxicity .com-list {
+    margin-top: 70px; }
+  .glp.safety-study #tab-2 .basic-toxicity .figure {
+    margin-top: 0;
+    margin-left: -30px; } }
 .glp.safety-study #tab-2 .heredity-toxicity {
   background-image: url(/assets/images/glp/heredity_toxicity_bg.jpg);
   background-repeat: no-repeat;
@@ -50,6 +153,12 @@ address {
   background-position: 50% 50%; }
   .glp.safety-study #tab-2 .heredity-toxicity .section-header .section-title {
     color: #fff; }
+  .glp.safety-study #tab-2 .heredity-toxicity .section-header p {
+    color: #fff; }
+  .glp.safety-study #tab-2 .heredity-toxicity .com-list {
+    color: #fff; }
+.glp.safety-study #tab-2 .gametogenic .com-list, .glp.safety-study #tab-2 .antigenicity .com-list {
+  font-weight: 400; }
 .glp.safety-study #tab-2 .aquatic-ecology {
   background-image: url(/assets/images/glp/aquatic_ecology_bg.jpg);
   background-repeat: no-repeat;
@@ -57,6 +166,15 @@ address {
   background-position: 50% 50%; }
   .glp.safety-study #tab-2 .aquatic-ecology .section-header .section-title {
     color: #fff; }
+  .glp.safety-study #tab-2 .aquatic-ecology .section-header p {
+    color: #fff; }
+  .glp.safety-study #tab-2 .aquatic-ecology .com-list li {
+    color: #fff; }
+.glp.safety-study #tab-2 .substitute .figure .img-responsive {
+  margin: 0 auto; }
+@media (min-width: 1280px) {
+  .glp.safety-study #tab-2 .substitute .figure {
+    margin-left: -30px; } }
 .glp.safety-study #tab-3 .write .section-body .table-wrap .table tbody tr td.phone .form-group .form-control {
   width: 24.33%; }
   @media (min-width: 768px) {
