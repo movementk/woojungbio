@@ -154,10 +154,10 @@ address {
   margin-bottom: 20px;
   padding-left: 25px;
   font-size: 20px;
-  line-height: 1em;
+  line-height: 30px;
   background-image: url(/assets/images/ico_hexagon.png);
   background-repeat: no-repeat;
-  background-position: 0 0;
+  background-position: 0 5px;
   background-size: auto 20px;
   font-weight: 400; }
   @media (min-width: 768px) {
@@ -165,6 +165,8 @@ address {
       margin-bottom: 25px;
       padding-left: 35px;
       font-size: 22px;
+      line-height: 34px;
+      background-position: 0 6px;
       background-size: auto auto; } }
   @media (min-width: 768px) {
     .section-title {
