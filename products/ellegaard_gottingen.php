@@ -147,7 +147,7 @@
 							    <td rowspan="2">5 Month</td>
 							    <td>M</td>
 							    <td>3132</td>
-							    <td>11.60</td>
+							    <td>11360</td>
 							    <td>2.06</td>
 							    <td>7.57 - 15.63</td>
 							</tr>
