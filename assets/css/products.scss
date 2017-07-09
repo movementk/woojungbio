@@ -1,5 +1,48 @@
 @import 'common';
 
+// 버튼 영역 공통
+.btn {
+    border-radius: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100px;
+    height: 35px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0;
+    margin-right: 8px;
+    i {
+        margin-right: 5px;
+    }
+    &:last-child {
+        margin-right: 0;
+    }
+    &.btn-red {
+        background-color: #e10013;
+    }
+    &.btn-gray {
+        background-color: #595757;
+    }
+    @media(min-width: $sm) {
+        width: 170px;
+        height: 45px;
+        line-height: 43px;
+        font-size: 16px;
+    }
+    &:hover, &:focus {
+        color: #fff;
+    }
+}
+
+.btn-area {
+    text-align: center;
+    @media(min-width: $sm) {
+        text-align: right;
+    }
+}
 
 // 페이지 공통 헤더 bg
 .products {
@@ -60,6 +103,101 @@
                 color: #fff;
             }
         }
+        .section-body {
+            .customized-list {
+                padding-top: 40px;
+                > ul {
+                    > li {
+                        .figure {
+                            text-align: center;
+                            img {
+                                display: inline-block;
+                            }
+                        }
+                        .details {
+                            text-align: center;
+                            margin-top: 30px;
+                            margin-bottom: 50px;
+                            @media(min-width: $sm) {
+                                margin-top: 40px;
+                            }
+                            @media(min-width: $md) {
+                                margin-bottom: 0;
+                            }
+                            @media(min-width: $lg) {
+                                margin-top: 55px;
+                            }
+                            h5 {
+                                font-size: 15px;
+                                color: #fff;
+                                margin-bottom: 10px;
+                                font-weight: 400;
+                                @include titi();
+                                @media(min-width: $sm) {
+                                    font-size: 17px;
+                                    margin-bottom: 20px;
+                                }
+                            }
+                            > ul {
+                                > li {
+                                    font-size: 12px;
+                                    color: #fff;
+                                    opacity: .5;
+                                    font-weight: 300;
+                                    line-height: 24px;
+                                    @media(min-width: $sm) {
+                                        font-size: 14px;
+                                        line-height: 28px;
+                                    }
+                                }
+                            }
+                        }
+                        &:last-child {
+                            .details {
+                                margin-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .quotations {
+        .section-body {
+            .btn-area {
+                margin-top: 30px;
+                p {
+                    .btn {
+                        display: block;
+                        margin: 0 auto;
+                        width: 229px;
+                        height: 40px;
+                        line-height: 38px;
+                        margin-bottom: 10px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        @media(min-width: $sm) {
+                            
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                    text-align: left;
+                    p {
+                        .btn {
+                            display: inline-block;
+                            margin-bottom: 0;
+                            margin-right: 40px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -67,19 +205,249 @@
 .products.antibody-production {
     .polyclonal-antibody {
         background-color: #f7f8f9;
+        .section-body {
+            .com-list {
+                margin-top: 60px;
+                @media(min-width: $md) {
+                    margin-top: 100px;
+                }
+            }
+        }
+        figure {
+            text-align: center;
+            margin-top: 60px;
+            .img-responsive {
+                max-width: 300px;
+                display: inline-block;
+                @media(min-width: $sm) {
+                    max-width: 100%;
+                }
+            }
+            @media(min-width: $md) {
+                margin-top: 20px;;
+            }
+        }
+    }
+    .monocional {
+        .section-body {
+            .monocional-list {
+                padding-top: 55px;
+                overflow: hidden;
+                @media(min-width: $sm) {
+                    padding-top: 20px;
+                }
+                li {
+                    display: block;
+                    margin-bottom: 30px;
+                    text-align: center;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    @media(min-width: $sm) {
+                        float: left;
+                        width: 50%;
+                    }
+                    @media(min-width: $md) {
+                        width: 20%;
+                        margin-bottom: 0;
+                    }
+                    figure {
+                        .img-responsive {
+                            margin: 0 auto;
+                        }
+                        figcaption {
+                            font-size: 14px;
+                            color: #2b2b2b;
+                            margin-top: 10px;
+                            @include titi();
+                            @media(min-width: $sm) {
+                                font-size: 16px;
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
     .hybridoma {
         background-color: #f7f8f9;
+        .section-body {
+            .hybridoma-list {
+                padding-top: 55px;
+                overflow: hidden;
+                li {
+                    float: left;
+                    text-align: center;
+                    width: 50%;
+                    margin-bottom: 30px;
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                    }
+                    @media(min-width: $sm) {
+                        width: 33.33%;
+                        &:nth-of-type(2n + 1) {
+                            clear: none;
+                        }
+                        &:nth-of-type(3n + 1) {
+                            clear: both;
+                        }
+                    }
+                    @media(min-width: $lg) {
+                        width: 14.28%;
+                        margin-bottom: 0;
+                        &:nth-of-type(3n + 1) {
+                            clear: none;
+                        }
+                    }
+                    .figure {
+                        height: 119px;
+                        line-height: 119px;
+                        .img-responsive {
+                            display: inline-block;
+                        }
+                    }
+                    .figcaption {
+                        font-size: 14px;
+                        color: #2b2b2b;
+                        margin-top: 20px;
+                        @include titi();
+                        @media(min-width: $sm) {
+                            font-size: 16px;
+                            margin-top: 30px;
+                        }
+                    }                    
+                }
+            }
+            .com-list {
+                margin-top: 30px;
+                @media(min-width: $sm) {
+                    margin-top: 50px;
+                }
+                @media(min-width: $lg) {
+                    margin-top: 75px;
+                }
+                li {
+                    @include titi();
+                }
+            }
+        }
+    }
+    .quotations {
+        .section-body {
+            .btn-area {
+                margin-top: 30px;
+                p {
+                    .btn {
+                        display: block;
+                        margin: 0 auto;
+                        width: 229px;
+                        height: 40px;
+                        line-height: 38px;
+                        margin-bottom: 10px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        @media(min-width: $sm) {
+
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                    text-align: left;
+                    p {
+                        .btn {
+                            display: inline-block;
+                            margin-bottom: 0;
+                            margin-right: 40px;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 // 면역부전 모델 (NPG)
 .products.npg {
     .npg-mouse {
-        background-color: #f7f8f9;
+        background-image: url(/assets/images/products/npg_mouse_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-body {
+            .com-list {
+                padding-top: 55px;
+                li {
+                    h6 {
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
     }
-    .difference {
-        background-color: #f7f8f9;
+    .experiment-result {
+        margin-bottom: 0;
+        .section-body {
+            .experiment-list {
+                padding-top: 35px;
+                li {
+                    margin-bottom: 60px;
+                    figure {
+                        .img-responsive {
+                            max-width: 300px;
+                            margin: 0 auto;
+                            @media(min-width: $md) {
+                                max-width: 100%;
+                            }
+                        }
+                    }
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    @media(min-width: $md) {
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+            .result {
+                margin-top: 80px;
+                padding: 80px 0;
+                background-color: #f7f8f9;
+                @media(min-width: $sm) {
+                    padding: 100px 0;
+                    margin-top: 100px;
+                }
+                @media(min-width: $lg) {
+                    padding: 120px 0;
+                    margin-top: 120px;
+                }
+                .com-list {
+                    li {
+                        margin-bottom: 20px;
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                        @media(min-width: $md) {
+                            margin-bottom: 60px;
+                        }
+                    }
+                }
+                figure {
+                    margin-top: 50px;
+                    @media(min-width: $md) {
+                        margin-top: 100px;
+                    }
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -87,21 +455,222 @@
 .products.urg {
     .transplant-result {
         background-color: #f7f8f9;
+        .section-body {
+            padding-top: 30px;
+            @media(min-width: $md) {
+                padding-top: 50px;
+            }
+            figure {
+                .img-responsive {
+                    margin: 0 auto;
+                    max-width: 300px;
+                    @media(min-width: $md) {
+                        max-width: 100%;
+                    }
+                }
+                &.human {
+                    margin-top: 40px;
+                    @media(min-width: $md) {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
+    .hbv {
+        .section-body {
+            figure {
+                 padding-top: 30px;
+                .img-responsive {
+                    margin: 0 auto;
+                    max-width: 300px;
+                    @media(min-width: $md) {
+                        max-width: 100%;
+                    }
+                }
+                @media(min-width: $md) {
+                    padding-top: 50px;
+                }
+            }
+        }
     }
     .reference {
+        margin-bottom: 0;
         background-color: #f7f8f9;
+        .section-body {
+            .ref-list {
+                li {
+                    .ref-item {
+                        background-color: #fff;
+                        @include titi();
+                        &:hover, &:focus {
+                            background-color: #f08501;
+                        }
+                        h6 {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 // 지카, 메르스, 뎅기, 인플루엔자 바이러스 연구 (AG129)
 .products.ag129 {
+    .page-header {
+        h1 {
+            line-height: 40px;
+            @media(min-width: $sm) {
+                line-height: 60px;
+            }
+        }
+    }
     .vaccine {
         background-color: #f7f8f9;
+        .section-body {
+            .ag129-list {
+                ul {
+                    li {
+                        .figure {
+                            max-width: 300px;
+                            margin: 0 auto;
+                            text-align: center;
+                            h6 {
+                                font-size: 15px;
+                                color: #fff;
+                                font-weight: 400;
+                                padding: 20px 0;
+                                @include titi();
+                                small {
+                                    display: block;
+                                    font-size: 14px;
+                                    font-weight: 300;
+                                    color: #fff;
+                                    margin-top: 5px;
+                                }
+                                @media(min-width: $sm) {
+                                    font-size: 17px;
+                                    padding: 25px 0;
+                                    small {
+                                        font-size: 16px;
+                                        margin-top: 10px;
+                                    }
+                                }
+                            }
+                            .img-responsive {
+                                display: inline-block;
+                                width: 100%;
+                            }
+                            .details {
+                                text-align: left;
+                                padding: 30px 20px;
+                                background-color: #fff;
+                                border: 1px solid #dfdfdf;
+                                border-top: 0;
+                                .com-list {
+                                    li {
+                                        font-size: 13px;
+                                        @media(min-width: $sm) {
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+                                @media(min-width: $md) {
+                                    height: 441px;
+                                    padding: 50px 40px;
+                                }
+                                @media(min-width: $lg) {
+                                    height: 381px;
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                max-width: 500px;
+                            }
+                            @media(min-width: $md) {
+                                max-width: 100%;
+                            }
+                        }
+                        &:nth-of-type(1) {
+                            .figure {
+                                h6 {
+                                    background-color: #b95453;
+                                }
+                            }
+                        }
+                        &:nth-of-type(2) {
+                            .figure {
+                                margin-top: 30px;
+                                h6 {
+                                    background-color: #b09d60;
+                                }
+                                @media(min-width: $md) {
+                                    margin-top: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .difference {
+        .section-body {
+            .ref-list {
+                li {
+                    .ref-item {
+                        @include titi();
+                        h6 {
+                            font-weight: bold;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 // 인플루엔자 바이러스, 백신 연구
 .products.vaccine {
+    .ferret-summary {
+        padding-top: 60px;
+        @media(min-width: $sm) {
+            padding-top: 80px;
+        }
+        @media(min-width: $md) {
+            padding-top: 100px;
+        }
+        figure {
+            .img-responsive {
+                margin: 0 auto;
+                max-width: 300px;
+                @media(min-width: $sm) {
+                    max-width: 100%;
+                }
+            }
+            &.ferret-img2 {
+                margin-top: 10px;
+                @media(min-width: $sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+        .summary {
+            font-size: 14px;
+            line-height: 26px;
+            text-align: center;
+            margin-top: 60px;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                line-height: 30px;
+                color: #555;
+                margin-top: 80px;
+            }
+            @media(min-width: $lg) {
+                margin-top: 100px;
+            }
+        }
+    }
     .spf-ferret {
         background-image: url(/assets/images/products/spf_ferret_bg.jpg);
         background-repeat: no-repeat;
@@ -112,15 +681,104 @@
                 color: #fff;
             }
         }
+        .section-body {
+            .com-list {
+                padding-top: 30px;
+                @media(min-width: $sm) {
+                    padding-top: 40px;
+                }
+                @media(min-width: $lg) {
+                    padding-top: 50px;
+                }
+                > li {
+                    color: #fff;
+                    margin-bottom: 20px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    @media(min-width: $md) {
+                        margin-bottom: 60px;
+                    }
+                    h6 {
+                        font-weight: 400;
+                    }
+                    > ul {
+                        > li {
+                            color: #aaa;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .research-area {
+        .section-body {
+            .com-list {
+                font-size: 0;
+                li {
+                    font-size: 14px;
+                    b {
+                        font-weight: 400;
+                    }
+                    @media(min-width: $lg) {
+                        font-size: 16px;
+                    }
+                }
+                &.list-2 {
+                    &:first-child {
+                        margin-top: 10px;
+                        @media(min-width: $lg) {
+                            margin-top: 0;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
-//Ellegaard Göttingen
+// Ellegaard Göttingen
 .products.ellegaard-gottingen {
+    .page-summary {
+        h2 {
+            font-weight: 400;
+        }
+        .pig-figure {
+            padding-top: 60px;
+            @media(min-width: $sm) {
+                padding-top: 80px;
+            }
+            @media(min-width: $md) {
+                padding-top: 100px;
+            }
+            figure {
+                .img-responsive {
+                    max-width: 300px;
+                    margin: 0 auto;
+                    @media(min-width: $sm) {
+                        max-width: 100%;
+                    }
+                }
+                &.mini-pig2 {
+                    margin-top: 10px;
+                    @media(min-width: $sm) {
+                        margin-top: 0;
+                    }
+                }
+            }
+        }
+    }
     .gottingen {
         background-color: #f7f8f9;
         figure {
             text-align: center;
+            padding-top: 30px;
+            @media(min-width: $sm) {
+                padding-top: 40px;
+            }
+            @media(min-width: $lg) {
+                padding-top: 50px;
+            }
             .img-responsive {
                 display: inline-block;
             }
@@ -173,6 +831,22 @@
                                 background-color: #fff;
                             }
                         }
+                    }
+                }
+            }
+            figure {
+                margin-top: 50px;
+                @media(min-width: $sm) {
+                    margin-top: 60px;
+                }
+                @media(min-width: $lg) {
+                    margin-top: 90px;
+                }
+                .img-responsive {
+                    max-width: 300px;
+                    margin: 0 auto;
+                    @media(min-width: $md) {
+                        max-width: 100%;
                     }
                 }
             }

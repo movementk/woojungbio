@@ -28,6 +28,42 @@ dl {
 address {
   margin-bottom: 0; }
 
+.btn {
+  border-radius: 0;
+  padding: 0;
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  font-size: 13px;
+  color: #fff;
+  line-height: 33px;
+  text-align: center;
+  padding: 0;
+  border-radius: 0;
+  margin-right: 8px; }
+  .btn i {
+    margin-right: 5px; }
+  .btn:last-child {
+    margin-right: 0; }
+  .btn.btn-red {
+    background-color: #e10013; }
+  .btn.btn-gray {
+    background-color: #595757; }
+  @media (min-width: 768px) {
+    .btn {
+      width: 170px;
+      height: 45px;
+      line-height: 43px;
+      font-size: 16px; } }
+  .btn:hover, .btn:focus {
+    color: #fff; }
+
+.btn-area {
+  text-align: center; }
+  @media (min-width: 768px) {
+    .btn-area {
+      text-align: right; } }
+
 .products .jumbo-wall {
   background-image: url(/assets/images/products/products_header_bg.jpg);
   background-repeat: no-repeat;
@@ -61,25 +97,387 @@ address {
   background-position: 50% 50%; }
   .products.gene-delivery .customized .section-header h4 {
     color: #fff; }
+  .products.gene-delivery .customized .section-body .customized-list {
+    padding-top: 40px; }
+    .products.gene-delivery .customized .section-body .customized-list > ul > li .figure {
+      text-align: center; }
+      .products.gene-delivery .customized .section-body .customized-list > ul > li .figure img {
+        display: inline-block; }
+    .products.gene-delivery .customized .section-body .customized-list > ul > li .details {
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 50px; }
+      @media (min-width: 768px) {
+        .products.gene-delivery .customized .section-body .customized-list > ul > li .details {
+          margin-top: 40px; } }
+      @media (min-width: 992px) {
+        .products.gene-delivery .customized .section-body .customized-list > ul > li .details {
+          margin-bottom: 0; } }
+      @media (min-width: 1280px) {
+        .products.gene-delivery .customized .section-body .customized-list > ul > li .details {
+          margin-top: 55px; } }
+      .products.gene-delivery .customized .section-body .customized-list > ul > li .details h5 {
+        font-size: 15px;
+        color: #fff;
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-family: 'Titillium Web', sans-serif; }
+        @media (min-width: 768px) {
+          .products.gene-delivery .customized .section-body .customized-list > ul > li .details h5 {
+            font-size: 17px;
+            margin-bottom: 20px; } }
+      .products.gene-delivery .customized .section-body .customized-list > ul > li .details > ul > li {
+        font-size: 12px;
+        color: #fff;
+        opacity: .5;
+        font-weight: 300;
+        line-height: 24px; }
+        @media (min-width: 768px) {
+          .products.gene-delivery .customized .section-body .customized-list > ul > li .details > ul > li {
+            font-size: 14px;
+            line-height: 28px; } }
+    .products.gene-delivery .customized .section-body .customized-list > ul > li:last-child .details {
+      margin-bottom: 0; }
+.products.gene-delivery .quotations .section-body .btn-area {
+  margin-top: 30px; }
+  .products.gene-delivery .quotations .section-body .btn-area p .btn {
+    display: block;
+    margin: 0 auto;
+    width: 229px;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 10px; }
+    .products.gene-delivery .quotations .section-body .btn-area p .btn:last-child {
+      margin-bottom: 0; }
+  @media (min-width: 992px) {
+    .products.gene-delivery .quotations .section-body .btn-area {
+      margin-top: 60px;
+      text-align: left; }
+      .products.gene-delivery .quotations .section-body .btn-area p .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 40px; }
+        .products.gene-delivery .quotations .section-body .btn-area p .btn:last-child {
+          margin-right: 0; } }
 
 .products.antibody-production .polyclonal-antibody {
   background-color: #f7f8f9; }
+  .products.antibody-production .polyclonal-antibody .section-body .com-list {
+    margin-top: 60px; }
+    @media (min-width: 992px) {
+      .products.antibody-production .polyclonal-antibody .section-body .com-list {
+        margin-top: 100px; } }
+  .products.antibody-production .polyclonal-antibody figure {
+    text-align: center;
+    margin-top: 60px; }
+    .products.antibody-production .polyclonal-antibody figure .img-responsive {
+      max-width: 300px;
+      display: inline-block; }
+      @media (min-width: 768px) {
+        .products.antibody-production .polyclonal-antibody figure .img-responsive {
+          max-width: 100%; } }
+    @media (min-width: 992px) {
+      .products.antibody-production .polyclonal-antibody figure {
+        margin-top: 20px; } }
+.products.antibody-production .monocional .section-body .monocional-list {
+  padding-top: 55px;
+  overflow: hidden; }
+  @media (min-width: 768px) {
+    .products.antibody-production .monocional .section-body .monocional-list {
+      padding-top: 20px; } }
+  .products.antibody-production .monocional .section-body .monocional-list li {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center; }
+    .products.antibody-production .monocional .section-body .monocional-list li:last-child {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .products.antibody-production .monocional .section-body .monocional-list li {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 992px) {
+      .products.antibody-production .monocional .section-body .monocional-list li {
+        width: 20%;
+        margin-bottom: 0; } }
+    .products.antibody-production .monocional .section-body .monocional-list li figure .img-responsive {
+      margin: 0 auto; }
+    .products.antibody-production .monocional .section-body .monocional-list li figure figcaption {
+      font-size: 14px;
+      color: #2b2b2b;
+      margin-top: 10px;
+      font-family: 'Titillium Web', sans-serif; }
+      @media (min-width: 768px) {
+        .products.antibody-production .monocional .section-body .monocional-list li figure figcaption {
+          font-size: 16px;
+          margin-top: 20px; } }
 .products.antibody-production .hybridoma {
   background-color: #f7f8f9; }
+  .products.antibody-production .hybridoma .section-body .hybridoma-list {
+    padding-top: 55px;
+    overflow: hidden; }
+    .products.antibody-production .hybridoma .section-body .hybridoma-list li {
+      float: left;
+      text-align: center;
+      width: 50%;
+      margin-bottom: 30px; }
+      .products.antibody-production .hybridoma .section-body .hybridoma-list li:nth-of-type(2n + 1) {
+        clear: both; }
+      @media (min-width: 768px) {
+        .products.antibody-production .hybridoma .section-body .hybridoma-list li {
+          width: 33.33%; }
+          .products.antibody-production .hybridoma .section-body .hybridoma-list li:nth-of-type(2n + 1) {
+            clear: none; }
+          .products.antibody-production .hybridoma .section-body .hybridoma-list li:nth-of-type(3n + 1) {
+            clear: both; } }
+      @media (min-width: 1280px) {
+        .products.antibody-production .hybridoma .section-body .hybridoma-list li {
+          width: 14.28%;
+          margin-bottom: 0; }
+          .products.antibody-production .hybridoma .section-body .hybridoma-list li:nth-of-type(3n + 1) {
+            clear: none; } }
+      .products.antibody-production .hybridoma .section-body .hybridoma-list li .figure {
+        height: 119px;
+        line-height: 119px; }
+        .products.antibody-production .hybridoma .section-body .hybridoma-list li .figure .img-responsive {
+          display: inline-block; }
+      .products.antibody-production .hybridoma .section-body .hybridoma-list li .figcaption {
+        font-size: 14px;
+        color: #2b2b2b;
+        margin-top: 20px;
+        font-family: 'Titillium Web', sans-serif; }
+        @media (min-width: 768px) {
+          .products.antibody-production .hybridoma .section-body .hybridoma-list li .figcaption {
+            font-size: 16px;
+            margin-top: 30px; } }
+  .products.antibody-production .hybridoma .section-body .com-list {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      .products.antibody-production .hybridoma .section-body .com-list {
+        margin-top: 50px; } }
+    @media (min-width: 1280px) {
+      .products.antibody-production .hybridoma .section-body .com-list {
+        margin-top: 75px; } }
+    .products.antibody-production .hybridoma .section-body .com-list li {
+      font-family: 'Titillium Web', sans-serif; }
+.products.antibody-production .quotations .section-body .btn-area {
+  margin-top: 30px; }
+  .products.antibody-production .quotations .section-body .btn-area p .btn {
+    display: block;
+    margin: 0 auto;
+    width: 229px;
+    height: 40px;
+    line-height: 38px;
+    margin-bottom: 10px; }
+    .products.antibody-production .quotations .section-body .btn-area p .btn:last-child {
+      margin-bottom: 0; }
+  @media (min-width: 992px) {
+    .products.antibody-production .quotations .section-body .btn-area {
+      margin-top: 60px;
+      text-align: left; }
+      .products.antibody-production .quotations .section-body .btn-area p .btn {
+        display: inline-block;
+        margin-bottom: 0;
+        margin-right: 40px; }
+        .products.antibody-production .quotations .section-body .btn-area p .btn:last-child {
+          margin-right: 0; } }
 
 .products.npg .npg-mouse {
-  background-color: #f7f8f9; }
-.products.npg .difference {
-  background-color: #f7f8f9; }
+  background-image: url(/assets/images/products/npg_mouse_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .products.npg .npg-mouse .section-body .com-list {
+    padding-top: 55px; }
+    .products.npg .npg-mouse .section-body .com-list li h6 {
+      font-weight: 400; }
+.products.npg .experiment-result {
+  margin-bottom: 0; }
+  .products.npg .experiment-result .section-body .experiment-list {
+    padding-top: 35px; }
+    .products.npg .experiment-result .section-body .experiment-list li {
+      margin-bottom: 60px; }
+      .products.npg .experiment-result .section-body .experiment-list li figure .img-responsive {
+        max-width: 300px;
+        margin: 0 auto; }
+        @media (min-width: 992px) {
+          .products.npg .experiment-result .section-body .experiment-list li figure .img-responsive {
+            max-width: 100%; } }
+      .products.npg .experiment-result .section-body .experiment-list li:last-child {
+        margin-bottom: 0; }
+      @media (min-width: 992px) {
+        .products.npg .experiment-result .section-body .experiment-list li {
+          margin-bottom: 30px; } }
+  .products.npg .experiment-result .section-body .result {
+    margin-top: 80px;
+    padding: 80px 0;
+    background-color: #f7f8f9; }
+    @media (min-width: 768px) {
+      .products.npg .experiment-result .section-body .result {
+        padding: 100px 0;
+        margin-top: 100px; } }
+    @media (min-width: 1280px) {
+      .products.npg .experiment-result .section-body .result {
+        padding: 120px 0;
+        margin-top: 120px; } }
+    .products.npg .experiment-result .section-body .result .com-list li {
+      margin-bottom: 20px; }
+      .products.npg .experiment-result .section-body .result .com-list li:last-child {
+        margin-bottom: 0; }
+      @media (min-width: 992px) {
+        .products.npg .experiment-result .section-body .result .com-list li {
+          margin-bottom: 60px; } }
+    .products.npg .experiment-result .section-body .result figure {
+      margin-top: 50px; }
+      @media (min-width: 992px) {
+        .products.npg .experiment-result .section-body .result figure {
+          margin-top: 100px; } }
+      .products.npg .experiment-result .section-body .result figure .img-responsive {
+        margin: 0 auto; }
 
 .products.urg .transplant-result {
   background-color: #f7f8f9; }
+  .products.urg .transplant-result .section-body {
+    padding-top: 30px; }
+    @media (min-width: 992px) {
+      .products.urg .transplant-result .section-body {
+        padding-top: 50px; } }
+    .products.urg .transplant-result .section-body figure .img-responsive {
+      margin: 0 auto;
+      max-width: 300px; }
+      @media (min-width: 992px) {
+        .products.urg .transplant-result .section-body figure .img-responsive {
+          max-width: 100%; } }
+    .products.urg .transplant-result .section-body figure.human {
+      margin-top: 40px; }
+      @media (min-width: 992px) {
+        .products.urg .transplant-result .section-body figure.human {
+          margin-top: 0; } }
+.products.urg .hbv .section-body figure {
+  padding-top: 30px; }
+  .products.urg .hbv .section-body figure .img-responsive {
+    margin: 0 auto;
+    max-width: 300px; }
+    @media (min-width: 992px) {
+      .products.urg .hbv .section-body figure .img-responsive {
+        max-width: 100%; } }
+  @media (min-width: 992px) {
+    .products.urg .hbv .section-body figure {
+      padding-top: 50px; } }
 .products.urg .reference {
+  margin-bottom: 0;
   background-color: #f7f8f9; }
+  .products.urg .reference .section-body .ref-list li .ref-item {
+    background-color: #fff;
+    font-family: 'Titillium Web', sans-serif; }
+    .products.urg .reference .section-body .ref-list li .ref-item:hover, .products.urg .reference .section-body .ref-list li .ref-item:focus {
+      background-color: #f08501; }
+    .products.urg .reference .section-body .ref-list li .ref-item h6 {
+      font-weight: bold; }
 
+.products.ag129 .page-header h1 {
+  line-height: 40px; }
+  @media (min-width: 768px) {
+    .products.ag129 .page-header h1 {
+      line-height: 60px; } }
 .products.ag129 .vaccine {
   background-color: #f7f8f9; }
+  .products.ag129 .vaccine .section-body .ag129-list ul li .figure {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center; }
+    .products.ag129 .vaccine .section-body .ag129-list ul li .figure h6 {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 400;
+      padding: 20px 0;
+      font-family: 'Titillium Web', sans-serif; }
+      .products.ag129 .vaccine .section-body .ag129-list ul li .figure h6 small {
+        display: block;
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+        margin-top: 5px; }
+      @media (min-width: 768px) {
+        .products.ag129 .vaccine .section-body .ag129-list ul li .figure h6 {
+          font-size: 17px;
+          padding: 25px 0; }
+          .products.ag129 .vaccine .section-body .ag129-list ul li .figure h6 small {
+            font-size: 16px;
+            margin-top: 10px; } }
+    .products.ag129 .vaccine .section-body .ag129-list ul li .figure .img-responsive {
+      display: inline-block;
+      width: 100%; }
+    .products.ag129 .vaccine .section-body .ag129-list ul li .figure .details {
+      text-align: left;
+      padding: 30px 20px;
+      background-color: #fff;
+      border: 1px solid #dfdfdf;
+      border-top: 0; }
+      .products.ag129 .vaccine .section-body .ag129-list ul li .figure .details .com-list li {
+        font-size: 13px; }
+        @media (min-width: 768px) {
+          .products.ag129 .vaccine .section-body .ag129-list ul li .figure .details .com-list li {
+            font-size: 15px; } }
+      @media (min-width: 992px) {
+        .products.ag129 .vaccine .section-body .ag129-list ul li .figure .details {
+          height: 441px;
+          padding: 50px 40px; } }
+      @media (min-width: 1280px) {
+        .products.ag129 .vaccine .section-body .ag129-list ul li .figure .details {
+          height: 381px; } }
+    @media (min-width: 768px) {
+      .products.ag129 .vaccine .section-body .ag129-list ul li .figure {
+        max-width: 500px; } }
+    @media (min-width: 992px) {
+      .products.ag129 .vaccine .section-body .ag129-list ul li .figure {
+        max-width: 100%; } }
+  .products.ag129 .vaccine .section-body .ag129-list ul li:nth-of-type(1) .figure h6 {
+    background-color: #b95453; }
+  .products.ag129 .vaccine .section-body .ag129-list ul li:nth-of-type(2) .figure {
+    margin-top: 30px; }
+    .products.ag129 .vaccine .section-body .ag129-list ul li:nth-of-type(2) .figure h6 {
+      background-color: #b09d60; }
+    @media (min-width: 992px) {
+      .products.ag129 .vaccine .section-body .ag129-list ul li:nth-of-type(2) .figure {
+        margin-top: 0; } }
+.products.ag129 .difference .section-body .ref-list li .ref-item {
+  font-family: 'Titillium Web', sans-serif; }
+  .products.ag129 .difference .section-body .ref-list li .ref-item h6 {
+    font-weight: bold; }
 
+.products.vaccine .ferret-summary {
+  padding-top: 60px; }
+  @media (min-width: 768px) {
+    .products.vaccine .ferret-summary {
+      padding-top: 80px; } }
+  @media (min-width: 992px) {
+    .products.vaccine .ferret-summary {
+      padding-top: 100px; } }
+  .products.vaccine .ferret-summary figure .img-responsive {
+    margin: 0 auto;
+    max-width: 300px; }
+    @media (min-width: 768px) {
+      .products.vaccine .ferret-summary figure .img-responsive {
+        max-width: 100%; } }
+  .products.vaccine .ferret-summary figure.ferret-img2 {
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .products.vaccine .ferret-summary figure.ferret-img2 {
+        margin-top: 0; } }
+  .products.vaccine .ferret-summary .summary {
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 60px; }
+    @media (min-width: 768px) {
+      .products.vaccine .ferret-summary .summary {
+        font-size: 16px;
+        line-height: 30px;
+        color: #555;
+        margin-top: 80px; } }
+    @media (min-width: 1280px) {
+      .products.vaccine .ferret-summary .summary {
+        margin-top: 100px; } }
 .products.vaccine .spf-ferret {
   background-image: url(/assets/images/products/spf_ferret_bg.jpg);
   background-repeat: no-repeat;
@@ -87,11 +485,73 @@ address {
   background-position: 50% 50%; }
   .products.vaccine .spf-ferret .section-header .section-title {
     color: #fff; }
+  .products.vaccine .spf-ferret .section-body .com-list {
+    padding-top: 30px; }
+    @media (min-width: 768px) {
+      .products.vaccine .spf-ferret .section-body .com-list {
+        padding-top: 40px; } }
+    @media (min-width: 1280px) {
+      .products.vaccine .spf-ferret .section-body .com-list {
+        padding-top: 50px; } }
+    .products.vaccine .spf-ferret .section-body .com-list > li {
+      color: #fff;
+      margin-bottom: 20px; }
+      .products.vaccine .spf-ferret .section-body .com-list > li:last-child {
+        margin-bottom: 0; }
+      @media (min-width: 992px) {
+        .products.vaccine .spf-ferret .section-body .com-list > li {
+          margin-bottom: 60px; } }
+      .products.vaccine .spf-ferret .section-body .com-list > li h6 {
+        font-weight: 400; }
+      .products.vaccine .spf-ferret .section-body .com-list > li > ul > li {
+        color: #aaa; }
+.products.vaccine .research-area .section-body .com-list {
+  font-size: 0; }
+  .products.vaccine .research-area .section-body .com-list li {
+    font-size: 14px; }
+    .products.vaccine .research-area .section-body .com-list li b {
+      font-weight: 400; }
+    @media (min-width: 1280px) {
+      .products.vaccine .research-area .section-body .com-list li {
+        font-size: 16px; } }
+  .products.vaccine .research-area .section-body .com-list.list-2:first-child {
+    margin-top: 10px; }
+    @media (min-width: 1280px) {
+      .products.vaccine .research-area .section-body .com-list.list-2:first-child {
+        margin-top: 0; } }
 
+.products.ellegaard-gottingen .page-summary h2 {
+  font-weight: 400; }
+.products.ellegaard-gottingen .page-summary .pig-figure {
+  padding-top: 60px; }
+  @media (min-width: 768px) {
+    .products.ellegaard-gottingen .page-summary .pig-figure {
+      padding-top: 80px; } }
+  @media (min-width: 992px) {
+    .products.ellegaard-gottingen .page-summary .pig-figure {
+      padding-top: 100px; } }
+  .products.ellegaard-gottingen .page-summary .pig-figure figure .img-responsive {
+    max-width: 300px;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .products.ellegaard-gottingen .page-summary .pig-figure figure .img-responsive {
+        max-width: 100%; } }
+  .products.ellegaard-gottingen .page-summary .pig-figure figure.mini-pig2 {
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .products.ellegaard-gottingen .page-summary .pig-figure figure.mini-pig2 {
+        margin-top: 0; } }
 .products.ellegaard-gottingen .gottingen {
   background-color: #f7f8f9; }
   .products.ellegaard-gottingen .gottingen figure {
-    text-align: center; }
+    text-align: center;
+    padding-top: 30px; }
+    @media (min-width: 768px) {
+      .products.ellegaard-gottingen .gottingen figure {
+        padding-top: 40px; } }
+    @media (min-width: 1280px) {
+      .products.ellegaard-gottingen .gottingen figure {
+        padding-top: 50px; } }
     .products.ellegaard-gottingen .gottingen figure .img-responsive {
       display: inline-block; }
     .products.ellegaard-gottingen .gottingen figure figcaption {
@@ -122,5 +582,19 @@ address {
   background-color: rgba(234, 234, 234, 0.3); }
 .products.ellegaard-gottingen .growth-data .section-body .table-responsive .table tbody tr td:first-child {
   background-color: #fff; }
+.products.ellegaard-gottingen .growth-data .section-body figure {
+  margin-top: 50px; }
+  @media (min-width: 768px) {
+    .products.ellegaard-gottingen .growth-data .section-body figure {
+      margin-top: 60px; } }
+  @media (min-width: 1280px) {
+    .products.ellegaard-gottingen .growth-data .section-body figure {
+      margin-top: 90px; } }
+  .products.ellegaard-gottingen .growth-data .section-body figure .img-responsive {
+    max-width: 300px;
+    margin: 0 auto; }
+    @media (min-width: 992px) {
+      .products.ellegaard-gottingen .growth-data .section-body figure .img-responsive {
+        max-width: 100%; } }
 
 /*# sourceMappingURL=products.css.map */
