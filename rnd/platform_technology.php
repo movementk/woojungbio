@@ -58,6 +58,7 @@
                         <h4 class="section-title">안정성 높은 바이러스성 벡터 개발</h4>
                     </div>
                     <div class="section-body">
+                        
                     </div>
                 </div>
             </section>
@@ -67,6 +68,7 @@
                         <h4 class="section-title">Stable Cell Line Development</h4>
                     </div>
                     <div class="section-body">
+                        
                     </div>
                 </div>
             </section>
@@ -87,6 +89,7 @@
                         <h4 class="section-title">면역항체</h4>
                     </div>
                     <div class="section-body">
+                        
                     </div>
                 </div>
             </section>
@@ -96,6 +99,62 @@
                         <h4 class="section-title">면역항체 신약 파이프라인</h4>
                     </div>
                     <div class="section-body">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>프로젝트명</th>
+                                        <th>적응증</th>
+                                        <th>연구</th>
+                                        <th>비임상</th>
+                                        <th>임상 1상</th>
+                                        <th>임상 2상</th>
+                                        <th>임상 3상</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>PD-L1</td>
+                                        <td></td>
+                                        <td>
+                                            <i class="icon-check">
+                                                <span class="sr-only">연구완료</span>
+                                            </i>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>LAG-3</td>
+                                        <td></td>
+                                        <td>
+                                            <i class="icon-check">
+                                                <span class="sr-only">연구완료</span>
+                                            </i>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>TIM-3</td>
+                                        <td></td>
+                                        <td>
+                                            <i class="icon-check">
+                                                <span class="sr-only">연구완료</span>
+                                            </i>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -117,19 +176,131 @@
                         <h4 class="section-title">Cell-line Derived Xenograft Product</h4>
                     </div>
                     <div class="section-body">
-                        
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>#Tumor Cell line</th>
+                                        <th>Tissue Origin</th>
+                                        <th>Route of Application</th>
+                                        <th>Species</th>
+                                        <th>Flu-Tagging</th>
+                                        <th>pDF</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>MDA-MB-231</td>
+                                        <td>Breast</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>SW620</td>
+                                        <td>Colon</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Colo320D</td>
+                                        <td>Colon</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>A549</td>
+                                        <td>Lung</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP, RFP</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>A375SM</td>
+                                        <td>Melanoma</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>B16F10</td>
+                                        <td>Melanoma</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4T1</td>
+                                        <td>Breast</td>
+                                        <td>S.C.</td>
+                                        <td>Human</td>
+                                        <td>GFP, RFP</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
+                </div>
+            </section>
+            <section class="section-content syngeneic">
+                <div class="container">
                     <div class="section-header">
                         <h4 class="section-title">Syngeneic Tumor Models</h4>
                     </div>
                     <div class="section-body">
-                        
+                        <P class="sub-summary">
+                            Syngeneic Tumor Model은 처음 ()년 알려진 마우스 모델로, 최근 면역 항암제 개발로 Syngeneic Tumor Model의 필요성이 재기되고 있다.<br>
+                            암 면역 요법은 환자의 면역계와 함께 자용하여 Native Anti-Tumor 반응을 증가 시키도록 고안되었다.<br>
+                            가장 일반적으로 사용되는 균주에는 C57BL / 6, BALB / c 및 DBA / 2가 알려져 있습니다.
+                        </P>
                     </div>
+                </div>
+            </section>
+            <section class="section-content metastasis">
+                <div class="container">
                     <div class="section-header">
                         <h4 class="section-title">Metastasis Tumor Models (Xenograft Models &amp; Syngeneic Models)</h4>
                     </div>
                     <div class="section-body">
-                        
+                        <p class="sub-summary">
+                            Metastasis Tumor Models(전이 종양 모델)은 새로운 항암제 후보 물질의 항암 효과를 분석하기 위해 고안되었습니다.<br>
+                            높은 전이성을 가진 세포주 또는 형광이 Tagging 된 세포주를 이식 후, 종양의 크기를 분석할 수 있습니다.
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>#Tumor Cell line</th>
+                                        <th>Tissue Origin</th>
+                                        <th>Species</th>
+                                        <th>Flu-Tagging</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>B16F10</td>
+                                        <td>Melanoma</td>
+                                        <td>Mouse</td>
+                                        <td>-</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4T1</td>
+                                        <td>Breast</td>
+                                        <td>Mouse</td>
+                                        <td>GFP, RFP</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -139,6 +310,11 @@
                         <h4 class="section-title">Humanized Mouse Models</h4>
                     </div>
                     <div class="section-body">
+                        <p class="sub-summary">
+                            Humanized Mouse Models(인간화 된 마우스)는 Cancer, Inflammatory, Infections Disease 그리고 Hematopoiesis 연구에 활용되는 마우스 모델입니다.<br>
+                            인간화 마우스란 쥐의 면역력을 완전히 제거하고 인간의 세포를 이식한 실험용 마우스를 뜻합니다.<br>
+                            면역 항암제와 신규 항암제의 효능을 pre-clinical 단계에서 확인하는 마우스 모델입니다.
+                        </p>
                     </div>
                 </div>
             </section>
@@ -148,6 +324,11 @@
                         <h4 class="section-title">Patient-Derived Xonograft (PDX) Models</h4>
                     </div>
                     <div class="section-body">
+                        <p class="sub-summary">
+                            Patient-Derived Xonograft (환자  유래 이종 이식)은 환자의 종양에서 얻은 암 조직을 면역결핍 마우스에 직접 이식한 모델입니다.<br>
+                            PDX 암 모델은 항암제 연구에 활용할 수 있습니다. 면역 결핍 마우스나 인간화 마우스의 체내에 암환자에게서 채취한 암 세포를 이식하여 암 환자 개인의 <br>
+                            특성을 가진 실험용 마우스를 제작하여 각종 항암제의 효능 실험을 통해 환자에게 가장 잘 맞는 항암제를 찾아 낼 수 있는 동물 모델입니다.
+                        </p>
                     </div>
                 </div>
             </section>

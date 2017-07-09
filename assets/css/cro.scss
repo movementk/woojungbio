@@ -42,7 +42,7 @@
     }
 }
 
-//Global CRO SNBL .cro.
+//Global CRO SNBL
 .cro.snbl {
     .page-summary {
         padding-top: 80px;
@@ -56,8 +56,55 @@
     .differentiation {
         background-color: #f7f8f9;
     }
+    .clinical-support {
+        .section-body {
+            .table-responsive {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                vertical-align: top;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     .exam-number {
         background-color: #f7f8f9;
+        .section-body {
+            .table-responsive {
+                .table {
+                    tbody {
+                        tr {
+                            &:last-child {
+                                td {
+                                    border-top: 2px solid #ddd;
+                                    color: #e10013;
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .history {
+        .section-body {
+            .table-responsive {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
