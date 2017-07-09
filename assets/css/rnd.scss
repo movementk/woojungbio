@@ -1,5 +1,6 @@
 @import 'common';
 
+// 바이오신소재
 .rnd-1 {
 	#nmaterial {
 		background-image: url(/assets/images/rnd/bg_rnd_1_sec_1.jpg);
@@ -56,3 +57,84 @@
 		}
 	}
 }
+
+
+
+// 플랫폼 기술
+.rnd.platform-technology {
+    // 공통으로 들어갈 스타일
+    .tab-content {
+        .tab-pane {
+            /* common style */
+        }
+    }
+    // Innovation Gene Therapy 
+    #tab-1 {
+        .virus-vector {
+            
+        }
+        .stable-development {
+            margin-bottom: 0;
+            background-color: #f7f8f9;
+        }
+    }
+    // Homologous Epitopes Region Immunization Technology
+    #tab-2 {
+        .immune-antibody {
+            background-color: #f7f8f9;
+        }
+        .pipeline {
+            
+        }
+    }
+    // Cancer Therapies in Models
+    #tab-3 {
+        .xenograft {
+            
+        }
+        .mouse-models {
+            background-color: #f7f8f9;
+        }
+        .patient-derived {
+            
+        }
+    }
+}
+
+// Development
+.rnd.development {
+    .pipline {
+        background-color: #3f4040;
+        .section-header {
+            .section-title {
+                color: #fff;
+            }
+        }
+    }
+    .commercialization {
+        
+    }
+    .strategy {
+        margin-bottom: 0;
+        background-color: #f7f8f9;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
