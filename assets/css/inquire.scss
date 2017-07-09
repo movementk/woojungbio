@@ -468,6 +468,65 @@
 }
 
 
+// 페이징 
+.paging {
+    text-align: center;
+    margin-top: 30px;
+    @media(min-width: $sm) {
+        margin-top: 40px;
+    }
+    .pagination {
+        margin: 0;
+        border-radius: 0;
+        li {
+            a {
+                font-size: 18px;
+                text-align: center;
+                color: #aeaeaf;
+                @include titi();
+                padding: 0 11px;
+                border: 0;
+                border-radius: 0;
+                &:hover {
+                    background: none;
+                }
+            }
+            &.active {
+                a {
+                    position: relative;
+                    font-weight: bold;
+                    color: #e10013;
+                    background: none;
+                    &:after {
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0;
+                        margin-left: -6px;
+                        content: "";
+                        width: 14px;
+                        border-bottom: 1px solid #e10013;
+                    }
+                }
+            }
+            &.stp {
+                a {
+                    padding: 0
+                }
+            }
+            &.stm-right {
+                a {
+                    margin-right: 15px;
+                }
+            }
+            &.stm-left {
+                a {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
+
 
 
 

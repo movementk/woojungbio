@@ -37,6 +37,20 @@
                 독성시험 및 효능시험을 중심으로 과학적인 동물실험을 지원하며, 시험 및 연구에 최적화된 동물을 선택할 수 있도록<br>
                 배경 데이터 및 노하우를 업데이트하여 고객들의 최고의 결과를 위하여 최고의 미니피그를 제공합니다<br>
 			</p>
+			<div class="pig-figure">
+			    <div class="row">
+			        <div class="col-xs-12 col-sm-6">
+			            <figure>
+			                <img src="/assets/images/products/mini_pig_img01.jpg" class="img-responsive" alt="mini pig img">
+			            </figure>
+			        </div>
+			        <div class="col-xs-12 col-sm-6">
+			            <figure class="mini-pig2">
+			                <img src="/assets/images/products/mini_pig_img02.jpg" class="img-responsive" alt="mini pig img">
+			            </figure>
+			        </div>
+			    </div>
+			</div>
 		</div>
 	</div>
 		
@@ -272,6 +286,10 @@
 						</tbody>
 					</table>
 				</div>
+                <figure>
+                    <img src="/assets/images/products/growth_data_xs_img.png" class="img-responsive hidden-md hidden-lg" alt="table img">
+                    <img src="/assets/images/products/growth_data_md_img.png" class="img-responsive hidden-xs hidden-sm" alt="table img">
+                </figure>
             </div>
         </div>
     </section>
