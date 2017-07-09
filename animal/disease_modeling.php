@@ -100,7 +100,7 @@
                     유전자변형마우스 (KO마우스) 서비스 문의 연결
                 </h4>
                 <p class="btn-inquire">
-                    <a href="#" class="btn btn-gray" role="button">
+                    <a href="/animal/request_write.php" class="btn btn-gray" role="button">
                         <i class="icon-pencil"></i>
                         유전자변형 문의
                     </a>

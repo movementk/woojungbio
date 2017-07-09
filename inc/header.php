@@ -44,9 +44,9 @@
 															<li>
 																<a href="/rnd/platform_technology.php">플랫폼 기술</a>
 																<ul>
-																	<li><a href="/rnd/platform_technology.php">Innovation Gene Therapy</a></li>
-																	<li><a href="/rnd/platform_technology.php">Homologous Epitopes Region Immunization Technology</a></li>
-																	<li><a href="/rnd/platform_technology.php">Cancer Therapies in Models</a></li>
+																	<li><a href="/rnd/platform_technology.php?tab=1">Innovation Gene Therapy</a></li>
+																	<li><a href="/rnd/platform_technology.php?tab=2">Homologous Epitopes Region Immunization Technology</a></li>
+																	<li><a href="/rnd/platform_technology.php?tab=3">Cancer Therapies in Models</a></li>
 																</ul>
 															</li>
 														</ul>

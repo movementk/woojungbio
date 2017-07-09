@@ -88,14 +88,14 @@
             <div class="section-body">
                 <ul class="ref-list">
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/06_Du_CellStemCell_2014.pdf" class="ref-item" target="_blank">
 							<h6>Du Y et al. Human hepatocytes with drug metabolic function  induced from fibroblasts by lineage reprogramming.</h6>
 							<p>PLoS Negl Trop Dis 10(4):e0004682, 2016.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/07_Song_AJP_2009.pdf" class="ref-item" target="_blank">
 							<h6>Song X et al. A mouse model of inducible liver injury caused by tet-on regulated urokinase for studies of hepatocyte<br> transplantation.</h6>
 							<p>Am J Pathol 175(5): 1975-1983, 2009.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>

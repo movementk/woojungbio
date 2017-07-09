@@ -128,35 +128,35 @@
             <div class="section-body">
                 <ul class="ref-list">
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/01_Allota_PNTD_2016.pdf" class="ref-item" target="_blank">
 							<h6>Allota MT et al., Characterization of lethal Zika virus infection in AG129 mice. </h6>
 							<p>PLoS Negl Trop Dis 10(4):e0004682, 2016.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/02_Zellweger_FrontImmunol_2014.pdf" class="ref-item" target="_blank">
 							<h6>Zellweger RM, Shresta S. Mouse models to study Dengue virus immunology and pathogenesis.</h6>
 							<p>Frontiers in Immunology 5(151), 1-9, 2014.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/03_Williams_ANYAS_Suppl_2009.pdf" class="ref-item" target="_blank">
 							<h6>Williams KL et al. A mouse model for studying dengue virus pathogenesis and immune responses.</h6>
 							<p>Ann N. Y. Acad Sci Suppl 1: E12-23, 2009. </p>
 							<span class="file"><i class="icon-file-pdf"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/04_VanDenBroek_JVirol_1995.pdf" class="ref-item" target="_blank">
 							<h6>van den Broek M et al. Antiviral defense in mice lacking both alpha/beta and gamma interferon receptors.</h6>
 							<p>J Virol 4792-4796, 1995.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>
 						</a>
 					</li>
 					<li>
-						<a href="#" class="ref-item">
+						<a href="/products/file/05_Muller_Science_1994.pdf" class="ref-item" target="_blank">
 							<h6>Müller et al. Functional role of type I and type II interferons in antiviral defense. </h6>
 							<p>Science 264: 1918-1921, 1994.</p>
 							<span class="file"><i class="icon-file-pdf"></i></span>

@@ -4,7 +4,7 @@
 			<button type="button" id="btn-close-nav" class="btn btn-link"><img src="/assets/images/ico_close.png" alt="닫기"></button>
 			<div class="quick">
 				<ul>
-					<li><a href="#">문의하기</a></li>
+					<li><a href="/inquire/inquire_write.php">문의하기</a></li>
 				</ul>
 			</div>
 		</div>
@@ -14,16 +14,16 @@
 					<li class="has-child">
 						<a href="#">R&amp;D</a>
 						<ul>
-                            <li>
+                            <li class="has-child">
                                 <a href="#">Research</a>
                                 <ul>
                                     <li><a href="/rnd/new_material.php">바이오신소재</a></li>
-                                    <li>
+                                    <li class="has-child">
                                         <a href="/rnd/platform_technology.php">플랫폼 기술</a>
                                         <ul>
-                                            <li><a href="/rnd/platform_technology.php">Innovation Gene Therapy</a></li>
-                                            <li><a href="/rnd/platform_technology.php">Homologous Epitopes Region Immunization Technology</a></li>
-                                            <li><a href="/rnd/platform_technology.php">Cancer Therapies in Models</a></li>
+                                            <li><a href="/rnd/platform_technology.php?tab=1">Innovation Gene Therapy</a></li>
+                                            <li><a href="/rnd/platform_technology.php?tab=2">Homologous Epitopes Region Immunization Technology</a></li>
+                                            <li><a href="/rnd/platform_technology.php?tab=3">Cancer Therapies in Models</a></li>
                                         </ul>
                                     </li>
                                 </ul>
@@ -49,13 +49,13 @@
 					<li class="has-child">
 						<a href="#">CRO</a>
 						<ul>
-                            <li>
+                            <li class="has-child">
                                 <a href="#">정밀의학</a>
                                 <ul>
                                     <li><a href="/cro/vivo_efficacy.php">기능성 효능평가 서비스(Preclinical in vivo efficacy service)</a></li>
                                 </ul>
                             </li>
-                            <li>
+                            <li class="has-child">
                                 <a href="#">Global CRO</a>
                                 <ul>
                                     <li><a href="/cro/snbl.php">SNBL</a></li>
