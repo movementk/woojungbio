@@ -83,6 +83,12 @@
       "css": "file-pdf",
       "code": 61889,
       "src": "fontawesome"
+    },
+    {
+      "uid": "21115bb09fa242341cb91ed34710aa13",
+      "css": "attach",
+      "code": 59402,
+      "src": "websymbols"
     }
   ]
 }
