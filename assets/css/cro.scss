@@ -1,0 +1,107 @@
+@import 'common';
+
+// common
+.cro {
+    .page-summary {
+        h2 {
+            img {
+                display: inline-block;
+            }
+        }
+        b {
+            display: inline-block;
+            font-size: 14px;
+            color: #f08501;
+            font-weight: 400;
+            margin-bottom: 20px;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+            @media(min-width: $lg) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+
+//정밀의학
+.cro.vivo-efficacy {
+    .anticarcinogenic {
+        background-image: url(/assets/images/cro/anticarcinogenic_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .metabolic-disease {
+        background-color: #f7f8f9;
+    }
+    .humanized {
+        background-color: #f7f8f9;
+    }
+}
+
+//Global CRO SNBL .cro.
+.cro.snbl {
+    .page-summary {
+        padding-top: 80px;
+        @media(min-width: $sm) {
+            padding-top: 100px;
+        }
+        @media(min-width: $lg) {
+            padding-top: 115px;
+        }
+    }
+    .differentiation {
+        background-color: #f7f8f9;
+    }
+    .exam-number {
+        background-color: #f7f8f9;
+    }
+}
+
+//Global CRO Senzagen 
+.cro.senzagen {
+    .page-summary {
+        padding-top: 80px;
+        @media(min-width: $sm) {
+            padding-top: 100px;
+        }
+        @media(min-width: $lg) {
+            padding-top: 115px;
+        }
+    }
+}
+
+//Zebrafish Screening 
+.cro.zebrafish {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

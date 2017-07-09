@@ -28,4 +28,25 @@ dl {
 address {
   margin-bottom: 0; }
 
+.animal.experimental-animals .animal-provide {
+  background-image: url(/assets/images/animal/animal_provide_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .animal.experimental-animals .animal-provide .section-header .section-title {
+    color: #fff; }
+.animal.experimental-animals .animal-model {
+  background-color: #f7f8f9; }
+
+.animal.disease-modeling .vitalSta-partner {
+  background-color: #f7f8f9; }
+
+.animal.breeding-management .breeding-system {
+  background-image: url(/assets/images/animal/breeding_system_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .animal.breeding-management .breeding-system .section-header .section-title {
+    color: #fff; }
+
 /*# sourceMappingURL=animal.css.map */

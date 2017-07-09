@@ -1,7 +1,7 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/products.css" rel="stylesheet">
-
+</head>
 <body class="products gene-delivery">
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top-nav.php'); ?>
@@ -212,6 +212,34 @@
 			</div>
 		</div>
 	</section>
+	<section class="section-content customized has-space">
+		<div class="container">
+			<div class="section-header">
+				<h4 class="section-title">Customized Products</h4>
+			</div>
+            <div class="section-body">
+                <figure>
+                    <img src="/assets/images/products/customized_img.jpg" class="img-responsive" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="section-content quotations">
+		<div class="container">
+			<div class="section-header">
+				<h4 class="section-title">Quotations and Ordering</h4>
+			</div>
+            <div class="section-body">
+                <p>견적서의뢰 또는 주문서는 해당 파일을 다운로드하여 작성 후 000000000000000000로 보내주세요.</p>
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-red" role="button"><i class="icon-doc-text">견적의뢰서 다운로드</i></a>
+                        <a href="#" class="btn btn-red" role="button"><i class="icon-doc-text">주문서 다운로드</i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>

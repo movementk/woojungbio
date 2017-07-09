@@ -2,6 +2,7 @@
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/glp.css" rel="stylesheet">
 <link href="/assets/css/form.css" rel="stylesheet">
+</head>
 <body>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top-nav.php'); ?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>

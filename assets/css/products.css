@@ -28,11 +28,61 @@ dl {
 address {
   margin-bottom: 0; }
 
-.gene-delivery .lentivirus {
+.products .page-summary b {
+  display: inline-block;
+  font-size: 14px;
+  color: #f08501;
+  font-weight: 400;
+  margin-bottom: 20px; }
+  @media (min-width: 768px) {
+    .products .page-summary b {
+      font-size: 16px;
+      margin-bottom: 25px; } }
+  @media (min-width: 1280px) {
+    .products .page-summary b {
+      margin-bottom: 30px; } }
+
+.products.gene-delivery .lentivirus {
   background-color: #f7f8f9; }
-  .gene-delivery .lentivirus .section-body .table thead th {
+  .products.gene-delivery .lentivirus .section-body .table thead th {
     background-color: #eaeaea; }
-  .gene-delivery .lentivirus .section-body .table tbody td {
+  .products.gene-delivery .lentivirus .section-body .table tbody td {
     vertical-align: middle; }
+.products.gene-delivery .customized {
+  background-image: url(/assets/images/products/customized_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .products.gene-delivery .customized .section-header h4 {
+    color: #fff; }
+
+.products.antibody-production .polyclonal-antibody {
+  background-color: #f7f8f9; }
+.products.antibody-production .hybridoma {
+  background-color: #f7f8f9; }
+
+.products.npg .npg-mouse {
+  background-color: #f7f8f9; }
+.products.npg .difference {
+  background-color: #f7f8f9; }
+
+.products.urg .transplant-result {
+  background-color: #f7f8f9; }
+.products.urg .reference {
+  background-color: #f7f8f9; }
+
+.products.ag129 .vaccine {
+  background-color: #f7f8f9; }
+
+.products.vaccine .spf-ferret {
+  background-image: url(/assets/images/products/spf_ferret_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  .products.vaccine .spf-ferret .section-header .section-title {
+    color: #fff; }
+
+.products.ellegaard-gottingen .gottingen {
+  background-color: #f7f8f9; }
 
 /*# sourceMappingURL=products.css.map */
