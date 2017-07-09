@@ -49,6 +49,40 @@ address {
       .jumbo-wall h1 {
         font-size: 40px; } }
 
+.page-path {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1; }
+  .page-path .breadcrumb {
+    margin-bottom: 0;
+    padding: 0;
+    background-color: #fff; }
+    .page-path .breadcrumb li {
+      min-width: 220px;
+      border-right: 1px solid #e1e1e1;
+      line-height: 48px;
+      font-size: 14px;
+      color: #666;
+      font-weight: 400; }
+      .page-path .breadcrumb li a {
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 48px;
+        font-size: 14px;
+        color: #666;
+        text-decoration: none; }
+        .page-path .breadcrumb li a:hover, .page-path .breadcrumb li a:focus {
+          color: #e10013; }
+      .page-path .breadcrumb li:first-child {
+        min-width: inherit;
+        border-left: 1px solid #e1e1e1; }
+      .page-path .breadcrumb li:last-child {
+        padding-left: 15px;
+        padding-right: 15px; }
+      .page-path .breadcrumb li + li:before {
+        padding: 0;
+        content: ''; }
+
 .page-header {
   margin-top: 0;
   margin-bottom: 0;
@@ -61,7 +95,7 @@ address {
     line-height: 1em;
     color: #e10013;
     text-align: center;
-    font-weight: 100; }
+    font-weight: 300; }
   .page-header p {
     margin-top: 30px;
     font-size: 16px;
