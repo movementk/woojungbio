@@ -29,20 +29,44 @@
 		</div>
 	</div>
 		
-	<section class="section-content">
+	<!--section class="section-content">
 		<div class="container">
-			<!-- 
-                컨텐츠 영역 50% / 50%
-                임상연구 연혁 및 bxslider 영역
-			-->
+            컨텐츠 영역 50% / 50%
+            임상연구 연혁 및 bxslider 영역
 		</div>
-	</section>
-	<section class="section-content">
+	</section-->
+	<section class="section-content ind-package">
 		<div class="container">
-			<!-- 
-                컨텐츠 영역 50% / 50%
-                IND Package / Clicical study bridge 영역
-			-->
+			<div class="row">
+			    <div class="col-xs-12 col-md-6">
+			        <div class="section-header">
+			            <h4 class="section-title">IND Package (Full service)</h4>
+			            <p>
+			                OECD, FDA, PMDA 가이드라인 적용<br>
+			                바이오의약품, 바이오시밀러, 합성의약품 등의 다수 경험과 노하우
+			            </p>
+			        </div>
+			        <div class="section-body">
+			            <ul class="com-list">
+			                <li>실험동물 ( 영장류, 설치류, 토끼, 비글, 미니피그, 등)</li>
+			                <li>독성시험, 약효약리, PK&amp;PD</li>
+			                <li>영장류 판매</li>
+			            </ul>
+			        </div>
+			    </div>
+			    <div class="col-xs-12 col-md-6">
+			        <div class="section-header">
+			            <h4 class="section-title">Clinical study bridge</h4>
+			        </div>
+			        <div class="section-body second">
+			            <ul class="com-list">
+			                <li>In-house Phase 1 clinics in Japan and USA</li>
+			                <li>Phase2~4 clinical trials</li>
+			                <li>Regulatory affairs</li>
+			            </ul>
+			        </div>
+			    </div>
+			</div>
 		</div>
 	</section>
 	<section class="section-content differentiation has-space">
@@ -51,7 +75,60 @@
 				<h4 class="section-title">SNBL의 차별화</h4>
 			</div>
 			<div class="section-body">
-				
+				<ul class="row">
+				    <li class="col-xs-12 col-sm-6 col-md-3">
+				        <figure>
+				            <img src="/assets/images/icons/cro/a1.png" class="img-responsive" alt="">
+				            <figcaption>
+				                <h6>빠른서비스</h6>
+				                <ol>
+				                    <li>
+				                        1. 동물실험 부검 후 보고서<br class="visible-lg"> 초안까지 5주내 완료
+				                    </li>
+				                    <li>
+				                        2. 영장류 브리딩센터 자체 보유로<br class="visible-lg"> (총 약 5만 마리)신속한 영장류 시험 가능
+				                    </li>
+				                </ol>
+				            </figcaption>
+				        </figure>
+				    </li>
+				    <li class="col-xs-12 col-sm-6 col-md-3">
+				        <figure>
+				            <img src="/assets/images/icons/cro/a2.png" class="img-responsive" alt="">
+				            <figcaption>
+				                <h6>수준높은 조직병리 수행</h6>
+				                <p>특수 조직병리 포함</p>
+				            </figcaption>
+				        </figure>
+				    </li>
+				    <li class="col-xs-12 col-sm-6 col-md-3">
+				        <figure>
+				            <img src="/assets/images/icons/cro/a3.png" class="img-responsive" alt="">
+				            <figcaption>
+				                <h6>
+				                    생식발생독성ePPND<br>
+                                    (enhanced Pre &amp; Post-Natal<br class="visible-lg">
+                                    Development)<br>
+                                    수행 가능
+				                </h6>
+				                <p>세계에서 SNBL포함 2곳에서만 수행가능</p>
+				            </figcaption>
+				        </figure>
+				    </li>
+				    <li class="col-xs-12 col-sm-6 col-md-3">
+				        <figure>
+				            <img src="/assets/images/icons/cro/a4.png" class="img-responsive" alt="">
+				            <figcaption>
+				                <h6>분석센터 보유</h6>
+				                <p>
+				                    PK, AMDE, TK, Bioanalysis<br class="visible-lg">
+                                    뿐만 아니라 고난위도 분석 수행 및<br class="visible-lg">
+                                    임상샘플 분석 가능
+				                </p>
+				            </figcaption>
+				        </figure>
+				    </li>
+				</ul>
 			</div>
 		</div>
 	</section>

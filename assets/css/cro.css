@@ -54,10 +54,57 @@ address {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
+  .cro.vivo-efficacy .anticarcinogenic .section-body .com-list li {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold; }
+.cro.vivo-efficacy .immune-disorder .section-body figure {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .cro.vivo-efficacy .immune-disorder .section-body figure {
+      max-width: 500px; } }
+  @media (min-width: 992px) {
+    .cro.vivo-efficacy .immune-disorder .section-body figure {
+      max-width: 100%;
+      margin-bottom: 0; } }
+.cro.vivo-efficacy .immune-disorder .section-body .com-list {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .cro.vivo-efficacy .immune-disorder .section-body .com-list {
+      margin-top: 60px; } }
+  @media (min-width: 1280px) {
+    .cro.vivo-efficacy .immune-disorder .section-body .com-list {
+      margin-top: 80px; } }
+  .cro.vivo-efficacy .immune-disorder .section-body .com-list li h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold; }
 .cro.vivo-efficacy .metabolic-disease {
   background-color: #f7f8f9; }
+  .cro.vivo-efficacy .metabolic-disease .section-body figure {
+    max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      .cro.vivo-efficacy .metabolic-disease .section-body figure {
+        max-width: 500px; } }
+    @media (min-width: 992px) {
+      .cro.vivo-efficacy .metabolic-disease .section-body figure {
+        max-width: 100%;
+        margin-bottom: 0; } }
+  .cro.vivo-efficacy .metabolic-disease .section-body .com-list {
+    margin-top: 40px; }
+    @media (min-width: 768px) {
+      .cro.vivo-efficacy .metabolic-disease .section-body .com-list {
+        margin-top: 60px; } }
+    @media (min-width: 1280px) {
+      .cro.vivo-efficacy .metabolic-disease .section-body .com-list {
+        margin-top: 80px; } }
 .cro.vivo-efficacy .humanized {
+  margin-bottom: 0;
   background-color: #f7f8f9; }
+  .cro.vivo-efficacy .humanized .section-body .com-list li {
+    font-family: 'Titillium Web', sans-serif; }
 
 .cro.snbl .page-summary {
   padding-top: 80px; }
@@ -67,8 +114,63 @@ address {
   @media (min-width: 1280px) {
     .cro.snbl .page-summary {
       padding-top: 115px; } }
+.cro.snbl .ind-package .section-body.second .com-list li {
+  font-family: 'Titillium Web', sans-serif; }
 .cro.snbl .differentiation {
   background-color: #f7f8f9; }
+  .cro.snbl .differentiation .section-body {
+    padding-top: 30px; }
+    @media (min-width: 768px) {
+      .cro.snbl .differentiation .section-body {
+        padding-top: 40px; } }
+    @media (min-width: 1280px) {
+      .cro.snbl .differentiation .section-body {
+        padding-top: 50px; } }
+    .cro.snbl .differentiation .section-body ul li:last-child figure {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      .cro.snbl .differentiation .section-body ul li:nth-of-type(2n + 1) {
+        clear: both; } }
+    @media (min-width: 992px) {
+      .cro.snbl .differentiation .section-body ul li:nth-of-type(2n + 1) {
+        clear: none; } }
+    .cro.snbl .differentiation .section-body ul li figure {
+      margin-bottom: 50px; }
+      @media (min-width: 992px) {
+        .cro.snbl .differentiation .section-body ul li figure {
+          margin-bottom: 0; } }
+      .cro.snbl .differentiation .section-body ul li figure .img-responsive {
+        margin: 0 auto; }
+      .cro.snbl .differentiation .section-body ul li figure figcaption {
+        text-align: center; }
+        .cro.snbl .differentiation .section-body ul li figure figcaption h6 {
+          font-size: 14px;
+          color: #333;
+          line-height: 22px;
+          margin-top: 20px;
+          margin-bottom: 10px; }
+          @media (min-width: 768px) {
+            .cro.snbl .differentiation .section-body ul li figure figcaption h6 {
+              font-size: 16px;
+              line-height: 26px;
+              margin-top: 40px;
+              margin-bottom: 20px; } }
+        .cro.snbl .differentiation .section-body ul li figure figcaption ol li {
+          font-size: 13px;
+          line-height: 24px;
+          color: #666; }
+          @media (min-width: 768px) {
+            .cro.snbl .differentiation .section-body ul li figure figcaption ol li {
+              font-size: 15px;
+              line-height: 28px; } }
+        .cro.snbl .differentiation .section-body ul li figure figcaption p {
+          font-size: 13px;
+          line-height: 22px;
+          color: #666; }
+          @media (min-width: 768px) {
+            .cro.snbl .differentiation .section-body ul li figure figcaption p {
+              font-size: 15px;
+              line-height: 28px; } }
 .cro.snbl .clinical-support .section-body .table-responsive .table tbody tr td {
   vertical-align: top; }
 .cro.snbl .exam-number {
@@ -86,5 +188,300 @@ address {
   @media (min-width: 1280px) {
     .cro.senzagen .page-summary {
       padding-top: 115px; } }
+.cro.senzagen .senzagen-summary {
+  background-color: #f7f8f9; }
+  .cro.senzagen .senzagen-summary .summary-list ul li figure {
+    margin-bottom: 40px; }
+    .cro.senzagen .senzagen-summary .summary-list ul li figure .img-responsive {
+      margin: 0 auto; }
+    .cro.senzagen .senzagen-summary .summary-list ul li figure figcaption {
+      font-size: 14px;
+      color: #333;
+      text-align: center;
+      margin-top: 10px; }
+      @media (min-width: 768px) {
+        .cro.senzagen .senzagen-summary .summary-list ul li figure figcaption {
+          font-size: 16px;
+          margin-top: 20px; } }
+  .cro.senzagen .senzagen-summary .summary-list ul li:last-child figure {
+    margin-bottom: 0; }
+  @media (min-width: 992px) {
+    .cro.senzagen .senzagen-summary .summary-list ul li figure {
+      margin-bottom: 0; } }
+  .cro.senzagen .senzagen-summary .summary-img-list ol {
+    margin-top: 60px; }
+    @media (min-width: 768px) {
+      .cro.senzagen .senzagen-summary .summary-img-list ol {
+        margin-top: 80px; } }
+    @media (min-width: 1280px) {
+      .cro.senzagen .senzagen-summary .summary-img-list ol {
+        margin-top: 100px; } }
+    .cro.senzagen .senzagen-summary .summary-img-list ol li {
+      display: block; }
+      .cro.senzagen .senzagen-summary .summary-img-list ol li figure {
+        margin-bottom: 30px; }
+        .cro.senzagen .senzagen-summary .summary-img-list ol li figure .img-responsive {
+          margin: 0 auto; }
+        .cro.senzagen .senzagen-summary .summary-img-list ol li figure figcaption {
+          text-align: center;
+          margin-top: 10px;
+          font-size: 14px;
+          font-family: 'Titillium Web', sans-serif;
+          color: #666;
+          font-weight: bold; }
+          @media (min-width: 768px) {
+            .cro.senzagen .senzagen-summary .summary-img-list ol li figure figcaption {
+              font-size: 16px;
+              margin-top: 20px; } }
+      .cro.senzagen .senzagen-summary .summary-img-list ol li:last-child figure {
+        margin-bottom: 0; }
+      @media (min-width: 768px) {
+        .cro.senzagen .senzagen-summary .summary-img-list ol li:nth-of-type(3) figure {
+          margin-bottom: 0; } }
+  .cro.senzagen .senzagen-summary .summary-img-list i {
+    width: 100%;
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Titillium Web', sans-serif; }
+    @media (min-width: 992px) {
+      .cro.senzagen .senzagen-summary .summary-img-list i {
+        font-size: 16px;
+        margin-top: 40px; } }
+.cro.senzagen .attention {
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  background-image: url(/assets/images/cro/attention_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+  @media (min-width: 768px) {
+    .cro.senzagen .attention {
+      padding: 80px 0; } }
+  @media (min-width: 992px) {
+    .cro.senzagen .attention {
+      padding: 100px 0; } }
+  @media (min-width: 1280px) {
+    .cro.senzagen .attention {
+      padding: 125px 0; } }
+  .cro.senzagen .attention h4 {
+    font-size: 28px;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      .cro.senzagen .attention h4 {
+        font-size: 30px; } }
+    @media (min-width: 992px) {
+      .cro.senzagen .attention h4 {
+        font-size: 35px; } }
+  .cro.senzagen .attention hr {
+    width: 35px;
+    display: inline-block;
+    border-top: 3px solid #e10013;
+    margin: 20px 0; }
+    @media (min-width: 768px) {
+      .cro.senzagen .attention hr {
+        margin: 25px 0; } }
+    @media (min-width: 992px) {
+      .cro.senzagen .attention hr {
+        width: 50px;
+        margin: 30px 0; } }
+  .cro.senzagen .attention p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; }
+    .cro.senzagen .attention p i {
+      color: #ffeb00; }
+    @media (min-width: 992px) {
+      .cro.senzagen .attention p {
+        font-size: 16px;
+        line-height: 30px; } }
+  .cro.senzagen .attention dl {
+    margin-top: 30px; }
+    @media (min-width: 992px) {
+      .cro.senzagen .attention dl {
+        margin-top: 40px; } }
+    .cro.senzagen .attention dl dt {
+      font-size: 13px;
+      line-height: 22px;
+      font-weight: 300; }
+      @media (min-width: 992px) {
+        .cro.senzagen .attention dl dt {
+          font-size: 15px;
+          line-height: 26px; } }
+    .cro.senzagen .attention dl dd {
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 22px; }
+      @media (min-width: 992px) {
+        .cro.senzagen .attention dl dd {
+          font-size: 15px;
+          line-height: 26px; } }
+.cro.senzagen .genomics .section-body {
+  padding-top: 20px; }
+  .cro.senzagen .genomics .section-body figure .img-responsive {
+    max-width: 300px;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .cro.senzagen .genomics .section-body figure .img-responsive {
+        max-width: 400px; } }
+    @media (min-width: 992px) {
+      .cro.senzagen .genomics .section-body figure .img-responsive {
+        max-width: 100%; } }
+.cro.senzagen .skin-summary {
+  background-color: #f7f8f9;
+  margin-bottom: 0; }
+  .cro.senzagen .skin-summary .section-body .com-list {
+    overflow: hidden; }
+    @media (min-width: 992px) {
+      .cro.senzagen .skin-summary .section-body .com-list > li {
+        float: left;
+        width: 33.33%;
+        margin-top: 0; }
+        .cro.senzagen .skin-summary .section-body .com-list > li h6 {
+          margin-top: 0; } }
+  .cro.senzagen .skin-summary .section-body .skin-list {
+    margin-top: 60px; }
+    @media (min-width: 768px) {
+      .cro.senzagen .skin-summary .section-body .skin-list {
+        margin-top: 80px; } }
+    @media (min-width: 1280px) {
+      .cro.senzagen .skin-summary .section-body .skin-list {
+        margin-top: 100px; } }
+    .cro.senzagen .skin-summary .section-body .skin-list > ul > li figure {
+      margin-bottom: 30px; }
+      @media (min-width: 1280px) {
+        .cro.senzagen .skin-summary .section-body .skin-list > ul > li figure {
+          margin-bottom: 0; } }
+      .cro.senzagen .skin-summary .section-body .skin-list > ul > li figure .img-responsive {
+        margin: 0 auto; }
+      .cro.senzagen .skin-summary .section-body .skin-list > ul > li figure figcaption {
+        font-size: 13px;
+        color: #333;
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px; }
+        @media (min-width: 768px) {
+          .cro.senzagen .skin-summary .section-body .skin-list > ul > li figure figcaption {
+            font-size: 15px;
+            margin-top: 20px; } }
+
+.cro.zebrafish .zebra-evaluation {
+  margin-top: 60px; }
+  @media (min-width: 768px) {
+    .cro.zebrafish .zebra-evaluation {
+      margin-top: 80px; } }
+  @media (min-width: 1280px) {
+    .cro.zebrafish .zebra-evaluation {
+      margin-top: 100px; } }
+  .cro.zebrafish .zebra-evaluation .article-header {
+    text-align: center;
+    padding: 80px 0;
+    background-image: url(/assets/images/cro/zebrafish_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%; }
+    @media (min-width: 768px) {
+      .cro.zebrafish .zebra-evaluation .article-header {
+        padding: 100px 0; } }
+    @media (min-width: 768px) {
+      .cro.zebrafish .zebra-evaluation .article-header {
+        padding: 125px 0; } }
+    .cro.zebrafish .zebra-evaluation .article-header h3 {
+      font-size: 20px;
+      color: #fff;
+      font-weight: 300;
+      line-height: 30px; }
+      .cro.zebrafish .zebra-evaluation .article-header h3 b {
+        font-weight: 500;
+        color: #f08501; }
+      @media (min-width: 992px) {
+        .cro.zebrafish .zebra-evaluation .article-header h3 {
+          font-size: 25px;
+          line-height: 35px; } }
+      @media (min-width: 992px) {
+        .cro.zebrafish .zebra-evaluation .article-header h3 {
+          font-size: 28px;
+          line-height: 48px; } }
+  .cro.zebrafish .zebra-evaluation .article-body {
+    padding: 80px 0;
+    background-color: #f7f8f9; }
+    @media (min-width: 768px) {
+      .cro.zebrafish .zebra-evaluation .article-body {
+        padding: 100px 0; } }
+    @media (min-width: 768px) {
+      .cro.zebrafish .zebra-evaluation .article-body {
+        padding: 120px 0; } }
+    .cro.zebrafish .zebra-evaluation .article-body .zebra-effect {
+      max-width: 300px;
+      margin: 0 auto; }
+      @media (min-width: 768px) {
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect {
+          max-width: 400px; } }
+      @media (min-width: 992px) {
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect {
+          max-width: 100%; } }
+      .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li {
+        overflow: hidden;
+        margin-bottom: 30px; }
+        @media (min-width: 992px) {
+          .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li {
+            margin-bottom: 50px; } }
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li:last-child {
+          margin-bottom: 0; }
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li h6 {
+          font-size: 16px;
+          line-height: 40px;
+          text-align: center;
+          color: #fff;
+          font-weight: bold;
+          font-family: 'Titillium Web', sans-serif; }
+          @media (min-width: 992px) {
+            .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li h6 {
+              width: 300px;
+              font-size: 18px;
+              float: left;
+              line-height: 126px; } }
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content {
+          font-size: 0;
+          border: 1px solid #dfdfdf;
+          background-color: #fff;
+          padding: 20px 15px; }
+          @media (min-width: 992px) {
+            .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content {
+              float: left;
+              width: 640px;
+              height: 126px; } }
+          @media (min-width: 1280px) {
+            .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content {
+              width: 870px; } }
+          .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content > li {
+            font-size: 13px;
+            color: #666;
+            line-height: 24px;
+            font-weight: bold;
+            font-family: 'Titillium Web', sans-serif; }
+            @media (min-width: 992px) {
+              .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content > li {
+                width: 50%;
+                display: inline-block;
+                font-size: 15px;
+                line-height: 28px; } }
+            .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content > li:before {
+              font-family: "fontello";
+              content: "\E80C";
+              padding-right: 5px; }
+            @media (min-width: 992px) {
+              .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content > li {
+                padding-left: 20px; } }
+            @media (min-width: 1280px) {
+              .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li .list-content > li:nth-of-type(2n + 1) {
+                padding-left: 100px; } }
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li:nth-of-type(odd) h6 {
+          background-color: #595757; }
+        .cro.zebrafish .zebra-evaluation .article-body .zebra-effect > li:nth-of-type(even) h6 {
+          background-color: #b09d60; }
 
 /*# sourceMappingURL=cro.css.map */
