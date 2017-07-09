@@ -15,17 +15,6 @@
 	</div>
 </div>
 
-<div class="page-path visible-lg">
-	<div class="container">
-		<ol class="breadcrumb">
-			<li><a href="#"><i class="icon-home"></i></a></li>
-		  	<li><a href="#">CRO</a></li>
-		  	<li><a href="#">정밀의학</a></li>
-		  	<li>기능성 효능평가 서비스</li>
-		</ol>
-	</div>
-</div>
-
 <main id="content">
 	
 	<div class="page-header">
@@ -153,16 +142,24 @@
 				</ul>
 				<ul class="list" style="margin-top: 100px;">
 					<li>
-						<h6>Pulmonary fibrosis</h6>
-						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+						<b>비디오 점적기(Visual instillobot)</b>
 					</li>
 					<li>
-						<h6>Degenerative arthritis</h6>
-						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+						<b>비디오 점적기(Visual instillobot)</b>
 					</li>
 					<li>
-						<h6>Rheumatoid arthritis(RA)</h6>
-						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
+						<b>비디오 점적기(Visual instillobot)</b>
+					</li>
+				</ul>
+				<ul class="list" style="margin-top: 100px;">
+					<li>
+						비디오 점적기(Visual instillobot)
+					</li>
+					<li>
+						비디오 점적기(Visual instillobot)
+					</li>
+					<li>
+						비디오 점적기(Visual instillobot)
 					</li>
 				</ul>
 			</div>
