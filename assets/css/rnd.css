@@ -93,9 +93,53 @@ address {
 
 .rnd.platform-technology .tab-content .tab-pane {
   /* common style */ }
+.rnd.platform-technology #tab-1 .gene-theraphy-1 .visible-xs {
+  margin: 0 auto;
+  max-width: 251px; }
+.rnd.platform-technology #tab-1 .gene-theraphy-2 {
+  background-color: #f7f8f9; }
+  .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body {
+    margin: 0 auto;
+    max-width: 320px;
+    text-align: center; }
+    .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body h5 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: 'Titillium Web', sans-serif;
+      font-weight: bold; }
+    .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body figure figcaption {
+      font-family: 'Titillium Web', sans-serif;
+      font-size: 13px;
+      font-weight: bold; }
+  @media (min-width: 768px) {
+    .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body h5 {
+      font-size: 22px; } }
+  @media (min-width: 992px) {
+    .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body {
+      max-width: none; }
+      .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body h5 {
+        margin-bottom: 20px; }
+      .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body figure figcaption {
+        line-height: 28px; } }
+  @media (min-width: 992px) {
+    .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body figure figcaption {
+      line-height: 30px; } }
+.rnd.platform-technology #tab-1 .virus-vector .section-body {
+  margin: 0 auto;
+  max-width: 320px; }
+  @media (min-width: 992px) {
+    .rnd.platform-technology #tab-1 .virus-vector .section-body {
+      max-width: none; } }
 .rnd.platform-technology #tab-1 .stable-development {
   margin-bottom: 0;
   background-color: #f7f8f9; }
+  .rnd.platform-technology #tab-1 .stable-development .section-body {
+    margin: 50px auto 0;
+    max-width: 320px; }
+    @media (min-width: 992px) {
+      .rnd.platform-technology #tab-1 .stable-development .section-body {
+        margin-top: 70px;
+        max-width: none; } }
 .rnd.platform-technology #tab-2 .immune-antibody {
   background-color: #f7f8f9; }
 .rnd.platform-technology #tab-2 .pipeline .section-body .table-responsive .table tbody tr td {

@@ -10,6 +10,12 @@
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 
+<div class="jumbo-wall">
+	<div class="container">
+		<h1>R&amp;D</h1>
+	</div>
+</div>
+
 <main id="content">
 	
     <div class="page-header">
@@ -52,13 +58,75 @@
                     Functional Titer : Flu-(GFP, RFP, mCherry....) tagging 을 사용하여 Pesudoviral titer와 transduction efficiency를 측정합니다.
                 </p>
             </div>
+            <div class="section-content gene-theraphy-1">
+                <div class="container">
+                    <div class="section-body">
+                        <p>
+                        	<img class="img-responsive visible-xs visible-sm" src="/assets/images/rnd/img_gene_therapy_xs.gif" alt="">
+                        	<img class="img-responsive visible-md visible-lg" src="/assets/images/rnd/img_gene_therapy_lg.gif" alt="">
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="section-content gene-theraphy-2 has-space">
+                <div class="container">
+                    <div class="section-body">
+                    	<div class="row">
+                    		<div class="col-md-6">
+                    			<h5>in vitro</h5>
+                    			<div class="row">
+                    				<div class="col-xs-6">
+										<figure>
+											<img class="img-responsive" src="/assets/images/rnd/img_gene_therapy_1.jpg">
+											<figcaption>HepG2</figcaption>
+										</figure>
+									</div>
+									<div class="col-xs-6">
+										<figure>
+											<img class="img-responsive" src="/assets/images/rnd/img_gene_therapy_2.jpg">
+											<figcaption>L1210</figcaption>
+										</figure>
+									</div>
+									<div class="col-xs-6">
+										<figure>
+											<img class="img-responsive" src="/assets/images/rnd/img_gene_therapy_3.jpg">
+											<figcaption>MCF7</figcaption>
+										</figure>
+									</div>
+									<div class="col-xs-6">
+										<figure>
+											<img class="img-responsive" src="/assets/images/rnd/img_gene_therapy_4.jpg">
+											<figcaption>AAAAA</figcaption>
+										</figure>
+									</div>
+                    			</div>
+							</div>
+                    		<div class="col-md-6">
+                    			<h5>in vivo</h5>
+                    			<figure>
+									<img class="img-responsive" src="/assets/images/rnd/img_gene_therapy_5.jpg">
+									<figcaption>AAAAA</figcaption>
+								</figure>
+							</div>
+                    	</div>
+                    </div>
+                </div>
+            </div>
             <section class="section-content virus-vector">
                 <div class="container">
                     <div class="section-header">
                         <h4 class="section-title">안정성 높은 바이러스성 벡터 개발</h4>
+                        <p>
+                        	높은 안전성 : Insertional mutagenesis의 위험을 제거<br>
+							분열 세포에서 일시적인 발현과 비 분열 세포에 안정한 발현<br>
+							LTR region과 integrin mutation을 통해 현재 알려진 Integration-deficiency lentivral vector system보다 off-target effect가 낮음
+                  		</p>
                     </div>
                     <div class="section-body">
-                        
+                        <p>
+                        	<img class="img-responsive visible-xs visible-sm" src="/assets/images/rnd/img_immune_antibody_xs.gif" alt="">
+                        	<img class="img-responsive visible-md visible-lg" src="/assets/images/rnd/img_immune_antibody_lg.gif" alt="">
+                        </p>
                     </div>
                 </div>
             </section>
@@ -68,7 +136,10 @@
                         <h4 class="section-title">Stable Cell Line Development</h4>
                     </div>
                     <div class="section-body">
-                        
+                        <p>
+                        	<img class="img-responsive visible-xs visible-sm" src="/assets/images/rnd/img_stable_development_xs.jpg" alt="">
+                        	<img class="img-responsive visible-md visible-lg" src="/assets/images/rnd/img_stable_development_lg.jpg" alt="">
+                        </p>
                     </div>
                 </div>
             </section>

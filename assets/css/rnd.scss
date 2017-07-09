@@ -115,12 +115,82 @@
     }
     // Innovation Gene Therapy 
     #tab-1 {
+		.gene-theraphy-1 {
+			.visible-xs {
+				margin: 0 auto;
+				max-width: 251px;
+			}
+		}
+		.gene-theraphy-2 {
+			background-color: #f7f8f9;
+			.section-body {
+				margin: 0 auto;
+				max-width: 320px;
+				text-align: center;
+				h5 {
+					margin-bottom: 10px;
+					font-size: 20px;
+					@include titi();
+					font-weight: bold;
+				}
+				figure {
+					figcaption {
+						@include titi();
+						font-size: 13px;
+						font-weight: bold;
+					}
+				}
+			}
+			@media (min-width: $sm) {
+				.section-body {
+					h5 {
+						font-size: 22px;
+					}
+				}
+			}
+			@media (min-width: $md) {
+				.section-body {
+					max-width: none;
+					h5 {
+						margin-bottom: 20px;
+					}
+					figure {
+						figcaption {
+							line-height: 28px;
+						}
+					}
+				}
+			}
+			@media (min-width: $md) {
+				.section-body {
+					figure {
+						figcaption {
+							line-height: 30px;
+						}
+					}
+				}
+			}
+		}
         .virus-vector {
-            
+			.section-body {
+				margin: 0 auto;
+				max-width: 320px;
+				@media (min-width: $md) {
+					max-width: none;
+				}
+			}
         }
         .stable-development {
             margin-bottom: 0;
             background-color: #f7f8f9;
+			.section-body {
+				margin: 50px auto 0;
+				max-width: 320px;
+				@media (min-width: $md) {
+					margin-top: 70px;
+					max-width: none;
+				}
+			}
         }
     }
     // Homologous Epitopes Region Immunization Technology
