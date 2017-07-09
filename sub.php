@@ -126,7 +126,7 @@
 				<p>미래 시장의 성장 가능성이 높은 기술개발을 하기 위해서는  전체적인 기술 동향 파악과 프로젝트 방향 설정이 중요합니다.</p>
 			</div>
 			<div class="section-body">
-				<ul class="list">
+				<ul class="com-list">
 					<li>
 						<h6>Pulmonary fibrosis</h6>
 						<p>비디오 점적기(Visual instillobot)를 이용하여 bleomycin을 기도 내로 투여, 유발된 폐섬유화증 모델에서 시험물질의 효능을 평가</p>
@@ -160,6 +160,29 @@
 					</li>
 					<li>
 						비디오 점적기(Visual instillobot)
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+		
+	<section class="section-content">
+		<div class="container">
+			<div class="section-header">
+				<h4 class="section-title">참고문헌</h4>
+			</div>
+			<div class="section-body">
+				<ul class="ref-list">
+					<li>
+						<div class="rel-item">
+							<h6>Zellweger RM, Shresta S. Mouse models to study Dengue virus immunology and pathogenesis.</h6>
+							<p>Frontiers in Immunology 5(151), 1-9, 2014.</p>
+							<a href="#"></a>
+						</div>
+					</li>
+					<li>
+					</li>
+					<li>
 					</li>
 				</ul>
 			</div>
