@@ -331,6 +331,23 @@
 
 // Development
 .rnd.development {
+	.page-summary {
+		p {
+			b {
+				font-weight: 400;
+				color: #ef4600;
+				font-size: 1.1em;
+			}
+			& + p {
+				margin-top: 20px;
+			}
+		}
+		@media (min-width: $sm) {
+			p + p {
+				margin-top: 40px;
+			}
+		}
+	}
     .pipline {
         background-color: #3f4040;
         .section-header {
@@ -338,6 +355,33 @@
                 color: #fff;
             }
         }
+		.pipline-list {
+			margin-top: 40px;
+			.pipline-item {
+				figure {
+					.img-responsive {
+						margin: 0 auto;
+					}
+					figcaption {
+						margin-top: 10px;
+						text-align: center;
+						color: #fff;
+					}
+				}
+				& + .pipline-item {
+					margin-top: 20px;
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			.pipline-list {
+				.pipline-item {
+					& + .pipline-item {
+						margin-top: 0;
+					}
+				}
+			}
+		}
     }
     .commercialization {
         .section-body {
@@ -361,6 +405,91 @@
     .strategy {
         margin-bottom: 0;
         background-color: #f7f8f9;
+		.strategy-list {
+			margin: 30px auto 0;
+			max-width: 300px;
+			li {
+				.strategy-item {
+					border: 1px solid #dfdfdf;
+					text-align: center;
+					background-color: #fff;
+					.figure {
+						height: 150px;
+						background-repeat: no-repeat;
+						background-size: cover;
+						background-repeat: no-repeat;
+						border-bottom: 1px solid #dfdfdf;
+					}
+					.details {
+						padding: 30px;
+						h5 {
+							font-size: 1.1em;
+							font-weight: 400;
+						}
+						hr {
+							width: 30px;
+							border-top: 3px solid $kcolor;
+						}
+						p {
+							color: #666;
+						}
+					}
+				}
+				& + li {
+					margin-top: 20px;
+				}
+				&:nth-of-type(1) {
+					.strategy-item {
+						.figure {
+							background-image: url(/assets/images/rnd/img_strategy_1.jpg);
+						}
+						
+					}
+				}
+				&:nth-of-type(2) {
+					.strategy-item {
+						.figure {
+							background-image: url(/assets/images/rnd/img_strategy_2.jpg);
+						}
+						
+					}
+				}
+				&:nth-of-type(3) {
+					.strategy-item {
+						.figure {
+							background-image: url(/assets/images/rnd/img_strategy_3.jpg);
+						}
+						
+					}
+				}
+			}
+			@media (min-width: $md) {
+				margin-top: 50px;
+				max-width: none;
+				li {
+					margin-top: 0 !important;
+					.strategy-item {
+						height: 550px;
+						.details {
+							padding: 30px;
+						}
+					}
+				}
+			}
+			@media (min-width: $lg) {
+				li {
+					.strategy-item {
+						height: 550px;
+						.figure {
+							height: 180px;
+						}
+						.details {
+							padding: 50px;
+						}
+					}
+				}
+			}
+		}
     }
 }
 
