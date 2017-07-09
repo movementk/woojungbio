@@ -117,7 +117,7 @@
 	text-align: center;
 	h2 {
 		font-size: 20px;
-		line-height: 1em;
+		line-height: 30px;
 		font-weight: 100;
 	}
 	hr {
@@ -133,6 +133,7 @@
 	@media (min-width: $sm) {
 		h2 {
 			font-size: 26px;
+			line-height: 40px;
 		}
 		hr {
 			margin-top: 35px;
@@ -146,6 +147,7 @@
 	@media (min-width: $lg) {
 		h2 {
 			font-size: 30px;
+			line-height: 45px;
 		}
 		hr {
 			margin-top: 40px;

@@ -64,7 +64,7 @@ address {
       margin-top: 0; } }
 .rnd-1 #rcenter .section-body {
   margin: 0 auto;
-  max-width: 320px; }
+  max-width: 300px; }
   .rnd-1 #rcenter .section-body figure {
     position: relative;
     margin-bottom: 10px; }
@@ -100,7 +100,7 @@ address {
   background-color: #f7f8f9; }
   .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body {
     margin: 0 auto;
-    max-width: 320px;
+    max-width: 300px;
     text-align: center; }
     .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body h5 {
       margin-bottom: 10px;
@@ -121,12 +121,12 @@ address {
         margin-bottom: 20px; }
       .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body figure figcaption {
         line-height: 28px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1280px) {
     .rnd.platform-technology #tab-1 .gene-theraphy-2 .section-body figure figcaption {
       line-height: 30px; } }
 .rnd.platform-technology #tab-1 .virus-vector .section-body {
   margin: 0 auto;
-  max-width: 320px; }
+  max-width: 300px; }
   @media (min-width: 992px) {
     .rnd.platform-technology #tab-1 .virus-vector .section-body {
       max-width: none; } }
@@ -135,15 +135,66 @@ address {
   background-color: #f7f8f9; }
   .rnd.platform-technology #tab-1 .stable-development .section-body {
     margin: 50px auto 0;
-    max-width: 320px; }
+    max-width: 300px; }
     @media (min-width: 992px) {
       .rnd.platform-technology #tab-1 .stable-development .section-body {
         margin-top: 70px;
         max-width: none; } }
+.rnd.platform-technology #tab-2 .homologous-epitopes .img-responsive {
+  margin: 0 auto;
+  max-width: 300px; }
+.rnd.platform-technology #tab-2 .homologous-epitopes ol {
+  margin-top: 50px;
+  max-width: 180px; }
+  .rnd.platform-technology #tab-2 .homologous-epitopes ol li span {
+    display: inline-block;
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    background-color: #595757;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center; }
+  .rnd.platform-technology #tab-2 .homologous-epitopes ol li + li {
+    margin-top: 10px; }
+  .rnd.platform-technology #tab-2 .homologous-epitopes ol li:nth-of-type(odd) span {
+    background-color: #e10013; }
+@media (min-width: 768px) {
+  .rnd.platform-technology #tab-2 .homologous-epitopes ol {
+    max-width: 420px; }
+    .rnd.platform-technology #tab-2 .homologous-epitopes ol li {
+      margin-top: 10px; } }
+@media (min-width: 992px) {
+  .rnd.platform-technology #tab-2 .homologous-epitopes ol {
+    margin-top: 100px;
+    max-width: none; }
+    .rnd.platform-technology #tab-2 .homologous-epitopes ol li {
+      margin-top: 0 !important;
+      text-align: center; } }
 .rnd.platform-technology #tab-2 .immune-antibody {
   background-color: #f7f8f9; }
+  .rnd.platform-technology #tab-2 .immune-antibody .section-body {
+    margin: 0 auto;
+    max-width: 300px; }
+    .rnd.platform-technology #tab-2 .immune-antibody .section-body .img-responsive {
+      margin: 0 auto; }
+    @media (min-width: 992px) {
+      .rnd.platform-technology #tab-2 .immune-antibody .section-body {
+        max-width: none; } }
 .rnd.platform-technology #tab-2 .pipeline .section-body .table-responsive .table tbody tr td {
   color: #666; }
+.rnd.platform-technology #tab-3 .process .section-body, .rnd.platform-technology #tab-3 .x-ray .section-body {
+  margin: 0 auto;
+  max-width: 300px; }
+@media (min-width: 992px) {
+  .rnd.platform-technology #tab-3 .process .section-body, .rnd.platform-technology #tab-3 .x-ray .section-body {
+    max-width: none; } }
+.rnd.platform-technology #tab-3 .x-ray {
+  background-color: #f7f8f9; }
 .rnd.platform-technology #tab-3 .metastasis .section-body .sub-summary {
   margin-bottom: 30px; }
   @media (min-width: 768px) {
@@ -151,6 +202,13 @@ address {
       margin-bottom: 40px; } }
 .rnd.platform-technology #tab-3 .mouse-models {
   background-color: #f7f8f9; }
+  .rnd.platform-technology #tab-3 .mouse-models .section-body-2 {
+    margin: 50px auto 0;
+    max-width: 300px; }
+    @media (min-width: 992px) {
+      .rnd.platform-technology #tab-3 .mouse-models .section-body-2 {
+        margin-top: 100px;
+        max-width: none; } }
 
 .rnd.development .pipline {
   background-color: #3f4040; }
