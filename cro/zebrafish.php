@@ -38,6 +38,65 @@
 			</p>
 		</div>
 	</div>
+	<article class="zebra-evaluation">
+	    <div class="article-header">
+            <div class="container">
+                <h3>
+                    지금 바로 제브라피쉬를 이용한<br>
+                    <b>쉽고 빠른 독성/효능 평가를 문의</b>해보세요!
+                </h3>
+            </div>
+	    </div>
+	    <div class="article-body">
+	        <div class="container">
+	            <ul class="zebra-effect">
+	                <li>
+	                    <h6 class="list-title">Toxicity test services</h6>
+	                    <ul class="list-content">
+	                        <li>Acute Toxicity test (OECD TG 236)</li>
+	                        <li>Hepato-Toxicity test</li>
+	                        <li>Terato-Toxicity test</li>
+	                        <li>Neuro-Toxicity test</li>
+	                        <li>Cardio-Toxicity test</li>
+	                        <li>Oto-Toxicity test</li>
+	                    </ul>
+	                </li>
+	                <li>
+	                    <h6 class="list-title">Efficacy test services</h6>
+	                    <ul class="list-content">
+	                        <li>Anorexing agents screening</li>
+	                        <li>Whitening test</li>
+	                        <li>Antioxident test</li>
+	                        <li>Bone formation test</li>
+	                        <li>Regeneration test</li>
+	                    </ul>
+	                </li>
+	                <li>
+	                    <h6 class="list-title">Ecotoxicology services</h6>
+	                    <ul class="list-content">
+	                        <li>Fish Acute Toxicity test (OECD TG 230)</li>
+	                        <li>Fish Embryo Toxicity test (OECD TG 236)</li>
+	                    </ul>
+	                </li>
+	                <li>
+	                    <h6 class="list-title">Zebrafish CARE services</h6>
+	                    <ul class="list-content">
+	                        <li>Zebrafish Health-monitoring services</li>
+	                        <li>Zebrafish Sperm Banking services</li>
+	                    </ul>
+	                </li>
+	                <li>
+	                    <h6 class="list-title">Custom services</h6>
+	                    <ul class="list-content">
+	                        <li>Modified zebrafish test</li>
+	                        <li>Manufacture of zebrafish model</li>
+	                        <li>Facility for zebrafish</li>
+	                    </ul>
+	                </li>
+	            </ul>
+	        </div>
+	    </div>
+	</article>
 </main>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
