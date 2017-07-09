@@ -52,20 +52,29 @@ label {
   margin-bottom: 0; }
 
 .table-wrap .write-form {
+  table-layout: fixed;
   border-top: 3px solid #e10013; }
   .table-wrap .write-form tbody tr th {
-    width: 170px;
+    width: 120px;
+    padding: 18px 5px;
     font-size: 13px;
     color: #333;
     font-weight: 400;
     vertical-align: middle;
-    padding-left: 15px;
     background-color: #f7f7f7;
     border: 1px solid #c3c3c3;
     border-left: 0;
     border-top: 0; }
+    .table-wrap .write-form tbody tr th small {
+      font-size: 11px; }
+      @media (min-width: 768px) {
+        .table-wrap .write-form tbody tr th small {
+          font-size: 13px; } }
     .table-wrap .write-form tbody tr th label {
       font-size: 13px; }
+      @media (min-width: 768px) {
+        .table-wrap .write-form tbody tr th label {
+          font-size: 15px; } }
     .table-wrap .write-form tbody tr th.u-content {
       padding-top: 20px;
       vertical-align: top; }
@@ -75,25 +84,46 @@ label {
       margin-right: 3px; }
     @media (min-width: 768px) {
       .table-wrap .write-form tbody tr th {
-        width: 25%;
-        padding-left: 30px; }
-        .table-wrap .write-form tbody tr th label {
-          font-size: 15px; } }
+        padding: 18px 30px;
+        width: 230px;
+        font-size: 15px;
+        line-height: 26px; } }
     @media (min-width: 992px) {
-      .table-wrap .write-form tbody tr th {
-        width: 20%; } }
-    @media (min-width: 1280px) {
       .table-wrap .write-form tbody tr th {
         width: 170px; } }
   .table-wrap .write-form tbody tr td {
-    width: 70%;
-    padding: 10px;
+    font-size: 13px;
+    color: #666;
+    vertical-align: middle;
     border: 0;
+    padding: 10px;
     border-bottom: 1px solid #dfdfdf; }
+    .table-wrap .write-form tbody tr td label {
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 24px; }
+      @media (min-width: 768px) {
+        .table-wrap .write-form tbody tr td label {
+          font-size: 15px;
+          color: #666; } }
+    .table-wrap .write-form tbody tr td .form-group .attention {
+      display: block;
+      font-size: 11px;
+      color: #666;
+      font-weight: 300;
+      margin-top: 10px; }
+      @media (min-width: 768px) {
+        .table-wrap .write-form tbody tr td .form-group .attention {
+          font-size: 13px; } }
+      @media (min-width: 1280px) {
+        .table-wrap .write-form tbody tr td .form-group .attention {
+          display: inline-block;
+          margin-top: 0;
+          margin-left: 20px; } }
     .table-wrap .write-form tbody tr td.u-content .form-group .form-control {
       height: 180px; }
     .table-wrap .write-form tbody tr td.phone .form-group .form-control {
-      width: 26.77%;
+      width: 26.33%;
       display: inline-block; }
       .table-wrap .write-form tbody tr td.phone .form-group .form-control:nth-of-type(1) {
         margin-right: 5px; }
@@ -130,73 +160,14 @@ label {
       @media (min-width: 768px) {
         .table-wrap .write-form tbody tr td.attach .form-group {
           padding-right: 130px; } }
-    @media (min-width: 768px) {
-      .table-wrap .write-form tbody tr td {
-        width: 75%;
-        padding-left: 30px;
-        padding-right: 30px; }
-        .table-wrap .write-form tbody tr td.u-name .form-group .form-control {
-          width: 270px; }
-        .table-wrap .write-form tbody tr td.u-mail .form-group .form-control {
-          width: 470px; } }
-    @media (min-width: 992px) {
-      .table-wrap .write-form tbody tr td {
-        width: 80%;
-        padding-right: 70px; } }
-    @media (min-width: 1280px) {
-      .table-wrap .write-form tbody tr td {
-        width: 1000px; } }
-  .table-wrap .write-form.table-type1 tbody tr th {
-    width: 120px;
-    padding: 18px 5px; }
-    .table-wrap .write-form.table-type1 tbody tr th small {
-      font-size: 11px; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr th small {
-          font-size: 13px; } }
-    @media (min-width: 768px) {
-      .table-wrap .write-form.table-type1 tbody tr th {
-        padding: 18px 30px;
-        width: 230px;
-        font-size: 15px;
-        line-height: 26px; } }
-  .table-wrap .write-form.table-type1 tbody tr td {
-    color: #666;
-    font-size: 13px;
-    vertical-align: middle; }
-    .table-wrap .write-form.table-type1 tbody tr td label {
-      font-size: 13px;
-      font-weight: 300;
-      line-height: 24px; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td label {
-          font-size: 15px;
-          color: #666; } }
-    .table-wrap .write-form.table-type1 tbody tr td .form-group .attention {
-      display: block;
-      font-size: 11px;
-      color: #666;
-      font-weight: 300;
-      margin-top: 10px; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td .form-group .attention {
-          font-size: 13px; } }
-      @media (min-width: 1280px) {
-        .table-wrap .write-form.table-type1 tbody tr td .form-group .attention {
-          display: inline-block;
-          margin-top: 0;
-          margin-left: 20px; } }
-    @media (min-width: 768px) {
-      .table-wrap .write-form.table-type1 tbody tr td.basic-form .form-group .form-control {
-        width: 270px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) {
+    .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) {
       position: relative;
       padding-right: 74px; }
-      .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) .btn-addr {
+      .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) .btn-addr {
         position: absolute;
         top: 0;
         right: 0; }
-        .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray {
+        .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray {
           width: 64px;
           height: 35px;
           line-height: 33px;
@@ -206,166 +177,93 @@ label {
           border-radius: 0;
           padding: 0;
           background-color: #aeaeaf; }
-          .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray:hover, .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray:focus {
+          .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray:hover, .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray:focus {
             box-shadow: none; }
           @media (min-width: 768px) {
-            .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray {
+            .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) .btn-addr .btn-gray {
               width: 120px;
               font-size: 15px; } }
       @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(1) {
+        .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(1) {
           width: 300px;
           padding-right: 130px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.addr .form-group:nth-of-type(2) .form-control:nth-of-type(1) {
+    .table-wrap .write-form tbody tr td.addr .form-group:nth-of-type(2) .form-control:nth-of-type(1) {
       margin: 10px 0; }
-    .table-wrap .write-form.table-type1 tbody tr td.phone .form-group .form-control {
-      width: 25%; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.phone .form-group .form-control {
-          width: 100px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.transform-gene .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.species .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.scope .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.gene-name .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.email .form-group .form-control {
-      display: inline-block; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.transform-gene .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.species .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.scope .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.gene-name .form-group .form-control, .table-wrap .write-form.table-type1 tbody tr td.email .form-group .form-control {
-          width: 370px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.checkbox-list .form-group label {
+    @media (min-width: 768px) {
+      .table-wrap .write-form tbody tr td.basic-form .form-group .form-control {
+        width: 270px; } }
+    .table-wrap .write-form tbody tr td.checkbox-list .form-group label {
       display: block; }
-      .table-wrap .write-form.table-type1 tbody tr td.checkbox-list .form-group label input[type=checkbox] {
+      .table-wrap .write-form tbody tr td.checkbox-list .form-group label input[type=checkbox] {
         position: relative;
         top: 2px;
         margin: 0 7px 0 0; }
       @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.checkbox-list .form-group label {
+        .table-wrap .write-form tbody tr td.checkbox-list .form-group label {
           display: inline-block;
           line-height: 32px;
           margin-right: 30px; } }
       @media (min-width: 992px) {
-        .table-wrap .write-form.table-type1 tbody tr td.checkbox-list .form-group label {
+        .table-wrap .write-form tbody tr td.checkbox-list .form-group label {
           margin-right: 50px;
           line-height: 40px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.radio-box .form-group label {
+    .table-wrap .write-form tbody tr td.radio-box .form-group label {
       margin-right: 20px;
       line-height: 30px; }
       @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.radio-box .form-group label {
+        .table-wrap .write-form tbody tr td.radio-box .form-group label {
           margin-right: 50px;
           line-height: 45px; } }
-      .table-wrap .write-form.table-type1 tbody tr td.radio-box .form-group label:last-child {
+      .table-wrap .write-form tbody tr td.radio-box .form-group label:last-child {
         margin-right: 0; }
-      .table-wrap .write-form.table-type1 tbody tr td.radio-box .form-group label input[type=radio] {
+      .table-wrap .write-form tbody tr td.radio-box .form-group label input[type=radio] {
         position: relative;
         top: 2px;
         margin: 0 5px 0 0; }
         @media (min-width: 768px) {
-          .table-wrap .write-form.table-type1 tbody tr td.radio-box .form-group label input[type=radio] {
+          .table-wrap .write-form tbody tr td.radio-box .form-group label input[type=radio] {
             top: 1px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.select-radio label {
-      margin-right: 20px;
-      line-height: 30px; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio label.mr-zero {
-        margin: 0; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.select-radio label {
-          margin-right: 50px;
-          line-height: 45px; } }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio label input[type=radio] {
-        position: relative;
-        top: 2px;
-        margin: 0 5px 0 0; }
-        @media (min-width: 768px) {
-          .table-wrap .write-form.table-type1 tbody tr td.select-radio label input[type=radio] {
-            top: 1px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group {
-      display: block;
-      margin-right: 20px;
-      /*
-      &:before {
-          position: relative;
-          left: 2px;
-          display: inline-block;
-          content: "(";
-      }
-      &:after {
-          display: inline-block;
-          content: ")";
-      }
-      */ }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group.etc {
-        position: relative;
-        padding-left: 5px; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group:last-child {
-        margin-right: 0; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group input[type=radio] {
-        display: inline-block;
-        position: relative;
-        top: 2px;
-        margin: 0 5px 0 0; }
-        @media (min-width: 768px) {
-          .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group input[type=radio] {
-            top: 1px; } }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group label {
-        display: inline-block;
-        margin-right: 0; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group .form-control {
-        width: 95%;
-        display: inline-block; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group i {
-        font-style: normal; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group .input-added:before {
-        position: relative;
-        left: 2px;
-        display: inline-block;
-        content: "("; }
-      .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group .input-added:after {
-        display: inline-block;
-        content: ")"; }
-      @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group {
-          margin-right: 50px; }
-          .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group .form-control {
-            width: 314px; }
-            .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group .form-control.shot-input {
-              width: 176px; } }
-      @media (min-width: 1280px) {
-        .table-wrap .write-form.table-type1 tbody tr td.select-radio .form-group {
-          display: inline-block;
-          margin-right: 50px; } }
-    .table-wrap .write-form.table-type1 tbody tr td.pr-zero {
+    .table-wrap .write-form tbody tr td.pr-zero {
       padding-right: 0; }
-    .table-wrap .write-form.table-type1 tbody tr td.gene-code .form-group .form-control {
+    .table-wrap .write-form tbody tr td.gene-code .form-group .form-control {
       display: block;
       width: 100px;
       margin-top: 10px; }
-      .table-wrap .write-form.table-type1 tbody tr td.gene-code .form-group .form-control:first-child {
+      .table-wrap .write-form tbody tr td.gene-code .form-group .form-control:first-child {
         margin-top: 0; }
       @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.gene-code .form-group .form-control {
+        .table-wrap .write-form tbody tr td.gene-code .form-group .form-control {
           display: inline-block;
           margin-top: 0;
           margin-right: 10px; }
-          .table-wrap .write-form.table-type1 tbody tr td.gene-code .form-group .form-control:last-child {
+          .table-wrap .write-form tbody tr td.gene-code .form-group .form-control:last-child {
             margin-top: 10px;
             margin-right: 0; } }
   @media (min-width: 768px) and (min-width: 1280px) {
-    .table-wrap .write-form.table-type1 tbody tr td.gene-code .form-group .form-control:last-child {
+    .table-wrap .write-form tbody tr td.gene-code .form-group .form-control:last-child {
       margin-top: 0; } }
 
-    .table-wrap .write-form.table-type1 tbody tr td.gender .form-group .form-control {
+    .table-wrap .write-form tbody tr td.gender .form-group .form-control {
       display: inline-block;
-      width: 43.88%; }
-      .table-wrap .write-form.table-type1 tbody tr td.gender .form-group .form-control:first-child {
+      width: 43.44%; }
+      .table-wrap .write-form tbody tr td.gender .form-group .form-control:first-child {
         margin-right: 5px; }
-      .table-wrap .write-form.table-type1 tbody tr td.gender .form-group .form-control:last-child {
+      .table-wrap .write-form tbody tr td.gender .form-group .form-control:last-child {
         margin-left: 5px; }
       @media (min-width: 768px) {
-        .table-wrap .write-form.table-type1 tbody tr td.gender .form-group .form-control {
+        .table-wrap .write-form tbody tr td.gender .form-group .form-control {
           width: 100px; } }
     @media (min-width: 768px) {
-      .table-wrap .write-form.table-type1 tbody tr td {
+      .table-wrap .write-form tbody tr td {
         font-size: 15px;
-        padding-left: 30px; } }
+        padding-left: 30px;
+        padding-right: 30px; }
+        .table-wrap .write-form tbody tr td.u-name .form-group .form-control {
+          width: 270px; }
+        .table-wrap .write-form tbody tr td.u-mail .form-group .form-control {
+          width: 470px; } }
     @media (min-width: 992px) {
-      .table-wrap .write-form.table-type1 tbody tr td {
+      .table-wrap .write-form tbody tr td {
         padding-right: 70px; } }
 
 /*# sourceMappingURL=form.css.map */

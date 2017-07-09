@@ -109,5 +109,63 @@
 .products.ellegaard-gottingen {
     .gottingen {
         background-color: #f7f8f9;
+        figure {
+            text-align: center;
+            .img-responsive {
+                display: inline-block;
+            }
+            figcaption {
+                font-size: 14px;
+                line-height: 26px;
+                margin-top: 20px;
+                color: #333;
+                @include titi();
+                @media(min-width: $sm) {
+                    font-size: 16px;
+                    line-height: 30px;
+                    margin-top: 25px;
+                }
+                @media(min-width: $lg) {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    .growth-data {
+        .section-body {
+            .table-responsive {
+                .table {
+                    thead {
+                        tr {
+                            th {
+                                border-color: #dfdfdf;
+                                background-color: #eaeaea;
+                            }
+                        }
+                    }
+                    tbody {
+                        tr {
+                            td {
+                                padding-top: 5px;
+                                padding-bottom: 5px;
+                                background-color: #fff;
+                                border-color: #dfdfdf;
+                                &:first-child {
+                                    background-color: #fff;
+                                }
+                            }
+                            &:nth-of-type(odd) {
+                                td {
+                                    background-color: rgba(234, 234, 234, .3);
+                                }
+                            }
+                            td:first-child {
+                                background-color: #fff;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

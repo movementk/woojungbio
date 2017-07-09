@@ -49,4 +49,43 @@ address {
   .animal.breeding-management .breeding-system .section-header .section-title {
     color: #fff; }
 
+.animal.request-write .write .section-body .table-wrap .table tbody tr td.phone .form-group .form-control {
+  width: 24.33%; }
+  @media (min-width: 768px) {
+    .animal.request-write .write .section-body .table-wrap .table tbody tr td.phone .form-group .form-control {
+      width: 100px; } }
+.animal.request-write .write .section-body .table-wrap .table tbody tr td.transform-gene .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.species .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.scope .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.gene-name .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.email .form-group .form-control {
+  display: inline-block; }
+  @media (min-width: 768px) {
+    .animal.request-write .write .section-body .table-wrap .table tbody tr td.transform-gene .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.species .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.scope .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.gene-name .form-group .form-control, .animal.request-write .write .section-body .table-wrap .table tbody tr td.email .form-group .form-control {
+      width: 370px; } }
+.animal.request-write .write .section-body .btn-area {
+  text-align: center;
+  margin-top: 35px; }
+  .animal.request-write .write .section-body .btn-area p .btn {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0; }
+    .animal.request-write .write .section-body .btn-area p .btn.btn-red {
+      background-color: #e10013; }
+    @media (min-width: 768px) {
+      .animal.request-write .write .section-body .btn-area p .btn {
+        width: 170px;
+        height: 45px;
+        line-height: 43px;
+        font-size: 16px; } }
+  @media (min-width: 768px) {
+    .animal.request-write .write .section-body .btn-area {
+      margin-top: 50px;
+      text-align: right; } }
+  @media (min-width: 1280px) {
+    .animal.request-write .write .section-body .btn-area {
+      margin-top: 60px; } }
+
 /*# sourceMappingURL=animal.css.map */

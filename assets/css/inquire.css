@@ -28,4 +28,39 @@ dl {
 address {
   margin-bottom: 0; }
 
+.inquire.inquire-write .write .table-wrap .table tbody th {
+  width: 82px;
+  padding-left: 15px; }
+  @media (min-width: 768px) {
+    .inquire.inquire-write .write .table-wrap .table tbody th {
+      width: 170px; } }
+.inquire.inquire-write .write .btn-area {
+  text-align: center;
+  margin-top: 35px; }
+  .inquire.inquire-write .write .btn-area p .btn {
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    font-size: 13px;
+    color: #fff;
+    line-height: 33px;
+    text-align: center;
+    padding: 0;
+    border-radius: 0; }
+    .inquire.inquire-write .write .btn-area p .btn.btn-red {
+      background-color: #e10013; }
+    @media (min-width: 768px) {
+      .inquire.inquire-write .write .btn-area p .btn {
+        width: 170px;
+        height: 45px;
+        line-height: 43px;
+        font-size: 16px; } }
+  @media (min-width: 768px) {
+    .inquire.inquire-write .write .btn-area {
+      margin-top: 50px;
+      text-align: right; } }
+  @media (min-width: 1280px) {
+    .inquire.inquire-write .write .btn-area {
+      margin-top: 60px; } }
+
 /*# sourceMappingURL=inquire.css.map */

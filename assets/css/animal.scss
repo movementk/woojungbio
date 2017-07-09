@@ -42,7 +42,76 @@
     }
 }
 
-
+// 유전자변형 문의
+.animal.request-write {
+    .write {
+        .section-body {
+            .table-wrap {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                &.phone {
+                                    .form-group {
+                                        .form-control {
+                                            width: 24.33%;
+                                            @media(min-width: $sm) {
+                                                width: 100px;
+                                            }
+                                        }
+                                    }
+                                }
+                                &.transform-gene, &.species, &.scope, &.gene-name, &.email {
+                                    .form-group {
+                                        .form-control {
+                                            display: inline-block;
+                                            @media(min-width: $sm) {
+                                                width: 370px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                text-align: center;
+                margin-top: 35px;
+                p {
+                    .btn {
+                        display: inline-block;
+                        width: 150px;
+                        height: 35px;
+                        font-size: 13px;
+                        color: #fff;
+                        line-height: 33px;
+                        text-align: center;
+                        padding: 0;
+                        border-radius: 0;
+                        &.btn-red {
+                            background-color: #e10013;
+                        }
+                        @media(min-width: $sm) {
+                            width: 170px;
+                            height: 45px;
+                            line-height: 43px;
+                            font-size: 16px;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    margin-top: 50px;
+                    text-align: right;
+                }
+                @media(min-width: $lg) {
+                    margin-top: 60px;
+                }
+            }
+        }
+    }
+}
 
 
 

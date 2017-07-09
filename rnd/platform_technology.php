@@ -26,13 +26,13 @@
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu" role="tablist">
-                    <li role="presentation" class="active">
+                    <li role="presentation" class="active" id="platform-1">
                         <a href="#tab-1" role="tab" data-toggle="tab">Innovation Gene Therapy</a>
                     </li>
-                    <li role="presentation">
+                    <li role="presentation" id="platform-2">
                         <a href="#tab-2" role="tab" data-toggle="tab">Homologous Epitopes Region Immunization Technology</a>
                     </li>
-                    <li role="presentation">
+                    <li role="presentation" id="platform-3">
                         <a href="#tab-3" role="tab" data-toggle="tab">Cancer Therapies in Models</a>
                     </li>
                 </ul>
