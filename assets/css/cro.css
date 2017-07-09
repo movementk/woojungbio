@@ -114,6 +114,56 @@ address {
   @media (min-width: 1280px) {
     .cro.snbl .page-summary {
       padding-top: 115px; } }
+.cro.snbl .snbl-history {
+  margin-top: 80px;
+  height: 583px;
+  background-image: url(/assets/images/cro/img_history.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%; }
+.cro.snbl .company-history {
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 0;
+  background-color: #003060;
+  color: #fff; }
+  .cro.snbl .company-history .section-body-1 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000; }
+    .cro.snbl .company-history .section-body-1 .com-list {
+      padding-left: 25px; }
+      .cro.snbl .company-history .section-body-1 .com-list li {
+        padding-left: 0; }
+        .cro.snbl .company-history .section-body-1 .com-list li:before {
+          content: ''; }
+        .cro.snbl .company-history .section-body-1 .com-list li b {
+          display: inline-block;
+          margin-right: 10px;
+          color: #f08501; }
+  .cro.snbl .company-history .section-body-2 {
+    padding-top: 30px;
+    border-top: 1px solid #0056ad; }
+    .cro.snbl .company-history .section-body-2 .com-list li:before {
+      color: #fff; }
+  @media (min-width: 768px) {
+    .cro.snbl .company-history {
+      margin-left: -20px;
+      margin-right: -20px;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .cro.snbl .company-history .section-title {
+        margin-bottom: 50px; }
+      .cro.snbl .company-history .section-body-1 {
+        padding-bottom: 40px; }
+        .cro.snbl .company-history .section-body-1 .com-list {
+          padding-left: 35px; } }
+  @media (min-width: 992px) {
+    .cro.snbl .company-history {
+      width: 750px; } }
+  @media (min-width: 1280px) {
+    .cro.snbl .company-history .section-body-1 {
+      padding-bottom: 40px; } }
 .cro.snbl .ind-package .section-body.second .com-list li {
   font-family: 'Titillium Web', sans-serif; }
 .cro.snbl .differentiation {

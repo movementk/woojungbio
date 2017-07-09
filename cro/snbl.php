@@ -28,13 +28,46 @@
 			</p>
 		</div>
 	</div>
-		
-	<!--section class="section-content">
-		<div class="container">
-            컨텐츠 영역 50% / 50%
-            임상연구 연혁 및 bxslider 영역
+	
+	<div class="snbl-history"></div>
+	
+	<!-- div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-lg-6">
+				<section class="section-content company-history has-space">
+					<div class="section-header">
+						<h4 class="section-title">1957년도 설립되어 60년 이상 비임상연구 및<br> 30년 이상의 임상연구 경험을 가진 Global CRO</h4>
+					</div>
+					<div class="section-body section-body-1">
+						<ol class="com-list">
+							<li><b>2010년</b> SNBL Japan- ㈜우정비에스씨와 시험수행 독점대리점 계약체결</li>
+							<li><b>2011년</b> SNBL China- ㈜우정비에스씨와 동물판매 독점대리점 계약체결</li>
+							<li><b>2012년</b> SNBL USA- (주)우정비에스씨와 시험수행 독점대리점 계약체결</li>
+						</ol>
+					</div>
+					<div class="section-body section-body-2">
+						<ul class="com-list">
+							<li>SNBL 안정성평가연구소 : SNBL Japan, SNBL USA</li>
+							<li>SNBL 영장류 센터 : SNBL Japan, SNBL USA, SNBL China, SNBL Cambodia</li>
+						</ul>
+					</div>
+				</section>
+			</div>
+			<div class="col-xs-12 col-lg-6">
+				<div class="history-slider">
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
 		</div>
-	</section-->
+	</div -->
+	
 	<section class="section-content ind-package">
 		<div class="container">
 			<div class="row">
