@@ -1,0 +1,21 @@
+@import 'common';
+
+.gene-delivery {
+    .lentivirus {
+        background-color: #f7f8f9;
+        .section-body {
+            .table {
+                thead {
+                    th {
+                        background-color: #eaeaea;
+                    }
+                }
+                tbody {
+                    td {
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+    }
+}
