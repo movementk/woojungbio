@@ -1,1 +1,67 @@
 @import 'common';
+
+
+// Safety-Study 
+.glp.safety-study {
+    // 공통으로 들어갈 스타일
+    .tab-content {
+        .tab-pane {
+            /* common style */
+        }
+    }
+    // safety-study
+    #tab-1 {
+        .authentication-glp {
+            background-image: url(/assets/images/glp/authentication_glp_bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            .section-header {
+                .section-title {
+                    color: #fff;
+                }
+            }
+        }
+        .glp-study-list {
+            
+        }
+    }
+    // 시험항목
+    #tab-2 {
+        .basic-toxicity {
+            
+        }
+        .heredity-toxicity {
+            background-image: url(/assets/images/glp/heredity_toxicity_bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            .section-header {
+                .section-title {
+                    color: #fff;
+                }
+            }
+        }
+        .gametogenic {
+            
+        }
+        .aquatic-ecology {
+            background-image: url(/assets/images/glp/aquatic_ecology_bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+            .section-header {
+                .section-title {
+                    color: #fff;
+                }
+            }
+        }
+        .substitute {
+            
+        }
+    }
+    // 시험문의
+    #tab-3 {
+
+    }
+}

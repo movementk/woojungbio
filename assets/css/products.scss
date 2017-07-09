@@ -1,6 +1,28 @@
 @import 'common';
 
-.gene-delivery {
+
+// common
+.products {
+    .page-summary {
+        b {
+            display: inline-block;
+            font-size: 14px;
+            color: #f08501;
+            font-weight: 400;
+            margin-bottom: 20px;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                margin-bottom: 25px;
+            }
+            @media(min-width: $lg) {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+// Gene Delivery
+.products.gene-delivery {
     .lentivirus {
         background-color: #f7f8f9;
         .section-body {
@@ -17,5 +39,75 @@
                 }
             }
         }
+    }
+    .customized {
+        background-image: url(/assets/images/products/customized_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-header {
+            h4 {
+                color: #fff;
+            }
+        }
+    }
+}
+
+// Antibody Production
+.products.antibody-production {
+    .polyclonal-antibody {
+        background-color: #f7f8f9;
+    }
+    .hybridoma {
+        background-color: #f7f8f9;
+    }
+}
+
+// 면역부전 모델 (NPG)
+.products.npg {
+    .npg-mouse {
+        background-color: #f7f8f9;
+    }
+    .difference {
+        background-color: #f7f8f9;
+    }
+}
+
+// 인간화 간 모델 (URG)
+.products.urg {
+    .transplant-result {
+        background-color: #f7f8f9;
+    }
+    .reference {
+        background-color: #f7f8f9;
+    }
+}
+
+// 지카, 메르스, 뎅기, 인플루엔자 바이러스 연구 (AG129)
+.products.ag129 {
+    .vaccine {
+        background-color: #f7f8f9;
+    }
+}
+
+// 인플루엔자 바이러스, 백신 연구
+.products.vaccine {
+    .spf-ferret {
+        background-image: url(/assets/images/products/spf_ferret_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-header {
+            .section-title {
+                color: #fff;
+            }
+        }
+    }
+}
+
+//Ellegaard Göttingen
+.products.ellegaard-gottingen {
+    .gottingen {
+        background-color: #f7f8f9;
     }
 }

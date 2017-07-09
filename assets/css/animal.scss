@@ -1,5 +1,77 @@
 @import 'common';
 
-.request {
-    
+
+
+// 실험동물 생산
+.animal.experimental-animals {
+    .animal-provide {
+        background-image: url(/assets/images/animal/animal_provide_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-header {
+            .section-title {
+                color: #fff;
+            }
+        }
+    }
+    .animal-model {
+        background-color: #f7f8f9;
+    }
 }
+
+// 질환모델 제작 - KO제작, 관리
+.animal.disease-modeling {
+    .vitalSta-partner {
+        background-color: #f7f8f9;
+    }
+}
+
+// 청정화, 사육관리 
+.animal.breeding-management {
+    .breeding-system {
+        background-image: url(/assets/images/animal/breeding_system_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+        .section-header {
+            .section-title {
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// 유전자변형 문의 .animal.
