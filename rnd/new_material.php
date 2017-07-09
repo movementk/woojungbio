@@ -10,6 +10,12 @@
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/side-nav.php'); ?>
 
+<div class="jumbo-wall">
+	<div class="container">
+		<h1>R&amp;D</h1>
+	</div>
+</div>
+
 <main id="content">
 	
 	<div class="page-header">
@@ -37,21 +43,24 @@
 				<h4 class="section-title">천연물 유래소재 연구</h4>
 			</div>
 			<div class="section-body">
-				<ul class="nmaterial-list">
-					<li>
-						<div class="nmaterial-item nmaterial-item-1">
-							<p>감염병 예방용<br>의약외품 연구</p>
-						</div>
+				<ul class="nmaterial-list row">
+					<li class="col-xs-12 col-sm-4 nmaterial-item nmaterial-item-1">
+						<figure>
+							<img class="img-responsive" src="/assets/images/icons/rnd/a1.png">
+							<figcaption>감염병 예방용<br>의약외품 연구</figcaption>
+						</figure>
 					</li>
-					<li>
-						<div class="nmaterial-item nmaterial-item-2">
-							<p>헬스케어 연구</p>
-						</div>
+					<li class="col-xs-12 col-sm-4 nmaterial-item nmaterial-item-2">
+						<figure>
+							<img class="img-responsive" src="/assets/images/icons/rnd/a2.png">
+							<figcaption>헬스케어 연구</figcaption>
+						</figure>
 					</li>
-					<li>
-						<div class="nmaterial-item nmaterial-item-3">
-							<p>바이오기능소재</p>
-						</div>
+					<li class="col-xs-12 col-sm-4 nmaterial-item nmaterial-item-3">
+						<figure>
+							<img class="img-responsive" src="/assets/images/icons/rnd/a3.png">
+							<figcaption>바이오기능소재</figcaption>
+						</figure>
 					</li>
 				</ul>
 			</div>

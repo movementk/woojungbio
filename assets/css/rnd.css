@@ -28,6 +28,12 @@ dl {
 address {
   margin-bottom: 0; }
 
+.jumbo-wall {
+  background-image: url(/assets/images/rnd/bg_rnd_jumbo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+
 .sub-summary {
   font-size: 14px;
   color: #666;
@@ -45,6 +51,17 @@ address {
   background-position: 50% 50%; }
   .rnd-1 #nmaterial .section-title {
     color: #fff; }
+  .rnd-1 #nmaterial .nmaterial-list .nmaterial-item figure .img-responsive {
+    margin: 0 auto; }
+  .rnd-1 #nmaterial .nmaterial-list .nmaterial-item figure figcaption {
+    margin-top: 10px;
+    text-align: center;
+    color: #fff; }
+  .rnd-1 #nmaterial .nmaterial-list .nmaterial-item + .nmaterial-item {
+    margin-top: 20px; }
+  @media (min-width: 768px) {
+    .rnd-1 #nmaterial .nmaterial-list .nmaterial-item + .nmaterial-item {
+      margin-top: 0; } }
 .rnd-1 #rcenter .section-body {
   margin: 0 auto;
   max-width: 320px; }

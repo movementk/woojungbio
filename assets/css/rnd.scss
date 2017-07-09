@@ -1,5 +1,11 @@
 @import 'common';
 
+.jumbo-wall {
+	background-image: url(/assets/images/rnd/bg_rnd_jumbo.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
 
 // common txt
 .sub-summary {
@@ -13,7 +19,6 @@
     }
 }
 
-
 // 바이오신소재
 .rnd-1 {
 	#nmaterial {
@@ -23,6 +28,32 @@
 		background-position: 50% 50%;
 		.section-title {
 			color: #fff;
+		}
+		.nmaterial-list {
+			.nmaterial-item {
+				figure {
+					.img-responsive {
+						margin: 0 auto;
+					}
+					figcaption {
+						margin-top: 10px;
+						text-align: center;
+						color: #fff;
+					}
+				}
+				& + .nmaterial-item {
+					margin-top: 20px;
+				}
+			}
+		}
+		@media (min-width: $sm) {
+			.nmaterial-list {
+				.nmaterial-item {
+					& + .nmaterial-item {
+						margin-top: 0;
+					}
+				}
+			}
 		}
 	}
 	#rcenter {
