@@ -432,6 +432,8 @@
 						}
 						p {
 							color: #666;
+							word-wrap: normal;
+							word-break: keep-all;
 						}
 					}
 				}
@@ -470,9 +472,6 @@
 					margin-top: 0 !important;
 					.strategy-item {
 						height: 550px;
-						.details {
-							padding: 30px;
-						}
 					}
 				}
 			}
@@ -484,7 +483,7 @@
 							height: 180px;
 						}
 						.details {
-							padding: 50px;
+							padding: 50px 40px;
 						}
 					}
 				}

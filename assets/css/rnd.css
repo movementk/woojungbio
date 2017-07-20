@@ -265,7 +265,9 @@ address {
           width: 30px;
           border-top: 3px solid #e10013; }
         .rnd.development .strategy .strategy-list li .strategy-item .details p {
-          color: #666; }
+          color: #666;
+          word-wrap: normal;
+          word-break: keep-all; }
     .rnd.development .strategy .strategy-list li + li {
       margin-top: 20px; }
     .rnd.development .strategy .strategy-list li:nth-of-type(1) .strategy-item .figure {
@@ -281,15 +283,13 @@ address {
         .rnd.development .strategy .strategy-list li {
           margin-top: 0 !important; }
           .rnd.development .strategy .strategy-list li .strategy-item {
-            height: 550px; }
-            .rnd.development .strategy .strategy-list li .strategy-item .details {
-              padding: 30px; } }
+            height: 550px; } }
     @media (min-width: 1280px) {
       .rnd.development .strategy .strategy-list li .strategy-item {
         height: 550px; }
         .rnd.development .strategy .strategy-list li .strategy-item .figure {
           height: 180px; }
         .rnd.development .strategy .strategy-list li .strategy-item .details {
-          padding: 50px; } }
+          padding: 50px 40px; } }
 
 /*# sourceMappingURL=rnd.css.map */

@@ -77,23 +77,46 @@ address {
       margin-top: 15px; }
       .animal.experimental-animals .animal-provide .section-body .com-list li:first-child {
         margin-top: 0; } }
-.animal.experimental-animals .ivf .section-body ul li figure .img-responsive {
-  margin: 0 auto; }
-.animal.experimental-animals .ivf .section-body ul li:nth-of-type(2n + 1) {
-  clear: both; }
-  @media (min-width: 992px) {
-    .animal.experimental-animals .ivf .section-body ul li:nth-of-type(2n + 1) {
-      clear: none; } }
-.animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
-  margin-bottom: 10px; }
-  @media (min-width: 992px) {
-    .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
-      margin-bottom: 0; } }
-.animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
-  margin-bottom: 10px; }
-  @media (min-width: 992px) {
-    .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
-      margin-bottom: 0; } }
+.animal.experimental-animals .ivf .section-body {
+  margin: 0 auto;
+  max-width: 300px; }
+  .animal.experimental-animals .ivf .section-body ul li figure .img-responsive {
+    margin: 0 auto; }
+  .animal.experimental-animals .ivf .section-body ul li figure figcaption {
+    margin-top: 10px; }
+  .animal.experimental-animals .ivf .section-body ul li:nth-of-type(2n + 1) {
+    clear: both; }
+    @media (min-width: 992px) {
+      .animal.experimental-animals .ivf .section-body ul li:nth-of-type(2n + 1) {
+        clear: none; } }
+  .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
+    margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
+        margin-bottom: 0; } }
+  .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
+    margin-bottom: 10px; }
+    @media (min-width: 992px) {
+      .animal.experimental-animals .ivf .section-body ul li:nth-of-type(1) figure {
+        margin-bottom: 0; } }
+  .animal.experimental-animals .ivf .section-body ul li + li {
+    margin-top: 30px; }
+  .animal.experimental-animals .ivf .section-body + .section-body {
+    margin-top: 40px; }
+@media (min-width: 768px) {
+  .animal.experimental-animals .ivf .section-body {
+    max-width: none; }
+    .animal.experimental-animals .ivf .section-body ul li {
+      margin-bottom: 20px; }
+      .animal.experimental-animals .ivf .section-body ul li + li {
+        margin-top: 0; } }
+@media (min-width: 992px) {
+  .animal.experimental-animals .ivf .section-body {
+    max-width: none; }
+    .animal.experimental-animals .ivf .section-body ul li {
+      margin-bottom: 0; }
+    .animal.experimental-animals .ivf .section-body + .section-body {
+      margin-top: 60px; } }
 .animal.experimental-animals .animal-model {
   margin-bottom: 0;
   background-color: #f7f8f9; }

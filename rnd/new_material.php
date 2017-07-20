@@ -124,38 +124,37 @@
 								<td colspan="4" class="period"><p class="bar"></p></td>
 								<td></td>
 								<td></td>
-								<td>진행중</td>
+								<td>특허출원중</td>
 								<td>CYP 85 유전자를 이용한 내충성 작물 개발 기술</td>
 							</tr>
-							<tr class="done">
-								<td>WJ 006</td>
-								<td class="period"><p class="bar done"></p></td>
+							<tr>
+								<td>WJ 00102</td>
+								<td class="period"><p class="bar"></p></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
 								<td></td>
-								<td class="status">완료</td>
-								<td>폐섬유화 모델 개발 기술</td>
-							</tr>
-							<tr class="done">
-								<td>WJ 00801</td>
-								<td colspan="3" class="period"><p class="bar done"></p></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td class="status">완료</td>
-								<td>간질 치료제 스크리닝 기술</td>
+								<td class="status">특허출원중</td>
+								<td>Insect repellent</td>
 							</tr>
 							<tr>
-								<td>WJ 00802</td>
+								<td>WJ 00103</td>
+								<td colspan="3" class="period"><p class="bar"></p></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td class="status">특허출원중</td>
+								<td>천연물 유래 유충 살충제</td>
+							</tr>
+							<tr>
+								<td>WJ 003</td>
 								<td colspan="4" class="period"><p class="bar"></p></td>
 								<td></td>
 								<td></td>
 								<td>진행중</td>
 								<td>
-									생식독성 스크리닝 대체시험<br>
-									심혈관질환(고지혈증, 동맥경화)스크리닝 모델 개발
+									숙취해소제
 								</td>
 							</tr>
 						</tbody>

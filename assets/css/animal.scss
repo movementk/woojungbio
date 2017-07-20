@@ -82,12 +82,17 @@
     }
     .ivf {
         .section-body {
+			margin: 0 auto;
+			max-width: 300px;
             ul {
                 li {
                     figure {
                         .img-responsive {
                             margin: 0 auto;
                         }
+						figcaption {
+							margin-top: 10px;
+						}
                     }
                     &:nth-of-type(2n + 1) {
                         clear: both;
@@ -111,9 +116,41 @@
                             }
                         }
                     }
+					& + li {
+						margin-top: 30px;
+					}
                 }
             }
+			& + .section-body {
+				margin-top: 40px;
+			}
         }
+		@media (min-width: $sm) {
+			.section-body {
+				max-width: none;
+				ul {
+					li {
+						margin-bottom: 20px;
+						& + li {
+							margin-top: 0;
+						}
+					}
+				}
+			}
+		}
+		@media (min-width: $md) {
+			.section-body {
+				max-width: none;
+				ul {
+					li {
+						margin-bottom: 0;
+					}
+				}
+				& + .section-body {
+					margin-top: 60px;
+				}
+			}
+		}
     }
     .animal-model {
         margin-bottom: 0;
